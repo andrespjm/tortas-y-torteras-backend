@@ -1,11 +1,16 @@
-// import { Products } from "../models/Products.js";
+import { Products } from '../models/Products.js';
 
 const getAllProducts = async () => {
-	// const products = await Products.findAll()
-	const data = {
-		test: 'this is a test',
-	};
-	return data;
+	const products = await Products.findAll();
+	if (!products) throw new Error('Products not found');
+	return products;
 };
 
-export { getAllProducts };
+const createProduct = async data => {
+	const product = await Products.create(data);
+	if (!product)
+		throw new Error('Has occurred an error while creating the product');
+	return product;
+};
+
+export { getAllProducts, createProduct };
