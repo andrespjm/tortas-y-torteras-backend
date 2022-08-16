@@ -1,5 +1,6 @@
 import { DataTypes } from 'sequelize';
 import { sequelize } from '../db/database.js';
+import { Colors } from '../models/Colors.js';
 
 export const Products = sequelize.define('Products', {
 	id: {
@@ -10,12 +11,13 @@ export const Products = sequelize.define('Products', {
 	name: {
 		type: DataTypes.STRING,
 		allowNull: false,
+		unique: true,
 	},
 	description: {
 		type: DataTypes.STRING,
 		allowNull: false,
 	},
-	img_main: {
+	img_home: {
 		type: DataTypes.STRING,
 		allowNull: false,
 		validate: {
@@ -37,15 +39,26 @@ export const Products = sequelize.define('Products', {
 		},
 		allowNull: false,
 	},
-	paddles: {
-		type: DataTypes.ARRAY(DataTypes.JSON),
+	collection: {
+		type: DataTypes.ENUM('Flowers', 'Abstract', 'Butterflies'),
+	},
+	type: {
+		type: DataTypes.ENUM('Cake Tray', 'Turntable'),
 		allowNull: false,
 	},
-	collection: {
-		type: DataTypes.ENUM('flowers', 'abstract', 'butterflies'),
+	size: {
+		type: DataTypes.ENUM('Standard', 'Special'),
+		allowNull: false,
 	},
 	diameter: {
-		type: DataTypes.JSON,
+		type: DataTypes.FLOAT,
+		allowNull: false,
+		// set(value) {
+		// 	this.setDataValue(
+		// 		'diameter',
+		// 		this.size === 'Standard' ? (this.type === 'Turntable' ? 35 : 32) : value
+		// 	);
+		// },
 	},
 	stock: {
 		type: DataTypes.INTEGER,
@@ -54,35 +67,12 @@ export const Products = sequelize.define('Products', {
 	},
 	price: {
 		type: DataTypes.FLOAT,
+	},
+	artist: {
+		type: DataTypes.STRING,
 		allowNull: false,
 	},
 });
 
-// Data for test of send
-
-// {
-//     "name": "Tortera de flores 2",
-//     "img_main": "https://picsum.photos/200/300",
-//     "img_detail": ["https://picsum.photos/id/237/200/300", "https://picsum.photos/seed/picsum/200/300"],
-//     "collection": "abstract",
-//     "description": "This a deatail",
-//     "paddles":[{
-//         "name":"Black",
-//         "color":"#000"
-//     },
-//     {
-//         "name":"Verde",
-//         "color":"green"
-//     },
-//     {
-//         "name":"Red",
-//         "color":"red"
-//     }
-//     ],
-//     "diameter": {
-//         "name":"Median",
-//         "size":20
-//     },
-//     "stock": 1,
-//     "price": 50.00
-// }
+Products.belongsToMany(Colors, { through: 'ProductsColors' });
+Colors.belongsToMany(Products, { through: 'ProductsColors' });
