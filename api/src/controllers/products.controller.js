@@ -115,15 +115,6 @@ const updateProduct = async (
 				colorId.push(instance.id);
 			}
 			await product.setColors(colorId);
-
-			// return await Products.findOne({
-			// 	where: { name },
-			// 	include: {
-			// 		model: Colors,
-			// 		attributes: ['name', 'hex'],
-			// 		through: { attributes: [] },
-			// 	},
-			// });
 		}
 
 		return await Products.findOne({
