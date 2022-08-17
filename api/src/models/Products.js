@@ -11,10 +11,7 @@ export const Products = sequelize.define('Products', {
 	name: {
 		type: DataTypes.STRING,
 		allowNull: false,
-		isEven(value) {
-			if (!REGEX.test(value) || value.length > 255 || !value.trim().length)
-				return { msg: 'Invalid name' };
-		},
+		unique: true,
 	},
 	description: {
 		type: DataTypes.STRING,
@@ -67,11 +64,11 @@ export const Products = sequelize.define('Products', {
 		// 	);
 		// },
 	},
-	stock: {
-		type: DataTypes.INTEGER,
-		defaultValue: 1,
-		allowNull: false,
-	},
+	// stock: {
+	// 	type: DataTypes.INTEGER,
+	// 	defaultValue: 1,
+	// 	allowNull: false,
+	// },
 	price: {
 		type: DataTypes.FLOAT,
 	},

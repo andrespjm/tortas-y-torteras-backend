@@ -1,9 +1,9 @@
 /* eslint-disable camelcase */
 import { Router } from 'express';
 import {
+	createProduct,
 	getAllProducts,
 	updateProduct,
-	createProduct,
 	deleteProduct,
 	getDetailProducts,
 } from '../controllers/products.controller.js';
@@ -12,8 +12,8 @@ const router = Router();
 router.get('/', async (req, res) => {
 	try {
 		res.send(await getAllProducts());
-	} catch (error) {
-		res.status(500).send(error.message);
+	} catch (err) {
+		res.status(500).json({ error: err.message });
 	}
 });
 
