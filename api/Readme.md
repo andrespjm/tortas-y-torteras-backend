@@ -39,6 +39,11 @@ http://localhost:3001/colors
 
 # Products
 
+Campos enum:
+collection: 'Flowers', 'Abstract', 'Butterflies'
+type:'Cake Tray', 'Turntable'
+size: 'Standard', 'Special'
+
 GET
 http://localhost:3001/products
 
