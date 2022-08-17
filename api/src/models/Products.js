@@ -1,7 +1,7 @@
 import { DataTypes } from 'sequelize';
 import { sequelize } from '../db/database.js';
 import { Colors } from '../models/Colors.js';
-
+const REGEX = /^[a-zA-Z0-9-()-: .]+$/;
 export const Products = sequelize.define('Products', {
 	id: {
 		type: DataTypes.UUID,
@@ -16,6 +16,10 @@ export const Products = sequelize.define('Products', {
 	description: {
 		type: DataTypes.STRING,
 		allowNull: false,
+		isEven(value) {
+			if (!REGEX.test(value) || value.length > 255 || !value.trim().length)
+				return { msg: 'Invalid description' };
+		},
 	},
 	img_home: {
 		type: DataTypes.STRING,
