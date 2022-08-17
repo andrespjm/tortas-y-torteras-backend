@@ -4,13 +4,17 @@ import {
 	getAllProducts,
 	updateProduct,
 	createProduct,
+	deleteProduct,
+	getDetailProducts,
 } from '../controllers/products.controller.js';
 const router = Router();
 
 router.get('/', async (req, res) => {
 	try {
 		res.send(await getAllProducts());
-	} catch (error) {}
+	} catch (error) {
+		res.status(500).send(error.message);
+	}
 });
 
 // receives color:{name,hex}
@@ -61,6 +65,29 @@ router.put('/:id', async (req, res) => {
 		res.status(200).send(products);
 	} catch (e) {
 		res.status(400).send(e.message);
+	}
+});
+
+router.delete('/:id', async (req, res) => {
+	const { id } = req.params;
+	try {
+		const confirmation = deleteProduct(id);
+		confirmation
+			? res.json({ msj: 'product removed successfully' })
+			: res
+					.status(404)
+					.json({ msj: 'The product you want to delete was not found' });
+	} catch (error) {
+		res.status(500).send(error.message);
+	}
+});
+
+router.get('/:id', async (req, res) => {
+	const { id } = req.params;
+	try {
+		res.send(await getDetailProducts(id));
+	} catch (error) {
+		res.status(500).send(error.message);
 	}
 });
 

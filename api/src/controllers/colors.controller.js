@@ -12,4 +12,8 @@ const setJsonColors = async () => {
 	return 'colors loaded';
 };
 
-export { setJsonColors };
+const getColors = async () => {
+	const colors = await Colors.findAll();
+	return colors;
+};
+export { setJsonColors, getColors };

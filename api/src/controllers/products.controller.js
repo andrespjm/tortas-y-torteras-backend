@@ -130,6 +130,25 @@ const updateProduct = async (
 	}
 };
 
+const deleteProduct = async id => {
+	return await Products.destroy({ where: { id } });
+};
+
+const getDetailProducts = async id => {
+	// set filters
+	const product = await Products.findByPk(id, {
+		include: [
+			{
+				model: Colors,
+				attributes: ['name', 'hex'],
+				through: { attributes: [] },
+			},
+		],
+	});
+	if (!product) throw new Error('Product not found');
+	return product;
+};
+
 const setJsonProducts = async () => {
 	const data = (await axios(`http://localhost:5000/Products`)).data;
 
@@ -155,4 +174,11 @@ const setJsonProducts = async () => {
 	return 'products loaded';
 };
 
-export { getAllProducts, updateProduct, setJsonProducts, createProduct };
+export {
+	getAllProducts,
+	updateProduct,
+	setJsonProducts,
+	createProduct,
+	deleteProduct,
+	getDetailProducts,
+};
