@@ -1,18 +1,17 @@
 /* eslint-disable camelcase */
 import { Router } from 'express';
 import {
+	createProduct,
 	getAllProducts,
 	updateProduct,
-	createProduct,
 } from '../controllers/products.controller.js';
 const router = Router();
 
 router.get('/', async (req, res) => {
 	try {
-		const products = await getAllProducts();
-		res.status(200).send(products);
-	} catch (error) {
-		res.status(500).send(error.message);
+		res.send(await getAllProducts());
+	} catch (err) {
+		res.status(500).json({ error: err.message });
 	}
 });
 

@@ -11,7 +11,7 @@ export const Products = sequelize.define('Products', {
 	name: {
 		type: DataTypes.STRING,
 		allowNull: false,
-		unique: true,
+		// unique: true,
 	},
 	description: {
 		type: DataTypes.STRING,
@@ -60,11 +60,11 @@ export const Products = sequelize.define('Products', {
 		// 	);
 		// },
 	},
-	stock: {
-		type: DataTypes.INTEGER,
-		defaultValue: 1,
-		allowNull: false,
-	},
+	// stock: {
+	// 	type: DataTypes.INTEGER,
+	// 	defaultValue: 1,
+	// 	allowNull: false,
+	// },
 	price: {
 		type: DataTypes.FLOAT,
 	},

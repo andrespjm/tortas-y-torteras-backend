@@ -1,7 +1,7 @@
 /* eslint-disable camelcase */
-import { Products } from '../models/Products.js';
-import { Colors } from '../models/Colors.js';
 import axios from 'axios';
+import { Colors } from '../models/Colors.js';
+import { Products } from '../models/Products.js';
 
 const getAllProducts = async () => {
 	// set filters
