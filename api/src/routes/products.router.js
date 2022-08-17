@@ -9,8 +9,11 @@ const router = Router();
 
 router.get('/', async (req, res) => {
 	try {
-		res.send(await getAllProducts());
-	} catch (error) {}
+		const products = await getAllProducts();
+		res.status(200).send(products);
+	} catch (error) {
+		res.status(500).send(error.message);
+	}
 });
 
 // receives color:{name,hex}

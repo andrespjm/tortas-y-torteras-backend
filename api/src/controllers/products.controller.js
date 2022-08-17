@@ -131,28 +131,32 @@ const updateProduct = async (
 };
 
 const setJsonProducts = async () => {
-	const data = (await axios(`http://localhost:5000/Products`)).data;
+	try {
+		const data = (await axios(`http://localhost:5000/Products`)).data;
 
-	const dataPromise = data.map(async el => {
-		const colors = await Colors.findAll({ where: { hex: el.color } });
-		return Products.create({
-			name: el.product.name,
-			description: el.product.description,
-			img_home: el.product.img_home,
-			img_detail: el.product.img_detail,
-			collection: el.product.collection,
-			diameter: el.product.diameter,
-			stock: el.product.stock,
-			price: el.product.price,
-			type: el.product.type,
-			size: el.product.size,
-			artist: el.product.artist,
-		}).then(data => data.setColors(colors));
-	});
+		const dataPromise = data.map(async el => {
+			const colors = await Colors.findAll({ where: { hex: el.color } });
+			return Products.create({
+				name: el.product.name,
+				description: el.product.description,
+				img_home: el.product.img_home,
+				img_detail: el.product.img_detail,
+				collection: el.product.collection,
+				diameter: el.product.diameter,
+				stock: el.product.stock,
+				price: el.product.price,
+				type: el.product.type,
+				size: el.product.size,
+				artist: el.product.artist,
+			}).then(data => data.setColors(colors));
+		});
 
-	await Promise.all(dataPromise);
+		await Promise.all(dataPromise);
 
-	return 'products loaded';
+		return 'Products loaded';
+	} catch (error) {
+		throw new Error(error.message);
+	}
 };
 
 export { getAllProducts, updateProduct, setJsonProducts, createProduct };
