@@ -15,15 +15,6 @@ router.get('/', async (req, res) => {
 	}
 });
 
-router.post('/', async (req, res) => {
-	try {
-		const data = req.body;
-		res.send(await createProduct(data));
-	} catch (err) {
-		res.status(500).json({ error: err.message });
-	}
-});
-
 // receives color:{name,hex}
 router.post('/', async (req, res) => {
 	const data = req.body;
