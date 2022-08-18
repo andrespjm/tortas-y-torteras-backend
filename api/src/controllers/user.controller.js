@@ -10,4 +10,9 @@ const signUp = async data => {
 	return user;
 };
 
-export { signUp };
+const getUsers = async () => {
+	const users = await Users.findAll();
+	return users;
+};
+
+export { signUp, getUsers };
