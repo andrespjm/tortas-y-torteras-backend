@@ -290,7 +290,6 @@
     {"name":"yellow", "hex": "#FFFF00" },
     {"name":"gray", "hex": "#808080" },
     {"name":"red", "hex": "#FF0000"  },
-    {"name":"black", "hex": "#000000" },
     {"name":"orange", "hex": "#FFA500" },
     {"name":"light blue", "hex": "#ADD8E6"},
     {"name":"purple", "hex": "#800080"},
