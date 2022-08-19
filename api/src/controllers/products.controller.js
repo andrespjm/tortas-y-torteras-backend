@@ -27,6 +27,7 @@ const getAllProducts = async () => {
 };
 
 const createProduct = async data => {
+
 	const {
 		name,
 		description,
@@ -186,7 +187,7 @@ const deleteProduct = async id => {
 };
 
 const getDetailProducts = async id => {
-	// set filters
+	// set filters ??
 	const product = await Products.findByPk(id, {
 		include: [
 			{
@@ -247,6 +248,140 @@ const setJsonProductTypes = async () => {
 	}
 };
 
+const filterProducts = (
+	collection,
+	stock,
+	color1,
+	color2,
+	color3,
+	products
+) => {
+	if (stock && collection && color1 && color2 && color3) {
+		const combinedFilter = products.filter(
+			e =>
+				e.collection === collection &&
+				e.Colors.find(e => e.name === color1) &&
+				e.Colors.find(e => e.name === color2) &&
+				e.Colors.find(e => e.name === color3) &&
+				e.stock.find(e => e.stock > 0)
+		);
+		if (combinedFilter.length) return combinedFilter;
+		return {
+			msj: 'We do not have this collection available with the selected colors, but you can make your special order',
+		};
+	}
+	if (stock && collection && color1 && color2) {
+		const combinedFilter = products.filter(
+			e =>
+				e.collection === collection &&
+				e.Colors.find(e => e.name === color1) &&
+				e.Colors.find(e => e.name === color2) &&
+				e.stock.find(e => e.stock > 0)
+		);
+		if (combinedFilter.length) return combinedFilter;
+		return {
+			msj: 'We do not have this collection available with the selected colors, but you can make your special order',
+		};
+	}
+	if (stock && collection && color1) {
+		const combinedFilter = products.filter(
+			e =>
+				e.collection === collection &&
+				e.Colors.find(e => e.name === color1) &&
+				e.stock.find(e => e.stock > 0)
+		);
+		if (combinedFilter.length) return combinedFilter;
+		return {
+			msj: 'We do not have this collection available with the selected colors, but you can make your special order',
+		};
+	}
+	if (collection && color1 && color2 && color3) {
+		const combinedFilter = products.filter(
+			e =>
+				e.collection === collection &&
+				e.Colors.find(e => e.name === color1) &&
+				e.Colors.find(e => e.name === color2) &&
+				e.Colors.find(e => e.name === color3)
+		);
+		if (combinedFilter.length) return combinedFilter;
+		return {
+			msj: 'We do not have this collection available with the selected colors, but you can make your special order',
+		};
+	}
+	if (collection && color1 && color2) {
+		const combinedFilter = products.filter(
+			e =>
+				e.collection === collection &&
+				e.Colors.find(e => e.name === color1) &&
+				e.Colors.find(e => e.name === color2)
+		);
+		if (combinedFilter.length) return combinedFilter;
+		return {
+			msj: 'We do not have this collection available with the selected colors, but you can make your special order',
+		};
+	}
+	if (collection && color1) {
+		const combinedFilter = products.filter(
+			e => e.collection === collection && e.Colors.find(e => e.name === color1)
+		);
+		if (combinedFilter.length) return combinedFilter;
+		return {
+			msj: 'We do not have this collection available but you can make your special order',
+		};
+	}
+	if (stock && collection) {
+		const productsFilter = products.filter(
+			e => e.stock > 0 && e.collection === collection
+		);
+		if (productsFilter.length) return productsFilter;
+		return {
+			msj: 'We do not have this collection available but you can order yours',
+		};
+	}
+	if (collection) {
+		const filterByCollection = products.filter(
+			e => e.collection === collection
+		);
+		return filterByCollection;
+	}
+	if (stock) {
+		const filterByStock = products.filter(e => e.stock > 0);
+		if (filterByStock.length > 0) return filterByStock;
+		else return { msj: 'no products in stock' };
+	}
+	if (color1 && color2 && color3) {
+		const colorSchemeFilter = products.filter(
+			e =>
+				e.Colors.find(e => e.name === color1) &&
+				e.Colors.find(e => e.name === color2) &&
+				e.Colors.find(e => e.name === color3)
+		);
+		if (colorSchemeFilter.length) return colorSchemeFilter;
+		return {
+			msj: 'We do not have products with this color combination but you can create your own special product',
+		};
+	}
+	if (color1 && color2) {
+		const colorSchemeFilter = products.filter(
+			e =>
+				e.Colors.find(e => e.name === color1) &&
+				e.Colors.find(e => e.name === color2)
+		);
+		console.log(colorSchemeFilter);
+		if (colorSchemeFilter.length) return colorSchemeFilter;
+		return {
+			msj: 'We do not have products with this color combination but you can create your own special product',
+		};
+	}
+	if (color1) {
+		const filterByColor = products.filter(e =>
+			e.Colors.find(e => e.name === color1)
+		);
+		if (filterByColor.length) return filterByColor;
+		return { msj: 'this color is not available' };
+	}
+};
+
 export {
 	getAllProducts,
 	updateProduct,
@@ -255,4 +390,5 @@ export {
 	deleteProduct,
 	getDetailProducts,
 	setJsonProductTypes,
+	filterProducts,
 };
