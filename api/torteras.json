@@ -3,6 +3,7 @@
 		{
 			"product": {
 				"img_home": {
+
 					"public_id": "tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX",
 					"secure_url": "https://i.ibb.co/Qv8SSPP/AXEF1454.jpg"
 				},
@@ -27,8 +28,8 @@
 			},
 			"color": ["#ADD8E6", "#FFA500", "#800080"],
 			"stock": [
-				{ "quantity": "2", "productTypeName": "Cake Tray" },
-				{ "quantity": "5", "productTypeName": "Turntable" }
+				{ "quantity": "0", "productTypeName": "Cake Tray" },
+				{ "quantity": "0", "productTypeName": "Turntable" }
 			]
 		},
 		{
@@ -85,8 +86,8 @@
 			},
 			"color": ["#ADD8E6", "#FFA500", "#800080"],
 			"stock": [
-				{ "quantity": "3", "productTypeName": "Cake Tray" },
-				{ "quantity": "1", "productTypeName": "Turntable" }
+				{ "quantity": "0", "productTypeName": "Cake Tray" },
+				{ "quantity": "0", "productTypeName": "Turntable" }
 			]
 		},
 		{
@@ -106,7 +107,11 @@
 				"collection": "Abstract",
 				"artist": "Aliris Barona"
 			},
-			"color": ["#ADD8E6", "#FFA500", "#800080"]
+			"color": ["#ADD8E6", "#FFA500", "#800080"],
+			"stock": [
+				{ "quantity": "0", "productTypeName": "Cake Tray" },
+				{ "quantity": "1", "productTypeName": "Turntable" }
+			]
 		},
 		{
 			"product": {
@@ -165,7 +170,11 @@
 				"collection": "Abstract",
 				"artist": "Aliris Barona"
 			},
-			"color": ["#800080", "#FFC0CB", "#A52A2A"]
+			"color": ["#800080", "#FFC0CB", "#A52A2A"],
+			"stock": [
+				{ "quantity": "3", "productTypeName": "Cake Tray" },
+				{ "quantity": "1", "productTypeName": "Turntable" }
+			]
 		},
 		{
 			"product": {
@@ -192,7 +201,11 @@
 				"collection": "Butterflies",
 				"artist": "Aliris Barona"
 			},
-			"color": ["#FFFF00", "#03bb85", "#ADD8E6"]
+			"color": ["#FFFF00", "#03bb85", "#ADD8E6"],
+			"stock": [
+				{ "quantity": "3", "productTypeName": "Cake Tray" },
+				{ "quantity": "1", "productTypeName": "Turntable" }
+			]
 		},
 		{
 			"product": {
@@ -250,7 +263,11 @@
 				"collection": "Abstract",
 				"artist": "Aliris Barona"
 			},
-			"color": ["#ADD8E6", "#0000FF", "#FFFFFF"]
+			"color": ["#ADD8E6", "#0000FF", "#FFFFFF"],
+			"stock": [
+				{ "quantity": "3", "productTypeName": "Cake Tray" },
+				{ "quantity": "1", "productTypeName": "Turntable" }
+			]
 		},
 		{
 			"product": {
@@ -277,7 +294,11 @@
 				"collection": "Abstract",
 				"artist": "Aliris Barona"
 			},
-			"color": ["#800080", "#ADD8E6", "#A52A2A"]
+			"color": ["#800080", "#ADD8E6", "#A52A2A"],
+			"stock": [
+				{ "quantity": "3", "productTypeName": "Cake Tray" },
+				{ "quantity": "1", "productTypeName": "Turntable" }
+			]
 		},
 		{
 			"product": {
@@ -304,7 +325,11 @@
 				"collection": "Abstract",
 				"artist": "Aliris Barona"
 			},
-			"color": ["#FFC0CB", "#800080", "#FFD700"]
+			"color": ["#FFC0CB", "#800080", "#FFD700"],
+			"stock": [
+				{ "quantity": "3", "productTypeName": "Cake Tray" },
+				{ "quantity": "1", "productTypeName": "Turntable" }
+			]
 		},
 		{
 			"product": {
@@ -366,7 +391,11 @@
 				"collection": "Butterflies",
 				"artist": "Aliris Barona"
 			},
-			"color": ["#ADD8E6", "#800080", "#FFC0CB"]
+			"color": ["#ADD8E6", "#800080", "#FFC0CB"],
+			"stock": [
+				{ "quantity": "3", "productTypeName": "Cake Tray" },
+				{ "quantity": "1", "productTypeName": "Turntable" }
+			]
 		},
 		{
 			"product": {
@@ -393,7 +422,11 @@
 				"collection": "Butterflies",
 				"artist": "Aliris Barona"
 			},
-			"color": ["#800080", "#FFFFFF", "#03bb85"]
+			"color": ["#800080", "#FFFFFF", "#03bb85"],
+			"stock": [
+				{ "quantity": "3", "productTypeName": "Cake Tray" },
+				{ "quantity": "1", "productTypeName": "Turntable" }
+			]
 		},
 		{
 			"product": {
@@ -424,7 +457,11 @@
 				"collection": "Butterflies",
 				"artist": "Aliris Barona"
 			},
-			"color": ["#0000FF", "#800080", "#FFC0CB"]
+			"color": ["#0000FF", "#800080", "#FFC0CB"],
+			"stock": [
+				{ "quantity": "3", "productTypeName": "Cake Tray" },
+				{ "quantity": "1", "productTypeName": "Turntable" }
+			]
 		},
 		{
 			"product": {
@@ -459,7 +496,11 @@
 				"collection": "Flowers",
 				"artist": "Aliris Barona"
 			},
-			"color": ["#ADD8E6", "#0000FF", "#FFFFFF"]
+			"color": ["#ADD8E6", "#0000FF", "#FFFFFF"],
+			"stock": [
+				{ "quantity": "3", "productTypeName": "Cake Tray" },
+				{ "quantity": "1", "productTypeName": "Turntable" }
+			]
 		},
 		{
 			"product": {
@@ -482,7 +523,11 @@
 				"collection": "Abstract",
 				"artist": "Aliris Barona"
 			},
-			"color": ["#FFC0CB", "#ADD8E6", "#FFFF00"]
+			"color": ["#FFC0CB", "#ADD8E6", "#FFFF00"],
+			"stock": [
+				{ "quantity": "3", "productTypeName": "Cake Tray" },
+				{ "quantity": "1", "productTypeName": "Turntable" }
+			]
 		},
 		{
 			"product": {
@@ -505,7 +550,11 @@
 				"collection": "Flowers",
 				"artist": "Aliris Barona"
 			},
-			"color": ["#FFA500", "#800080", "#ADD8E6"]
+			"color": ["#FFA500", "#800080", "#ADD8E6"],
+			"stock": [
+				{ "quantity": "3", "productTypeName": "Cake Tray" },
+				{ "quantity": "1", "productTypeName": "Turntable" }
+			]
 		},
 		{
 			"product": {
@@ -532,7 +581,11 @@
 				"collection": "Abstract",
 				"artist": "Aliris Barona"
 			},
-			"color": ["#800080", "#ADD8E6", "#FFA500"]
+			"color": ["#800080", "#ADD8E6", "#FFA500"],
+			"stock": [
+				{ "quantity": "3", "productTypeName": "Cake Tray" },
+				{ "quantity": "1", "productTypeName": "Turntable" }
+			]
 		},
 		{
 			"product": {
@@ -590,7 +643,11 @@
 				"collection": "Flowers",
 				"artist": "Aliris Barona"
 			},
-			"color": ["#ADD8E6", "#03bb85", "#0000FF"]
+			"color": ["#ADD8E6", "#03bb85", "#0000FF"],
+			"stock": [
+				{ "quantity": "3", "productTypeName": "Cake Tray" },
+				{ "quantity": "1", "productTypeName": "Turntable" }
+			]
 		}
 	],
 	"Colors": [
