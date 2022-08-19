@@ -11,11 +11,13 @@ import {
 	updateProduct,
 } from '../controllers/products.controller.js';
 import uploadImageHelper from '../helpers/uploud-image.helper.js';
+import { verifyDir } from '../helpers/verify-dir.js';
 const router = Router();
 
 router.get('/', async (req, res) => {
 	const { collection, stock, color1, color2, color3 } = req.query;
 	try {
+		verifyDir();
 		const products = await getAllProducts();
 		if (collection || stock || color1 || color2 || color3) {
 			return res.json(
@@ -28,7 +30,6 @@ router.get('/', async (req, res) => {
 	}
 });
 
-
 router.post(
 	'/',
 	fileUpload({
@@ -39,56 +40,62 @@ router.post(
 		const data = req.body;
 		const image = req.files;
 		try {
+			// Uploader Image
 			const images = await uploadImageHelper(image);
 			data.img_home = images.imgHome;
 			data.img_detail = images.imgDetail || [];
-			// data.color exclusivo para pruebas de tipo Body form-data
-			// Comentar cuando ya reciba data desde el form de Front
-			data.colors = [
-				{ hex: '#0000FF', name: 'blue' },
-				{ hex: '#FFC0CB', name: 'pink' },
-				{ hex: '#FFF8FF', name: 'new' },
-			];
+
 			const post = await createProduct(data);
 
 			res.send(post);
 		} catch (error) {
 			res.status(500).send(error.message);
 		}
-
 	}
 );
 
-router.put('/:id', async (req, res) => {
-	const { id } = req.params;
-	const {
-		name,
-		description,
-		img_home,
-		img_detail,
-		collection,
-		artist,
-		colors,
-		stock,
-	} = req.body;
+router.put(
+	'/:id',
+	fileUpload({
+		useTempFiles: true,
+		tempFileDir: './uploads',
+	}),
+	async (req, res) => {
+		try {
+			const { id } = req.params;
+			const image = req.files;
+			let {
+				name,
+				description,
+				img_home,
+				img_detail,
+				collection,
+				artist,
+				colors,
+				stock,
+			} = req.body;
+			const images = await uploadImageHelper(image);
+			img_home = images.imgHome;
+			img_detail = images.imgDetail || [];
 
-	try {
-		const products = await updateProduct(
-			name,
-			description,
-			img_home,
-			img_detail,
-			collection,
-			artist,
-			colors,
-			stock,
-			id
-		);
-		res.status(200).send(products);
-	} catch (e) {
-		res.send(e.message);
+			const products = await updateProduct(
+				name,
+				description,
+				img_home,
+				img_detail,
+				collection,
+				artist,
+				colors,
+				stock,
+				id
+			);
+
+			res.status(200).send(products);
+		} catch (e) {
+			res.send(e.message);
+		}
 	}
-});
+);
 
 router.delete('/:id', async (req, res) => {
 	const { id } = req.params;
