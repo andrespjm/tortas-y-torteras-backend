@@ -33,7 +33,7 @@ export const Products = sequelize.define('Products', {
 		allowNull: false,
 	},
 	collection: {
-		type: DataTypes.ENUM('Flowers', 'Abstract', 'Butterflies', 'other'),
+		type: DataTypes.ENUM('Flowers', 'Abstract', 'Butterflies', 'Other'),
 	},
 
 	artist: {
