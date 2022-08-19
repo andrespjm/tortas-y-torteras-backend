@@ -44,7 +44,7 @@ export const Products = sequelize.define('Products', {
 		allowNull: false,
 	},
 	collection: {
-		type: DataTypes.ENUM('Flowers', 'Abstract', 'Butterflies'),
+		type: DataTypes.ENUM('Flowers', 'Abstract', 'Butterflies', 'other'),
 	},
 	type: {
 		type: DataTypes.ENUM('Cake Tray', 'Turntable'),
@@ -64,11 +64,11 @@ export const Products = sequelize.define('Products', {
 		// 	);
 		// },
 	},
-	// stock: {
-	// 	type: DataTypes.INTEGER,
-	// 	defaultValue: 1,
-	// 	allowNull: false,
-	// },
+	stock: {
+		type: DataTypes.INTEGER,
+		defaultValue: 1,
+		allowNull: false,
+	},
 	price: {
 		type: DataTypes.FLOAT,
 	},

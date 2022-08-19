@@ -6,12 +6,20 @@ import {
 	updateProduct,
 	deleteProduct,
 	getDetailProducts,
+	filterProducts,
 } from '../controllers/products.controller.js';
 const router = Router();
 
 router.get('/', async (req, res) => {
+	const { collection, stock, color1, color2, color3 } = req.query;
 	try {
-		res.send(await getAllProducts());
+		const products = await getAllProducts();
+		if (collection || stock || color1 || color2 || color3) {
+			return res.json(
+				filterProducts(collection, stock, color1, color2, color3, products)
+			);
+		}
+		return res.json(products);
 	} catch (err) {
 		res.status(500).json({ error: err.message });
 	}
