@@ -2,11 +2,23 @@
 	"Products": [
 		{
 			"product": {
-				"img_home": "https://i.ibb.co/Qv8SSPP/AXEF1454.jpg",
+				"img_home": {
+					"public_id": "tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX",
+					"secure_url": "https://i.ibb.co/Qv8SSPP/AXEF1454.jpg"
+				},
 				"img_detail": [
-					"https://i.ibb.co/GFxrYK1/IMG-E4815.jpg",
-					"https://i.ibb.co/DMdkpK9/CEWAE4328.jpg",
-					"https://i.ibb.co/Qv8SSPP/AXEF1454.jpg"
+					{
+						"public_id": "tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX",
+						"secure_url": "https://i.ibb.co/GFxrYK1/IMG-E4815.jpg"
+					},
+					{
+						"public_id": "tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX",
+						"secure_url": "https://i.ibb.co/DMdkpK9/CEWAE4328.jpg"
+					},
+					{
+						"public_id": "tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX",
+						"secure_url": "https://i.ibb.co/Qv8SSPP/AXEF1454.jpg"
+					}
 				],
 				"description": "Beautiful Rotating cake, accompanied by a delicious Chocolate Cake!",
 				"name": "Madrid",
@@ -21,11 +33,23 @@
 		},
 		{
 			"product": {
-				"img_home": "https://i.ibb.co/y6ZX2d0/IMG-E6801.jpg",
+				"img_home": {
+					"public_id": "tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX",
+					"secure_url": "https://i.ibb.co/y6ZX2d0/IMG-E6801.jpg"
+				},
 				"img_detail": [
-					"https://i.ibb.co/y6ZX2d0/IMG-E6801.jpg",
-					"https://i.ibb.co/rZ5fnNL/SEVH0044.jpg",
-					"https://i.ibb.co/2nxxDYH/IMG-E6803.jpg"
+					{
+						"public_id": "tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX",
+						"secure_url": "https://i.ibb.co/y6ZX2d0/IMG-E6801.jpg"
+					},
+					{
+						"public_id": "tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX",
+						"secure_url": "https://i.ibb.co/rZ5fnNL/SEVH0044.jpg"
+					},
+					{
+						"public_id": "tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX",
+						"secure_url": "https://i.ibb.co/2nxxDYH/IMG-E6803.jpg"
+					}
 				],
 				"description": "Beautiful Rotating cake, accompanied by a delicious Chocolate Cake!",
 				"name": "Singapur",
@@ -40,10 +64,19 @@
 		},
 		{
 			"product": {
-				"img_home": "https://i.ibb.co/3WjTxpy/IMG-E4816.jpg",
+				"img_home": {
+					"public_id": "tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX",
+					"secure_url": "https://i.ibb.co/3WjTxpy/IMG-E4816.jpg"
+				},
 				"img_detail": [
-					"https://i.ibb.co/3WjTxpy/IMG-E4816.jpg",
-					"https://i.ibb.co/PT8ZHHr/IMG-E4817.jpg"
+					{
+						"public_id": "tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX",
+						"secure_url": "https://i.ibb.co/3WjTxpy/IMG-E4816.jpg"
+					},
+					{
+						"public_id": "tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX",
+						"secure_url": "https://i.ibb.co/PT8ZHHr/IMG-E4817.jpg"
+					}
 				],
 				"description": "Beautiful Rotating cake, accompanied by a delicious Chocolate Cake!",
 				"name": "Tokio",
@@ -58,8 +91,16 @@
 		},
 		{
 			"product": {
-				"img_home": "https://i.ibb.co/0XBs5zT/CXSF5512.jpg",
-				"img_detail": ["https://i.ibb.co/0XBs5zT/CXSF5512.jpg"],
+				"img_home": {
+					"public_id": "tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX",
+					"secure_url": "https://i.ibb.co/0XBs5zT/CXSF5512.jpg"
+				},
+				"img_detail": [
+					{
+						"public_id": "tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX",
+						"secure_url": "https://i.ibb.co/0XBs5zT/CXSF5512.jpg"
+					}
+				],
 				"description": "Beautiful Rotating cake, accompanied by a delicious Chocolate Cake!",
 				"name": "París",
 				"collection": "Abstract",
@@ -69,19 +110,55 @@
 		},
 		{
 			"product": {
-				"img_home": "https://i.ibb.co/7RxjdM0/IMG-0049.jpg",
+				"img_home": {
+					"public_id": "tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX",
+					"secure_url": "https://i.ibb.co/7RxjdM0/IMG-0049.jpg"
+				},
 				"img_detail": [
-					"https://i.ibb.co/7RxjdM0/IMG-0049.jpg",
-					"https://i.ibb.co/q739hry/IMG-E0052.jpg",
-					"https://i.ibb.co/cT97NfH/IMG-0052.jpg",
-					"https://i.ibb.co/NZHmdSW/IMG-0075.jpg",
-					"https://i.ibb.co/vD7xxbc/IMG-E6502.jpg",
-					"https://i.ibb.co/L913cbG/IMG-E0075.jpg",
-					"https://i.ibb.co/JH7wySm/IMG-0047.jpg",
-					"https://i.ibb.co/XSJjHVB/IMG-0053.jpg",
-					"https://i.ibb.co/c2Qp0db/IMG-0051.jpg",
-					"https://i.ibb.co/3cVPX0K/IMG-0055.jpg",
-					"https://i.ibb.co/NV5BddT/IMG-0074.jpg"
+					{
+						"public_id": "tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX",
+						"secure_url": "https://i.ibb.co/7RxjdM0/IMG-0049.jpg"
+					},
+					{
+						"public_id": "tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX",
+						"secure_url": "https://i.ibb.co/q739hry/IMG-E0052.jpg"
+					},
+					{
+						"public_id": "tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX",
+						"secure_url": "https://i.ibb.co/cT97NfH/IMG-0052.jpg"
+					},
+					{
+						"public_id": "tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX",
+						"secure_url": "https://i.ibb.co/NZHmdSW/IMG-0075.jpg"
+					},
+					{
+						"public_id": "tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX",
+						"secure_url": "https://i.ibb.co/vD7xxbc/IMG-E6502.jpg"
+					},
+					{
+						"public_id": "tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX",
+						"secure_url": "https://i.ibb.co/L913cbG/IMG-E0075.jpg"
+					},
+					{
+						"public_id": "tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX",
+						"secure_url": "https://i.ibb.co/JH7wySm/IMG-0047.jpg"
+					},
+					{
+						"public_id": "tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX",
+						"secure_url": "https://i.ibb.co/XSJjHVB/IMG-0053.jpg"
+					},
+					{
+						"public_id": "tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX",
+						"secure_url": "https://i.ibb.co/c2Qp0db/IMG-0051.jpg"
+					},
+					{
+						"public_id": "tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX",
+						"secure_url": "https://i.ibb.co/3cVPX0K/IMG-0055.jpg"
+					},
+					{
+						"public_id": "tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX",
+						"secure_url": "https://i.ibb.co/NV5BddT/IMG-0074.jpg"
+					}
 				],
 				"description": "Beautiful Rotating cake, accompanied by a delicious Chocolate Cake!",
 				"name": "Delhi",
@@ -92,11 +169,23 @@
 		},
 		{
 			"product": {
-				"img_home": "https://i.ibb.co/cD6QtJ0/IMG-E6578.jpg",
+				"img_home": {
+					"public_id": "tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX",
+					"secure_url": "https://i.ibb.co/cD6QtJ0/IMG-E6578.jpg"
+				},
 				"img_detail": [
-					"https://i.ibb.co/LtRGscm/IMG-6578.jpg",
-					"https://i.ibb.co/djCF45V/IMG-0072.jpg",
-					"https://i.ibb.co/CmKNdBj/IMG-0080.jpg"
+					{
+						"public_id": "tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX",
+						"secure_url": "https://i.ibb.co/LtRGscm/IMG-6578.jpg"
+					},
+					{
+						"public_id": "tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX",
+						"secure_url": "https://i.ibb.co/djCF45V/IMG-0072.jpg"
+					},
+					{
+						"public_id": "tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX",
+						"secure_url": "https://i.ibb.co/CmKNdBj/IMG-0080.jpg"
+					}
 				],
 				"description": "Beautiful Rotating cake, accompanied by a delicious Chocolate Cake!",
 				"name": "Shanghai",
@@ -107,11 +196,23 @@
 		},
 		{
 			"product": {
-				"img_home": "https://i.ibb.co/YtPJs8c/IMG-0045.jpg",
+				"img_home": {
+					"public_id": "tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX",
+					"secure_url": "https://i.ibb.co/YtPJs8c/IMG-0045.jpg"
+				},
 				"img_detail": [
-					"https://i.ibb.co/YtPJs8c/IMG-0045.jpg",
-					"https://i.ibb.co/F09PRVF/IMG-0042.jpg",
-					"https://i.ibb.co/Jy3qFYC/IMG-0043.jpg"
+					{
+						"public_id": "tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX",
+						"secure_url": "https://i.ibb.co/YtPJs8c/IMG-0045.jpg"
+					},
+					{
+						"public_id": "tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX",
+						"secure_url": "https://i.ibb.co/F09PRVF/IMG-0042.jpg"
+					},
+					{
+						"public_id": "tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX",
+						"secure_url": "https://i.ibb.co/Jy3qFYC/IMG-0043.jpg"
+					}
 				],
 				"description": "Beautiful Rotating cake, accompanied by a delicious Chocolate Cake!",
 				"name": "Dhaka",
@@ -126,11 +227,23 @@
 		},
 		{
 			"product": {
-				"img_home": "https://i.ibb.co/9gGGfRJ/IMG-E6694.jpg",
+				"img_home": {
+					"public_id": "tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX",
+					"secure_url": "https://i.ibb.co/9gGGfRJ/IMG-E6694.jpg"
+				},
 				"img_detail": [
-					"https://i.ibb.co/YX21F4Y/IMG-E6695.jpg",
-					"https://i.ibb.co/9gGGfRJ/IMG-E6694.jpg",
-					"https://i.ibb.co/cX6WhCr/IMG-E6692.jpg"
+					{
+						"public_id": "tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX",
+						"secure_url": "https://i.ibb.co/YX21F4Y/IMG-E6695.jpg"
+					},
+					{
+						"public_id": "tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX",
+						"secure_url": "https://i.ibb.co/9gGGfRJ/IMG-E6694.jpg"
+					},
+					{
+						"public_id": "tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX",
+						"secure_url": "https://i.ibb.co/cX6WhCr/IMG-E6692.jpg"
+					}
 				],
 				"description": "Beautiful Rotating cake, accompanied by a delicious Chocolate Cake!",
 				"name": "Mumbai",
@@ -141,11 +254,23 @@
 		},
 		{
 			"product": {
-				"img_home": "https://i.ibb.co/87qc5r3/IMG-E6602.jpg",
+				"img_home": {
+					"public_id": "tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX",
+					"secure_url": "https://i.ibb.co/87qc5r3/IMG-E6602.jpg"
+				},
 				"img_detail": [
-					"https://i.ibb.co/5KJg958/IMG-0077.jpg",
-					"https://i.ibb.co/87qc5r3/IMG-E6602.jpg",
-					"https://i.ibb.co/vQFH08M/IMG-E6601.jpg"
+					{
+						"public_id": "tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX",
+						"secure_url": "https://i.ibb.co/5KJg958/IMG-0077.jpg"
+					},
+					{
+						"public_id": "tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX",
+						"secure_url": "https://i.ibb.co/87qc5r3/IMG-E6602.jpg"
+					},
+					{
+						"public_id": "tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX",
+						"secure_url": "https://i.ibb.co/vQFH08M/IMG-E6601.jpg"
+					}
 				],
 				"description": "Beautiful Rotating cake, accompanied by a delicious Chocolate Cake!",
 				"name": "Beijing",
@@ -156,11 +281,23 @@
 		},
 		{
 			"product": {
-				"img_home": "https://i.ibb.co/DG5ZVtV/IMG-E6377.jpg",
+				"img_home": {
+					"public_id": "tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX",
+					"secure_url": "https://i.ibb.co/DG5ZVtV/IMG-E6377.jpg"
+				},
 				"img_detail": [
-					"https://i.ibb.co/Z6JbcW8/LZDR9910.jpg",
-					"https://i.ibb.co/CHLG7qg/IMG-E6376.jpg",
-					"https://i.ibb.co/DG5ZVtV/IMG-E6377.jpg"
+					{
+						"public_id": "tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX",
+						"secure_url": "https://i.ibb.co/Z6JbcW8/LZDR9910.jpg"
+					},
+					{
+						"public_id": "tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX",
+						"secure_url": "https://i.ibb.co/CHLG7qg/IMG-E6376.jpg"
+					},
+					{
+						"public_id": "tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX",
+						"secure_url": "https://i.ibb.co/DG5ZVtV/IMG-E6377.jpg"
+					}
 				],
 				"description": "Beautiful Rotating cake, accompanied by a delicious Chocolate Cake!",
 				"name": "Osaka",
@@ -171,12 +308,27 @@
 		},
 		{
 			"product": {
-				"img_home": "https://i.ibb.co/fvHTmKD/IMG-0038.jpg",
+				"img_home": {
+					"public_id": "tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX",
+					"secure_url": "https://i.ibb.co/fvHTmKD/IMG-0038.jpg"
+				},
 				"img_detail": [
-					"https://i.ibb.co/wNxB0vr/IMG-E0051.jpg",
-					"https://i.ibb.co/6HzN8jC/IMG-6503.jpg",
-					"https://i.ibb.co/d7gBX6G/IMG-0046.jpg",
-					"https://i.ibb.co/fvHTmKD/IMG-0038.jpg"
+					{
+						"public_id": "tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX",
+						"secure_url": "https://i.ibb.co/wNxB0vr/IMG-E0051.jpg"
+					},
+					{
+						"public_id": "tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX",
+						"secure_url": "https://i.ibb.co/6HzN8jC/IMG-6503.jpg"
+					},
+					{
+						"public_id": "tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX",
+						"secure_url": "https://i.ibb.co/d7gBX6G/IMG-0046.jpg"
+					},
+					{
+						"public_id": "tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX",
+						"secure_url": "https://i.ibb.co/fvHTmKD/IMG-0038.jpg"
+					}
 				],
 				"description": "Beautiful Rotating cake, accompanied by a delicious Chocolate Cake!",
 				"name": "Manila",
@@ -191,11 +343,23 @@
 		},
 		{
 			"product": {
-				"img_home": "https://i.ibb.co/CtzjMPS/OFOZ4031.jpg",
+				"img_home": {
+					"public_id": "tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX",
+					"secure_url": "https://i.ibb.co/CtzjMPS/OFOZ4031.jpg"
+				},
 				"img_detail": [
-					"https://i.ibb.co/CtzjMPS/OFOZ4031.jpg",
-					"https://i.ibb.co/3f8ZtXh/IMG-E6314.jpg",
-					"https://i.ibb.co/FhJ9wr6/IMG-6317.jpg"
+					{
+						"public_id": "tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX",
+						"secure_url": "https://i.ibb.co/CtzjMPS/OFOZ4031.jpg"
+					},
+					{
+						"public_id": "tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX",
+						"secure_url": "https://i.ibb.co/3f8ZtXh/IMG-E6314.jpg"
+					},
+					{
+						"public_id": "tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX",
+						"secure_url": "https://i.ibb.co/FhJ9wr6/IMG-6317.jpg"
+					}
 				],
 				"description": "Beautiful Rotating cake, accompanied by a delicious Chocolate Cake!",
 				"name": "Kolkata",
@@ -206,11 +370,23 @@
 		},
 		{
 			"product": {
-				"img_home": "https://i.ibb.co/VJ03rMM/IMG-6311.jpg",
+				"img_home": {
+					"public_id": "tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX",
+					"secure_url": "https://i.ibb.co/VJ03rMM/IMG-6311.jpg"
+				},
 				"img_detail": [
-					"https://i.ibb.co/VJ03rMM/IMG-6311.jpg",
-					"https://i.ibb.co/4NjMKZ1/IMG-E6311.jpg",
-					"https://i.ibb.co/3RtQpp9/IMG-6312.jpg"
+					{
+						"public_id": "tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX",
+						"secure_url": "https://i.ibb.co/VJ03rMM/IMG-6311.jpg"
+					},
+					{
+						"public_id": "tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX",
+						"secure_url": "https://i.ibb.co/4NjMKZ1/IMG-E6311.jpg"
+					},
+					{
+						"public_id": "tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX",
+						"secure_url": "https://i.ibb.co/3RtQpp9/IMG-6312.jpg"
+					}
 				],
 				"description": "Beautiful Rotating cake, accompanied by a delicious Chocolate Cake!",
 				"name": "Lima",
@@ -221,12 +397,27 @@
 		},
 		{
 			"product": {
-				"img_home": "https://i.ibb.co/NsjBR6r/IMG-E6192.jpg",
+				"img_home": {
+					"public_id": "tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX",
+					"secure_url": "https://i.ibb.co/NsjBR6r/IMG-E6192.jpg"
+				},
 				"img_detail": [
-					"https://i.ibb.co/J7gWksv/IRCS2191.jpg",
-					"https://i.ibb.co/cvqZLDx/IMG-E6194.jpg",
-					"https://i.ibb.co/fqJbdyJ/DIHZ6664.jpg",
-					"https://i.ibb.co/NsjBR6r/IMG-E6192.jpg"
+					{
+						"public_id": "tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX",
+						"secure_url": "https://i.ibb.co/J7gWksv/IRCS2191.jpg"
+					},
+					{
+						"public_id": "tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX",
+						"secure_url": "https://i.ibb.co/cvqZLDx/IMG-E6194.jpg"
+					},
+					{
+						"public_id": "tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX",
+						"secure_url": "https://i.ibb.co/fqJbdyJ/DIHZ6664.jpg"
+					},
+					{
+						"public_id": "tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX",
+						"secure_url": "https://i.ibb.co/NsjBR6r/IMG-E6192.jpg"
+					}
 				],
 				"description": "Beautiful Rotating cake, accompanied by a delicious Chocolate Cake!",
 				"name": "London",
@@ -237,13 +428,31 @@
 		},
 		{
 			"product": {
-				"img_home": "https://i.ibb.co/9gGGfRJ/IMG-E6694.jpg",
+				"img_home": {
+					"public_id": "tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX",
+					"secure_url": "https://i.ibb.co/9gGGfRJ/IMG-E6694.jpg"
+				},
 				"img_detail": [
-					"https://i.ibb.co/9gGGfRJ/IMG-E6694.jpg",
-					"https://i.ibb.co/whV4M7C/WFHZ2287.jpg",
-					"https://i.ibb.co/YX21F4Y/IMG-E6695.jpg",
-					"https://i.ibb.co/YX21F4Y/IMG-E6695.jpg",
-					"https://i.ibb.co/MCNGNrp/IMG-6683.jpg"
+					{
+						"public_id": "tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX",
+						"secure_url": "https://i.ibb.co/9gGGfRJ/IMG-E6694.jpg"
+					},
+					{
+						"public_id": "tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX",
+						"secure_url": "https://i.ibb.co/whV4M7C/WFHZ2287.jpg"
+					},
+					{
+						"public_id": "tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX",
+						"secure_url": "https://i.ibb.co/YX21F4Y/IMG-E6695.jpg"
+					},
+					{
+						"public_id": "tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX",
+						"secure_url": "https://i.ibb.co/YX21F4Y/IMG-E6695.jpg"
+					},
+					{
+						"public_id": "tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX",
+						"secure_url": "https://i.ibb.co/MCNGNrp/IMG-6683.jpg"
+					}
 				],
 				"description": "Beautiful Rotating cake, accompanied by a delicious Chocolate Cake!",
 				"name": "Luanda",
@@ -254,10 +463,19 @@
 		},
 		{
 			"product": {
-				"img_home": "https://i.ibb.co/DKFH2T5/QTNC7251.jpg",
+				"img_home": {
+					"public_id": "tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX",
+					"secure_url": "https://i.ibb.co/DKFH2T5/QTNC7251.jpg"
+				},
 				"img_detail": [
-					"https://i.ibb.co/DKFH2T5/QTNC7251.jpg",
-					"https://i.ibb.co/DYXWhWf/DOBM0118.jpg"
+					{
+						"public_id": "tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX",
+						"secure_url": "https://i.ibb.co/DKFH2T5/QTNC7251.jpg"
+					},
+					{
+						"public_id": "tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX",
+						"secure_url": "https://i.ibb.co/DYXWhWf/DOBM0118.jpg"
+					}
 				],
 				"description": "Beautiful Rotating cake, accompanied by a delicious Chocolate Cake!",
 				"name": "Toronto",
@@ -268,10 +486,19 @@
 		},
 		{
 			"product": {
-				"img_home": "https://i.ibb.co/xs05ByL/IMG-6011.jpg",
+				"img_home": {
+					"public_id": "tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX",
+					"secure_url": "https://i.ibb.co/xs05ByL/IMG-6011.jpg"
+				},
 				"img_detail": [
-					"https://i.ibb.co/xs05ByL/IMG-6011.jpg",
-					"https://i.ibb.co/7rgHXpq/IMG-E6012.jpg"
+					{
+						"public_id": "tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX",
+						"secure_url": "https://i.ibb.co/xs05ByL/IMG-6011.jpg"
+					},
+					{
+						"public_id": "tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX",
+						"secure_url": "https://i.ibb.co/7rgHXpq/IMG-E6012.jpg"
+					}
 				],
 				"description": "Beautiful Rotating cake, accompanied by a delicious Chocolate Cake!",
 				"name": "Dalian",
@@ -282,11 +509,23 @@
 		},
 		{
 			"product": {
-				"img_home": "https://i.ibb.co/ZSk6J2k/IMG-9911.jpg",
+				"img_home": {
+					"public_id": "tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX",
+					"secure_url": "https://i.ibb.co/ZSk6J2k/IMG-9911.jpg"
+				},
 				"img_detail": [
-					"https://i.ibb.co/YhFgPjC/IMG-9910.jpg",
-					"https://i.ibb.co/ZSk6J2k/IMG-9911.jpg",
-					"https://i.ibb.co/mc9ghPQ/IMG-09912.jpg"
+					{
+						"public_id": "tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX",
+						"secure_url": "https://i.ibb.co/YhFgPjC/IMG-9910.jpg"
+					},
+					{
+						"public_id": "tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX",
+						"secure_url": "https://i.ibb.co/ZSk6J2k/IMG-9911.jpg"
+					},
+					{
+						"public_id": "tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX",
+						"secure_url": "https://i.ibb.co/mc9ghPQ/IMG-09912.jpg"
+					}
 				],
 				"description": "Beautiful Rotating cake, accompanied by a delicious Chocolate Cake!",
 				"name": "Belo Horizonte",
@@ -297,11 +536,23 @@
 		},
 		{
 			"product": {
-				"img_home": "https://i.ibb.co/qWXDRCG/IMG-9904.jpg",
+				"img_home": {
+					"public_id": "tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX",
+					"secure_url": "https://i.ibb.co/qWXDRCG/IMG-9904.jpg"
+				},
 				"img_detail": [
-					"https://i.ibb.co/JmwkLVk/IMG-E9904.jpg",
-					"https://i.ibb.co/qWXDRCG/IMG-9904.jpg",
-					"https://i.ibb.co/X2KZBzt/IMG-9903.jpg"
+					{
+						"public_id": "tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX",
+						"secure_url": "https://i.ibb.co/JmwkLVk/IMG-E9904.jpg"
+					},
+					{
+						"public_id": "tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX",
+						"secure_url": "https://i.ibb.co/qWXDRCG/IMG-9904.jpg"
+					},
+					{
+						"public_id": "tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX",
+						"secure_url": "https://i.ibb.co/X2KZBzt/IMG-9903.jpg"
+					}
 				],
 				"description": "Beautiful Rotating cake, accompanied by a delicious Chocolate Cake!",
 				"name": "Alexandria",
@@ -316,12 +567,23 @@
 		},
 		{
 			"product": {
-				"img_home": "https://i.ibb.co/ySvzzTm/IMG-9906.jpg",
+				"img_home": {
+					"public_id": "tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX",
+					"secure_url": "https://i.ibb.co/ySvzzTm/IMG-9906.jpg"
+				},
 				"img_detail": [
-					"https://i.ibb.co/ySvzzTm/IMG-9906.jpg",
-					"https://i.ibb.co/ySvzzTm/IMG-9906.jpg",
-					"https://i.ibb.co/9YV5Rk4/IMG-9916.jpg",
-					"https://i.ibb.co/dP8ryDg/IMG-9884.jpg"
+					{
+						"public_id": "tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX",
+						"secure_url": "https://i.ibb.co/ySvzzTm/IMG-9906.jpg"
+					},
+					{
+						"public_id": "tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX",
+						"secure_url": "https://i.ibb.co/9YV5Rk4/IMG-9916.jpg"
+					},
+					{
+						"public_id": "tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX",
+						"secure_url": "https://i.ibb.co/dP8ryDg/IMG-9884.jpg"
+					}
 				],
 				"description": "Beautiful Rotating cake, accompanied by a delicious Chocolate Cake!",
 				"name": "Guadalajara",
