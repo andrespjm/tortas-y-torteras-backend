@@ -27,7 +27,6 @@ const getAllProducts = async () => {
 };
 
 const createProduct = async data => {
-
 	const {
 		name,
 		description,
@@ -263,7 +262,7 @@ const filterProducts = (
 				e.Colors.find(e => e.name === color1) &&
 				e.Colors.find(e => e.name === color2) &&
 				e.Colors.find(e => e.name === color3) &&
-				e.stock.find(e => e.stock > 0)
+				e.ProductTypes.find(e => e.Stocks.quantity > 0)
 		);
 		if (combinedFilter.length) return combinedFilter;
 		return {
@@ -276,7 +275,7 @@ const filterProducts = (
 				e.collection === collection &&
 				e.Colors.find(e => e.name === color1) &&
 				e.Colors.find(e => e.name === color2) &&
-				e.stock.find(e => e.stock > 0)
+				e.ProductTypes.find(e => e.Stocks.quantity > 0)
 		);
 		if (combinedFilter.length) return combinedFilter;
 		return {
@@ -288,7 +287,7 @@ const filterProducts = (
 			e =>
 				e.collection === collection &&
 				e.Colors.find(e => e.name === color1) &&
-				e.stock.find(e => e.stock > 0)
+				e.ProductTypes.find(e => e.Stocks.quantity > 0)
 		);
 		if (combinedFilter.length) return combinedFilter;
 		return {
@@ -331,7 +330,9 @@ const filterProducts = (
 	}
 	if (stock && collection) {
 		const productsFilter = products.filter(
-			e => e.stock > 0 && e.collection === collection
+			e =>
+				e.ProductTypes.find(e => e.Stocks.quantity > 0) &&
+				e.collection === collection
 		);
 		if (productsFilter.length) return productsFilter;
 		return {
@@ -345,7 +346,10 @@ const filterProducts = (
 		return filterByCollection;
 	}
 	if (stock) {
-		const filterByStock = products.filter(e => e.stock > 0);
+		console.log('entre aca', stock);
+		const filterByStock = products.filter(e =>
+			e.ProductTypes.find(e => e.Stocks.quantity > 0)
+		);
 		if (filterByStock.length > 0) return filterByStock;
 		else return { msj: 'no products in stock' };
 	}
