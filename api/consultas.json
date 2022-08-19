@@ -1,0 +1,70 @@
+{
+	"post Order Item": {
+		"quantity": "2",
+		"stockId": "5",
+		"purchaseId": "1"
+	},
+	"PUT Product": {
+		"name": "pruuebuioa",
+		"description": "other description",
+		"img_home": "https://i.ibb.co/Qv8SSPP/AXEF1454.jpg",
+		"collection": "Flowers",
+		"img_detail": [
+			"https://i.ibb.co/GFxrYK1/IMG-E4815.jpg",
+			"https://i.ibb.co/DMdkpK9/CEWAE4328.jpg",
+			"https://i.ibb.co/Qv8SSPP/AXEF1454.jpg"
+		],
+		"colors": [
+			{ "hex": "#0000FF", "name": "blue" },
+			{ "hex": "#FFC0CB", "name": "pink" },
+			{ "hex": "#FFF8FF", "name": "new" }
+		],
+		"artist": "other artist",
+		"stock": [
+			{ "quantity": "5", "productTypeName": "Cake Tray" },
+			{ "quantity": "2", "productTypeName": "Turntable" }
+		]
+	},
+	"POST Product": {
+		"name": "Catamarca",
+		"description": "other description",
+		"collection": "Flowers",
+		"img_home": "https://i.ibb.co/Qv8SSPP/AXEF1454.jpg",
+		"img_detail": [
+			"https://i.ibb.co/GFxrYK1/IMG-E4815.jpg",
+			"https://i.ibb.co/DMdkpK9/CEWAE4328.jpg",
+			"https://i.ibb.co/Qv8SSPP/AXEF1454.jpg"
+		],
+		"artist": "other artist",
+		"colors": [
+			{ "hex": "#0000FF", "name": "blue" },
+			{ "hex": "#FFC0CB", "name": "pink" },
+			{ "hex": "#FFF8FF", "name": "new" }
+		],
+		"stock": [
+			{ "quantity": "9888", "productTypeName": "Cake Tray" },
+			{ "quantity": "668", "productTypeName": "Turntable" }
+		]
+	},
+	"POST Purchase": {
+		"status": "Reserved",
+		"phoneNumber": "3516252000",
+		"postalCode": "5000",
+		"shippingAddressStreet": "San Martin",
+		"shippingAddressNumber": "500",
+		"shipmentCompany": "DHL",
+		"shipmentTracking": "COL252555W",
+		"shipmentFee": "5.2"
+	},
+	"POST User": {
+		"name": "Mario",
+		"lastname": "Lopez",
+		"email": "hola@gente.com",
+		"password": "123456"
+	},
+	"POST Stock": {
+		"ProductTypeName": "Turntable",
+		"quantity": 8,
+		"ProductId": "05c56232-d9a4-47c9-b690-a356bed834a5"
+	}
+}

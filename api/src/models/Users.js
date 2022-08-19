@@ -4,7 +4,7 @@ import { sequelize } from '../db/database.js';
 const REGEX = /^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$/;
 
 export const Users = sequelize.define(
-	'User',
+	'Users',
 	{
 		id: {
 			type: DataTypes.UUID,

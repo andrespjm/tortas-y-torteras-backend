@@ -28,7 +28,7 @@ router.get('/', async (req, res) => {
 	}
 });
 
-// receives color:{name,hex}
+
 router.post(
 	'/',
 	fileUpload({
@@ -55,10 +55,10 @@ router.post(
 		} catch (error) {
 			res.status(500).send(error.message);
 		}
+
 	}
 );
 
-// can receive one, many or all parameters
 router.put('/:id', async (req, res) => {
 	const { id } = req.params;
 	const {
@@ -67,13 +67,9 @@ router.put('/:id', async (req, res) => {
 		img_home,
 		img_detail,
 		collection,
-		diameter,
-		stock,
-		price,
-		type,
-		size,
 		artist,
 		colors,
+		stock,
 	} = req.body;
 
 	try {
@@ -83,18 +79,14 @@ router.put('/:id', async (req, res) => {
 			img_home,
 			img_detail,
 			collection,
-			diameter,
-			stock,
-			price,
-			type,
-			size,
 			artist,
 			colors,
+			stock,
 			id
 		);
 		res.status(200).send(products);
 	} catch (e) {
-		res.status(400).send(e.message);
+		res.send(e.message);
 	}
 });
 
