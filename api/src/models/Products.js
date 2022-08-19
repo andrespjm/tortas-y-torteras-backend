@@ -11,7 +11,7 @@ export const Products = sequelize.define('Products', {
 	name: {
 		type: DataTypes.STRING,
 		allowNull: false,
-		// unique: true,
+		unique: true,
 	},
 	description: {
 		type: DataTypes.STRING,
@@ -22,25 +22,11 @@ export const Products = sequelize.define('Products', {
 		},
 	},
 	img_home: {
-		type: DataTypes.STRING,
+		type: DataTypes.JSON,
 		allowNull: false,
-		validate: {
-			isUrl: {
-				msg: 'Invalid URL',
-				protocols: ['https'],
-				require_protocol: true,
-			},
-		},
 	},
 	img_detail: {
-		type: DataTypes.ARRAY(DataTypes.STRING),
-		validate: {
-			isUrl: {
-				msg: 'Invalid URL',
-				protocols: ['https'],
-				require_protocol: true,
-			},
-		},
+		type: DataTypes.ARRAY(DataTypes.JSON),
 		allowNull: false,
 	},
 	collection: {

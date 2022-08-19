@@ -17,40 +17,14 @@ const getAllProducts = async () => {
 };
 
 const createProduct = async data => {
-	const {
-		name,
-		description,
-		img_home,
-		img_detail,
-		collection,
-		diameter,
-		stock,
-		price,
-		type,
-		size,
-		artist,
-		colors,
-	} = data;
-	const newProduct = await Products.create({
-		name,
-		description,
-		img_home,
-		img_detail,
-		collection,
-		diameter,
-		stock,
-		price,
-		type,
-		size,
-		artist,
-	});
+	const name = data.name;
+	const newProduct = await Products.create(data);
 
 	const colorId = [];
-	console.log(colors.length);
-	for (let i = 0; i < colors.length; i++) {
+	for (let i = 0; i < data.colors.length; i++) {
 		const [instance] = await Colors.findOrCreate({
-			where: { hex: colors[i].hex },
-			defaults: { name: colors[i].name },
+			where: { hex: data.colors[i].hex },
+			defaults: { name: data.colors[i].name },
 		});
 		colorId.push(instance.id);
 	}

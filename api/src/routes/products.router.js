@@ -1,13 +1,16 @@
 /* eslint-disable camelcase */
 import { Router } from 'express';
+import fileUpload from 'express-fileupload';
+
 import {
 	createProduct,
-	getAllProducts,
-	updateProduct,
 	deleteProduct,
-	getDetailProducts,
 	filterProducts,
+	getAllProducts,
+	getDetailProducts,
+	updateProduct,
 } from '../controllers/products.controller.js';
+import uploadImageHelper from '../helpers/uploud-image.helper.js';
 const router = Router();
 
 router.get('/', async (req, res) => {
@@ -26,15 +29,34 @@ router.get('/', async (req, res) => {
 });
 
 // receives color:{name,hex}
-router.post('/', async (req, res) => {
-	const data = req.body;
-	try {
-		const post = await createProduct(data);
-		res.send(post);
-	} catch (error) {
-		res.status(500).send(error.message);
+router.post(
+	'/',
+	fileUpload({
+		useTempFiles: true,
+		tempFileDir: './uploads',
+	}),
+	async (req, res) => {
+		const data = req.body;
+		const image = req.files;
+		try {
+			const images = await uploadImageHelper(image);
+			data.img_home = images.imgHome;
+			data.img_detail = images.imgDetail || [];
+			// data.color exclusivo para pruebas de tipo Body form-data
+			// Comentar cuando ya reciba data desde el form de Front
+			data.colors = [
+				{ hex: '#0000FF', name: 'blue' },
+				{ hex: '#FFC0CB', name: 'pink' },
+				{ hex: '#FFF8FF', name: 'new' },
+			];
+			const post = await createProduct(data);
+
+			res.send(post);
+		} catch (error) {
+			res.status(500).send(error.message);
+		}
 	}
-});
+);
 
 // can receive one, many or all parameters
 router.put('/:id', async (req, res) => {
