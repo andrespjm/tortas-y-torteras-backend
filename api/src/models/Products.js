@@ -1,6 +1,9 @@
 import { DataTypes } from 'sequelize';
 import { sequelize } from '../db/database.js';
 import { Colors } from '../models/Colors.js';
+import { ProductTypes } from '../models/ProductTypes.js';
+import { Stocks } from '../models/Stocks.js';
+
 const REGEX = /^[a-zA-Z0-9-()-: .]+$/;
 export const Products = sequelize.define('Products', {
 	id: {
@@ -11,7 +14,7 @@ export const Products = sequelize.define('Products', {
 	name: {
 		type: DataTypes.STRING,
 		allowNull: false,
-		// unique: true,
+		unique: true,
 	},
 	description: {
 		type: DataTypes.STRING,
@@ -46,32 +49,6 @@ export const Products = sequelize.define('Products', {
 	collection: {
 		type: DataTypes.ENUM('Flowers', 'Abstract', 'Butterflies'),
 	},
-	type: {
-		type: DataTypes.ENUM('Cake Tray', 'Turntable'),
-		allowNull: false,
-	},
-	size: {
-		type: DataTypes.ENUM('Standard', 'Special'),
-		allowNull: false,
-	},
-	diameter: {
-		type: DataTypes.FLOAT,
-		allowNull: false,
-		// set(value) {
-		// 	this.setDataValue(
-		// 		'diameter',
-		// 		this.size === 'Standard' ? (this.type === 'Turntable' ? 35 : 32) : value
-		// 	);
-		// },
-	},
-	// stock: {
-	// 	type: DataTypes.INTEGER,
-	// 	defaultValue: 1,
-	// 	allowNull: false,
-	// },
-	price: {
-		type: DataTypes.FLOAT,
-	},
 	artist: {
 		type: DataTypes.STRING,
 		allowNull: false,
@@ -80,3 +57,10 @@ export const Products = sequelize.define('Products', {
 
 Products.belongsToMany(Colors, { through: 'ProductsColors' });
 Colors.belongsToMany(Products, { through: 'ProductsColors' });
+
+Products.belongsToMany(ProductTypes, { through: Stocks });
+ProductTypes.belongsToMany(Products, { through: Stocks });
+ProductTypes.hasMany(Stocks);
+Stocks.belongsTo(ProductTypes);
+Products.hasMany(Stocks);
+Stocks.belongsTo(Products);
