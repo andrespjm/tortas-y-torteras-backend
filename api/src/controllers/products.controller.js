@@ -194,6 +194,11 @@ const getDetailProducts = async id => {
 				attributes: ['name', 'hex'],
 				through: { attributes: [] },
 			},
+			{
+				model: ProductTypes,
+				attributes: ['name', 'price', 'diameter'],
+				through: { attributes: ['quantity'] },
+			},
 		],
 	});
 	if (!product) throw new Error('Product not found');
