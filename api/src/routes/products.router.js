@@ -54,11 +54,11 @@ router.post(
 			// Uploader Image
 			const images = await uploadImageHelper(image);
 			data.img_home = images.imgHome;
+			console.log('Imagenes subidas', images.imgDetail);
 			data.img_detail = images.imgDetail || [];
 
-			const post = await createProduct(data);
-
-			res.send(post);
+			await createProduct(data);
+			res.json({ success: 'ok' });
 		} catch (error) {
 			res.status(500).send(error.message);
 		}

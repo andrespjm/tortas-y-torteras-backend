@@ -5,8 +5,14 @@ const ALLOWED_EXTENSIONS = /(.jpg|.jpeg|.png|.gif)$/i;
 
 const uploadImageHelper = async req => {
 	const imageMain = req.imageMain;
-	const imagesDetail = req.imagesDetail;
 	const numberOfImages = 3;
+	const imagesDetail = [];
+	if (req['imagesDetail.0']) {
+		for (let i = 0; i < numberOfImages; i++) {
+			if (req['imagesDetail.' + i] !== undefined)
+				imagesDetail.push(req['imagesDetail.' + i]);
+		}
+	}
 	const imgDetail = [];
 	// Main Image
 	if (!imageMain) throw new Error('Main image required');
@@ -22,18 +28,18 @@ const uploadImageHelper = async req => {
 	await fs.unlink(imageMain.tempFilePath);
 
 	// Images Detail
-	if (imagesDetail) {
-		for (let i = 0; i < numberOfImages; i++) {
+	if (imagesDetail.length) {
+		for (let i = 0; i < imagesDetail.length; i++) {
 			if (!ALLOWED_EXTENSIONS.test(imagesDetail[i].mimetype)) {
 				verifyDir();
 				throw new Error('Image - detail, format invalid');
 			}
 			const res = await uploadImage(imagesDetail[i].tempFilePath);
+			if (!res) throw new Error(res.statusText);
 			imgDetail.push({ public_id: res.public_id, secure_url: res.secure_url });
+			await fs.unlink(imagesDetail[i].tempFilePath);
 		}
-		imagesDetail.forEach(async img => await fs.unlink(img.tempFilePath));
 	}
-
 	return { imgHome, imgDetail };
 };
 
