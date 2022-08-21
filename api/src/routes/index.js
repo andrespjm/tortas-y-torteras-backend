@@ -13,5 +13,8 @@ router.use('/colors', colors);
 router.use('/purchases', purchases);
 router.use('/stocks', stocks);
 router.use('/orderItems', orderItems);
+router.use((_, res) => {
+	res.status(404).send('componenete por defecto');
+});
 
 export default router;
