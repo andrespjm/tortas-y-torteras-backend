@@ -20,11 +20,22 @@ router.get('/', async (req, res) => {
 		verifyDir();
 		const products = await getAllProducts();
 		if (collection || stock || color1 || color2 || color3) {
-			return res.json(
-				filterProducts(collection, stock, color1, color2, color3, products)
+			const productsFiltered = filterProducts(
+				collection,
+				stock,
+				color1,
+				color2,
+				color3,
+				products
 			);
+			productsFiltered.length > 0
+				? res.json(productsFiltered)
+				: res.status(500).send('Empty selection');
+		} else {
+			products.length > 0
+				? res.json(products)
+				: res.status(500).send('Empty selection');
 		}
-		return res.json(products);
 	} catch (err) {
 		res.status(500).json({ error: err.message });
 	}
