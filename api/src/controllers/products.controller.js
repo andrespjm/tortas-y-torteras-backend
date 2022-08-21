@@ -253,25 +253,36 @@ const setJsonProductTypes = async () => {
 };
 
 const filterProducts = (
-	collection,
+	collection1,
+	collection2,
+	collection3,
+	collection4,
 	stock,
 	color1,
 	color2,
 	color3,
 	products
 ) => {
-	const combinedFilter = products.filter(
-		e =>
-			(stock
-				? stock === 'true'
-					? e.ProductTypes.find(e => e.Stocks.quantity > 0)
-					: !e.ProductTypes.find(e => e.Stocks.quantity > 0)
-				: true) &&
-			(collection ? e.collection === collection : true) &&
-			(color1 ? e.Colors.find(e => e.name === color1) : true) &&
-			(color2 ? e.Colors.find(e => e.name === color2) : true) &&
-			(color3 ? e.Colors.find(e => e.name === color3) : true)
-	);
+	const combinedFilter = products
+		.filter(
+			e =>
+				(stock
+					? stock === 'true'
+						? e.ProductTypes.find(e => e.Stocks.quantity > 0)
+						: !e.ProductTypes.find(e => e.Stocks.quantity > 0)
+					: true) &&
+				(color1 ? e.Colors.find(e => e.name === color1) : true) &&
+				(color2 ? e.Colors.find(e => e.name === color2) : true) &&
+				(color3 ? e.Colors.find(e => e.name === color3) : true)
+		)
+		.filter(
+			e =>
+				e.collection === collection1 ||
+				e.collection === collection2 ||
+				e.collection === collection3 ||
+				e.collection === collection4
+		);
+
 	return combinedFilter;
 };
 

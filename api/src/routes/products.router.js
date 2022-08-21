@@ -15,13 +15,34 @@ import { verifyDir } from '../helpers/verify-dir.js';
 const router = Router();
 
 router.get('/', async (req, res) => {
-	const { collection, stock, color1, color2, color3 } = req.query;
+	const {
+		collection1,
+		collection2,
+		collection3,
+		collection4,
+		stock,
+		color1,
+		color2,
+		color3,
+	} = req.query;
 	try {
 		verifyDir();
 		const products = await getAllProducts();
-		if (collection || stock || color1 || color2 || color3) {
+		if (
+			collection1 ||
+			collection2 ||
+			collection3 ||
+			collection4 ||
+			stock ||
+			color1 ||
+			color2 ||
+			color3
+		) {
 			const productsFiltered = filterProducts(
-				collection,
+				collection1,
+				collection2,
+				collection3,
+				collection4,
 				stock,
 				color1,
 				color2,
