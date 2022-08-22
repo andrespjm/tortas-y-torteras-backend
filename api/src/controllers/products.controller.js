@@ -270,9 +270,13 @@ const filterProducts = (
 					? e.ProductTypes.find(e => e.Stocks.quantity > 0)
 					: !e.ProductTypes.find(e => e.Stocks.quantity > 0)
 				: true) &&
-			(color1 ? e.Colors.find(e => e.name === color1) : true) &&
-			(color2 ? e.Colors.find(e => e.name === color2) : true) &&
-			(color3 ? e.Colors.find(e => e.name === color3) : true)
+			(color1
+				? e.Colors.find(e => e.name.replace(/\s/g, '') === color1)
+				: true) &&
+			(color2
+				? e.Colors.find(e => e.name.replace(/\s/g, '') === color2)
+				: true) &&
+			(color3 ? e.Colors.find(e => e.name.replace(/\s/g, '') === color3) : true)
 	);
 
 	return combinedFilter.filter(
