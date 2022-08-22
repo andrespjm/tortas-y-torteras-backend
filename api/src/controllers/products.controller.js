@@ -35,8 +35,11 @@ const createProduct = async data => {
 		img_detail,
 		collection,
 		artist,
-		colors,
-		stock,
+		color1,
+		color2,
+		color3, // ["hex1,name1","hex2,name2","hex3,name3"]
+		stockCakeTray,
+		stockTurntable,
 	} = data;
 	const newProduct = await Products.create({
 		name,
@@ -46,7 +49,12 @@ const createProduct = async data => {
 		collection,
 		artist,
 	});
-	if (colors) {
+	if (color1) {
+		const colors = [
+			{ hex: color1.split(',')[0], name: color1.split(',')[1] },
+			{ hex: color2.split(',')[0], name: color2.split(',')[1] },
+			{ hex: color3.split(',')[0], name: color3.split(',')[1] },
+		];
 		const colorId = [];
 		for (let i = 0; i < colors.length; i++) {
 			const [instance] = await Colors.findOrCreate({
@@ -58,7 +66,11 @@ const createProduct = async data => {
 		await newProduct.setColors(colorId);
 	}
 
-	if (stock) {
+	if (stockCakeTray) {
+		const stock = [
+			{ quantity: stockCakeTray, productTypeName: 'Cake Tray' },
+			{ quantity: stockTurntable, productTypeName: 'Turntable' },
+		];
 		const arrayStock = stock.map(el =>
 			Stocks.create({
 				quantity: el.quantity,
