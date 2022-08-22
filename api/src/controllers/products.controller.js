@@ -1,6 +1,6 @@
 /* eslint-disable camelcase */
-import { Op } from 'sequelize';
 import axios from 'axios';
+import { Op } from 'sequelize';
 import { Colors } from '../models/Colors.js';
 import { Products } from '../models/Products.js';
 import { ProductTypes } from '../models/ProductTypes.js';
@@ -9,6 +9,7 @@ import { Stocks } from '../models/Stocks.js';
 const getAllProducts = async () => {
 	// set filters
 	const products = await Products.findAll({
+		order: [['createdAt', 'DESC']],
 		include: [
 			{
 				model: Colors,

@@ -5,42 +5,48 @@ import { ProductTypes } from '../models/ProductTypes.js';
 import { Stocks } from '../models/Stocks.js';
 
 const REGEX = /^[a-zA-Z0-9-()-: .]+$/;
-export const Products = sequelize.define('Products', {
-	id: {
-		type: DataTypes.UUID,
-		primaryKey: true,
-		defaultValue: DataTypes.UUIDV4,
-	},
-	name: {
-		type: DataTypes.STRING,
-		allowNull: false,
-		unique: true,
-	},
-	description: {
-		type: DataTypes.STRING,
-		allowNull: false,
-		isEven(value) {
-			if (!REGEX.test(value) || value.length > 255 || !value.trim().length)
-				return { msg: 'Invalid description' };
+export const Products = sequelize.define(
+	'Products',
+	{
+		id: {
+			type: DataTypes.UUID,
+			primaryKey: true,
+			defaultValue: DataTypes.UUIDV4,
+		},
+		name: {
+			type: DataTypes.STRING,
+			allowNull: false,
+			unique: true,
+		},
+		description: {
+			type: DataTypes.STRING,
+			allowNull: false,
+			isEven(value) {
+				if (!REGEX.test(value) || value.length > 255 || !value.trim().length)
+					return { msg: 'Invalid description' };
+			},
+		},
+		img_home: {
+			type: DataTypes.JSON,
+			allowNull: false,
+		},
+		img_detail: {
+			type: DataTypes.ARRAY(DataTypes.JSON),
+			allowNull: false,
+		},
+		collection: {
+			type: DataTypes.ENUM('Flowers', 'Abstract', 'Butterflies', 'Other'),
+		},
+
+		artist: {
+			type: DataTypes.STRING,
+			allowNull: false,
 		},
 	},
-	img_home: {
-		type: DataTypes.JSON,
-		allowNull: false,
-	},
-	img_detail: {
-		type: DataTypes.ARRAY(DataTypes.JSON),
-		allowNull: false,
-	},
-	collection: {
-		type: DataTypes.ENUM('Flowers', 'Abstract', 'Butterflies', 'Other'),
-	},
-
-	artist: {
-		type: DataTypes.STRING,
-		allowNull: false,
-	},
-});
+	{
+		timestamps: true,
+	}
+);
 
 Products.belongsToMany(Colors, { through: 'ProductsColors' });
 Colors.belongsToMany(Products, { through: 'ProductsColors' });
