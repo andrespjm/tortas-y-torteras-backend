@@ -27,8 +27,8 @@
 			},
 			"color": ["#ADD8E6", "#FFA500", "#800080"],
 			"stock": [
-				{ "quantity": "0", "productTypeName": "Cake Tray" },
-				{ "quantity": "0", "productTypeName": "Turntable" }
+				{ "quantity": "0", "productTypeName": "Cake Tray", "price": "50" },
+				{ "quantity": "0", "productTypeName": "Turntable", "price": "70" }
 			]
 		},
 		{
@@ -58,8 +58,8 @@
 			},
 			"color": ["#ADD8E6", "#FFA500", "#800080"],
 			"stock": [
-				{ "quantity": "3", "productTypeName": "Cake Tray" },
-				{ "quantity": "8", "productTypeName": "Turntable" }
+				{ "quantity": "3", "productTypeName": "Cake Tray", "price": "50" },
+				{ "quantity": "8", "productTypeName": "Turntable", "price": "70" }
 			]
 		},
 		{
@@ -85,8 +85,8 @@
 			},
 			"color": ["#ADD8E6", "#FFA500", "#800080"],
 			"stock": [
-				{ "quantity": "0", "productTypeName": "Cake Tray" },
-				{ "quantity": "0", "productTypeName": "Turntable" }
+				{ "quantity": "0", "productTypeName": "Cake Tray", "price": "50" },
+				{ "quantity": "0", "productTypeName": "Turntable", "price": "70" }
 			]
 		},
 		{
@@ -108,8 +108,8 @@
 			},
 			"color": ["#ADD8E6", "#FFA500", "#800080"],
 			"stock": [
-				{ "quantity": "0", "productTypeName": "Cake Tray" },
-				{ "quantity": "1", "productTypeName": "Turntable" }
+				{ "quantity": "0", "productTypeName": "Cake Tray", "price": "50" },
+				{ "quantity": "1", "productTypeName": "Turntable", "price": "70" }
 			]
 		},
 		{
@@ -171,8 +171,8 @@
 			},
 			"color": ["#800080", "#FFC0CB", "#A52A2A"],
 			"stock": [
-				{ "quantity": "3", "productTypeName": "Cake Tray" },
-				{ "quantity": "1", "productTypeName": "Turntable" }
+				{ "quantity": "3", "productTypeName": "Cake Tray", "price": "50" },
+				{ "quantity": "1", "productTypeName": "Turntable", "price": "70" }
 			]
 		},
 		{
@@ -202,8 +202,8 @@
 			},
 			"color": ["#FFFF00", "#03bb85", "#ADD8E6"],
 			"stock": [
-				{ "quantity": "3", "productTypeName": "Cake Tray" },
-				{ "quantity": "1", "productTypeName": "Turntable" }
+				{ "quantity": "3", "productTypeName": "Cake Tray", "price": "40" },
+				{ "quantity": "1", "productTypeName": "Turntable", "price": "60" }
 			]
 		},
 		{
@@ -233,8 +233,8 @@
 			},
 			"color": ["#FFD700", "#FFA500", "#800080"],
 			"stock": [
-				{ "quantity": "3", "productTypeName": "Cake Tray" },
-				{ "quantity": "8", "productTypeName": "Turntable" }
+				{ "quantity": "3", "productTypeName": "Cake Tray", "price": "55" },
+				{ "quantity": "8", "productTypeName": "Turntable", "price": "75" }
 			]
 		},
 		{
@@ -264,8 +264,8 @@
 			},
 			"color": ["#ADD8E6", "#0000FF", "#FFFFFF"],
 			"stock": [
-				{ "quantity": "3", "productTypeName": "Cake Tray" },
-				{ "quantity": "1", "productTypeName": "Turntable" }
+				{ "quantity": "3", "productTypeName": "Cake Tray", "price": "70" },
+				{ "quantity": "1", "productTypeName": "Turntable", "price": "90" }
 			]
 		},
 		{
@@ -295,8 +295,8 @@
 			},
 			"color": ["#800080", "#ADD8E6", "#A52A2A"],
 			"stock": [
-				{ "quantity": "3", "productTypeName": "Cake Tray" },
-				{ "quantity": "1", "productTypeName": "Turntable" }
+				{ "quantity": "3", "productTypeName": "Cake Tray", "price": "50" },
+				{ "quantity": "1", "productTypeName": "Turntable", "price": "70" }
 			]
 		},
 		{
@@ -326,8 +326,8 @@
 			},
 			"color": ["#FFC0CB", "#800080", "#FFD700"],
 			"stock": [
-				{ "quantity": "3", "productTypeName": "Cake Tray" },
-				{ "quantity": "1", "productTypeName": "Turntable" }
+				{ "quantity": "3", "productTypeName": "Cake Tray", "price": "50" },
+				{ "quantity": "1", "productTypeName": "Turntable", "price": "70" }
 			]
 		},
 		{
@@ -361,8 +361,8 @@
 			},
 			"color": ["#03bb85", "#800080", "#FFFFFF"],
 			"stock": [
-				{ "quantity": "3", "productTypeName": "Cake Tray" },
-				{ "quantity": "8", "productTypeName": "Turntable" }
+				{ "quantity": "3", "productTypeName": "Cake Tray", "price": "50" },
+				{ "quantity": "8", "productTypeName": "Turntable", "price": "70" }
 			]
 		},
 		{
@@ -392,8 +392,8 @@
 			},
 			"color": ["#ADD8E6", "#800080", "#FFC0CB"],
 			"stock": [
-				{ "quantity": "3", "productTypeName": "Cake Tray" },
-				{ "quantity": "1", "productTypeName": "Turntable" }
+				{ "quantity": "3", "productTypeName": "Cake Tray", "price": "50" },
+				{ "quantity": "1", "productTypeName": "Turntable", "price": "70" }
 			]
 		},
 		{
@@ -423,8 +423,8 @@
 			},
 			"color": ["#800080", "#FFFFFF", "#03bb85"],
 			"stock": [
-				{ "quantity": "3", "productTypeName": "Cake Tray" },
-				{ "quantity": "1", "productTypeName": "Turntable" }
+				{ "quantity": "3", "productTypeName": "Cake Tray", "price": "60" },
+				{ "quantity": "1", "productTypeName": "Turntable", "price": "80" }
 			]
 		},
 		{
@@ -458,8 +458,8 @@
 			},
 			"color": ["#0000FF", "#800080", "#FFC0CB"],
 			"stock": [
-				{ "quantity": "3", "productTypeName": "Cake Tray" },
-				{ "quantity": "1", "productTypeName": "Turntable" }
+				{ "quantity": "3", "productTypeName": "Cake Tray", "price": "50" },
+				{ "quantity": "1", "productTypeName": "Turntable", "price": "70" }
 			]
 		},
 		{
@@ -497,8 +497,8 @@
 			},
 			"color": ["#ADD8E6", "#0000FF", "#FFFFFF"],
 			"stock": [
-				{ "quantity": "3", "productTypeName": "Cake Tray" },
-				{ "quantity": "1", "productTypeName": "Turntable" }
+				{ "quantity": "3", "productTypeName": "Cake Tray", "price": "50" },
+				{ "quantity": "1", "productTypeName": "Turntable", "price": "70" }
 			]
 		},
 		{
@@ -524,8 +524,8 @@
 			},
 			"color": ["#FFC0CB", "#ADD8E6", "#FFFF00"],
 			"stock": [
-				{ "quantity": "3", "productTypeName": "Cake Tray" },
-				{ "quantity": "1", "productTypeName": "Turntable" }
+				{ "quantity": "3", "productTypeName": "Cake Tray", "price": "50" },
+				{ "quantity": "1", "productTypeName": "Turntable", "price": "70" }
 			]
 		},
 		{
@@ -551,8 +551,8 @@
 			},
 			"color": ["#FFA500", "#800080", "#ADD8E6"],
 			"stock": [
-				{ "quantity": "3", "productTypeName": "Cake Tray" },
-				{ "quantity": "1", "productTypeName": "Turntable" }
+				{ "quantity": "3", "productTypeName": "Cake Tray", "price": "50" },
+				{ "quantity": "1", "productTypeName": "Turntable", "price": "70" }
 			]
 		},
 		{
@@ -582,8 +582,8 @@
 			},
 			"color": ["#800080", "#ADD8E6", "#FFA500"],
 			"stock": [
-				{ "quantity": "3", "productTypeName": "Cake Tray" },
-				{ "quantity": "1", "productTypeName": "Turntable" }
+				{ "quantity": "3", "productTypeName": "Cake Tray", "price": "50" },
+				{ "quantity": "1", "productTypeName": "Turntable", "price": "70" }
 			]
 		},
 		{
@@ -613,8 +613,8 @@
 			},
 			"color": ["#FFC0CB", "#ADD8E6", "#800080"],
 			"stock": [
-				{ "quantity": "3", "productTypeName": "Cake Tray" },
-				{ "quantity": "8", "productTypeName": "Turntable" }
+				{ "quantity": "3", "productTypeName": "Cake Tray", "price": "50" },
+				{ "quantity": "8", "productTypeName": "Turntable", "price": "70" }
 			]
 		},
 		{
@@ -644,8 +644,8 @@
 			},
 			"color": ["#ADD8E6", "#03bb85", "#0000FF"],
 			"stock": [
-				{ "quantity": "3", "productTypeName": "Cake Tray" },
-				{ "quantity": "1", "productTypeName": "Turntable" }
+				{ "quantity": "3", "productTypeName": "Cake Tray", "price": "50" },
+				{ "quantity": "1", "productTypeName": "Turntable", "price": "70" }
 			]
 		}
 	],
@@ -665,8 +665,8 @@
 		{ "name": "water green", "hex": "#03bb85" }
 	],
 	"ProductType": [
-		{ "name": "Cake Tray", "diameter": "32", "price": "50" },
-		{ "name": "Turntable", "diameter": "35", "price": "70" }
+		{ "name": "Cake Tray", "diameter": "32" },
+		{ "name": "Turntable", "diameter": "35" }
 	],
 	"Users": [
 		{
