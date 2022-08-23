@@ -1,7 +1,7 @@
 /* eslint-disable camelcase */
-import axios from 'axios';
 import { Purchases } from '../models/Purchases.js';
 import { Users } from '../models/Users.js';
+import dataJson from '../db/torterasJSON.js';
 
 const getPurchases = async id => {
 	if (id) {
@@ -22,7 +22,7 @@ const postPurchases = async (purchaseData, id) => {
 };
 
 const setJsonPurchases = async () => {
-	const data = (await axios(`http://localhost:5000/Purchases`)).data;
+	const data = dataJson.Purchases;
 
 	const dataPromise = data.map(async el => {
 		const user = await Users.create(el.user);

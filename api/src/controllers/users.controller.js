@@ -1,5 +1,5 @@
 import { Users } from '../models/Users.js';
-import axios from 'axios';
+import dataJson from '../db/torterasJSON.js';
 /**
  *
  * @param {name, lastname, email, password} data
@@ -16,7 +16,7 @@ const getUsers = async () => {
 };
 
 const setJsonUsers = async () => {
-	const data = (await axios(`http://localhost:5000/Users`)).data;
+	const data = dataJson.Users;
 
 	const dataPromise = data.map(el => Users.create(el));
 
