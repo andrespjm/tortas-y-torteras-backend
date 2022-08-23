@@ -15,6 +15,25 @@ const getUsers = async () => {
 	return users;
 };
 
+const getUsersId = async id => {
+	const user = await Users.findOne({ where: { id } });
+	return user;
+};
+
+const updateUserEnabled = async (id, enabled) => {
+	const user = await Users.findOne({ where: { id } });
+	if (!user) throw new Error('User not found');
+	await Users.update({ enabled }, { where: { id } });
+	return 'User updated';
+};
+
+const updateUser = async (id, name, lastname, email, password) => {
+	const user = await Users.findOne({ where: { id } });
+	if (!user) throw new Error('User not found');
+	await Users.update({ name, lastname, email, password }, { where: { id } });
+	return 'User updated';
+};
+
 const setJsonUsers = async () => {
 	const data = dataJson.Users;
 
@@ -25,4 +44,11 @@ const setJsonUsers = async () => {
 	return 'users loaded';
 };
 
-export { signUp, getUsers, setJsonUsers };
+export {
+	signUp,
+	getUsers,
+	setJsonUsers,
+	getUsersId,
+	updateUserEnabled,
+	updateUser,
+};

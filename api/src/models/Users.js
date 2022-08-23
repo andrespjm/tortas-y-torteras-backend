@@ -25,6 +25,10 @@ export const Users = sequelize.define(
 				is: REGEX,
 			},
 		},
+		enabled: {
+			type: DataTypes.BOOLEAN,
+			defaultValue: true,
+		},
 		email: {
 			type: DataTypes.STRING,
 			unique: true,

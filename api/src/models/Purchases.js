@@ -18,6 +18,7 @@ export const Purchases = sequelize.define('Purchases', {
 			'Delivering',
 			'Received'
 		),
+		defaultValue: 'Reserved',
 		allowNull: false,
 	},
 	phoneNumber: {
@@ -43,7 +44,10 @@ export const Purchases = sequelize.define('Purchases', {
 		type: DataTypes.STRING,
 	},
 	shipmentFee: {
-		type: DataTypes.STRING,
+		type: DataTypes.FLOAT,
+	},
+	tax: {
+		type: DataTypes.FLOAT,
 	},
 });
 

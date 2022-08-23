@@ -3,22 +3,55 @@ import { Purchases } from '../models/Purchases.js';
 import { Users } from '../models/Users.js';
 import dataJson from '../db/torterasJSON.js';
 
-const getPurchases = async id => {
-	if (id) {
-		return await Purchases.findAll({ where: { UserId: id } });
+const getPurchases = async userId => {
+	if (userId) {
+		return await Purchases.findAll({ where: { UserId: userId } });
 	} else {
 		return await Purchases.findAll();
 	}
 };
 
-const postPurchases = async (purchaseData, id) => {
-	const user = await Users.findOne({ where: { id } });
+const getPurchase = async id => {
+	return await Purchases.findOne({ where: { id } });
+};
+
+const deletePurchase = async id => {
+	await Purchases.destroy({ where: { id } });
+	return 'Purchase deleted';
+};
+
+const postPurchases = async (purchaseData, userId) => {
+	const user = await Users.findOne({ where: { id: userId } });
 	if (!user) {
 		throw new Error('User not found');
 	}
 	const purchase = await Purchases.create(purchaseData);
-	purchase.setUser(id);
+	purchase.setUser(userId);
 	return purchase;
+};
+
+const updatePurchase = async (
+	id,
+	status,
+	shipmentCompany,
+	shipmentTracking
+) => {
+	const purchase = await Purchases.findOne({ where: { id } });
+	if (!purchase) {
+		throw new Error('Purchase order not found');
+	} else {
+		await Purchases.update(
+			{
+				status,
+				shipmentCompany,
+				shipmentTracking,
+			},
+			{
+				where: { id },
+			}
+		);
+	}
+	return 'Purchase udated';
 };
 
 const setJsonPurchases = async () => {
@@ -34,4 +67,11 @@ const setJsonPurchases = async () => {
 	return 'purchases loaded';
 };
 
-export { setJsonPurchases, getPurchases, postPurchases };
+export {
+	setJsonPurchases,
+	getPurchases,
+	postPurchases,
+	getPurchase,
+	deletePurchase,
+	updatePurchase,
+};
