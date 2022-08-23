@@ -4,6 +4,7 @@ import {
 	getStock,
 	createStock,
 	deleteStock,
+	updateStock,
 } from '../controllers/stocks.controller.js';
 const router = Router();
 
@@ -18,16 +19,31 @@ router.get('/', async (req, res) => {
 });
 
 router.post('/', async (req, res) => {
-	const { ProductTypeName, ProductId, quantity } = req.body;
-	if (!ProductTypeName || !ProductId || !quantity) {
+	const { ProductTypeName, ProductId, quantity, price } = req.body;
+	if (!ProductTypeName || !ProductId || !quantity || !price) {
 		throw new Error(
-			'Need product type, quantity and productId to create stock'
+			'Need product type, quantity, price and productId to create stock'
 		);
 	}
 	try {
-		const stock = await createStock(ProductTypeName, ProductId, quantity);
+		const stock = await createStock(
+			ProductTypeName,
+			ProductId,
+			quantity,
+			price
+		);
 
 		res.status(200).send(stock);
+	} catch (error) {
+		res.status(500).send(error.message);
+	}
+});
+
+router.put('/:id', async (req, res) => {
+	const { id } = req.params;
+	const { quantity, price } = req.body;
+	try {
+		res.status(200).send(await updateStock(id, quantity, price));
 	} catch (error) {
 		res.status(500).send(error.message);
 	}
@@ -36,7 +52,7 @@ router.post('/', async (req, res) => {
 router.delete('/:id', async (req, res) => {
 	const { id } = req.params;
 	try {
-		deleteStock(id);
+		await deleteStock(id);
 		res.status(200).send('Stock deleted');
 	} catch (error) {
 		res.status(500).send(error.message);

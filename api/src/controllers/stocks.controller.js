@@ -32,14 +32,37 @@ const getStock = async data => {
 };
 
 const createStock = async (ProductTypeName, ProductId, quantity, price) => {
+	const existentStock = await Stocks.findOne({
+		where: { [Op.and]: [{ ProductTypeName }, { ProductId }] },
+	});
+	if (existentStock) throw new Error('Stock already created');
+
 	const stock = await Stocks.create({
 		ProductTypeName,
 		ProductId,
 		quantity,
 		price,
 	});
-	if (!stock) throw new Error('Product stock not found');
 	return stock;
+};
+
+const updateStock = async (id, quantity, price) => {
+	const stock = await Stocks.findOne({ where: { id } });
+	console.log(stock);
+	if (!stock) {
+		throw new Error('Stock not found');
+	} else {
+		await Stocks.update(
+			{
+				quantity,
+				price,
+			},
+			{
+				where: { id },
+			}
+		);
+	}
+	return 'Stock udated';
 };
 
 const deleteStock = async id => {
@@ -47,4 +70,4 @@ const deleteStock = async id => {
 	return 'Stock deleted';
 };
 
-export { getStock, createStock, deleteStock };
+export { getStock, createStock, updateStock, deleteStock };
