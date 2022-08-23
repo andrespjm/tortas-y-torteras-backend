@@ -1,11 +1,11 @@
 /* eslint-disable camelcase */
 // import axios from 'axios';
 import { Op } from 'sequelize';
+import dataJson from '../db/torterasJSON.js';
 import { Colors } from '../models/Colors.js';
 import { Products } from '../models/Products.js';
 import { ProductTypes } from '../models/ProductTypes.js';
 import { Stocks } from '../models/Stocks.js';
-import dataJson from '../db/torterasJSON.js';
 
 const getAllProducts = async () => {
 	// set filters
