@@ -239,6 +239,7 @@ const setJsonProducts = async () => {
 
 		const dataPromise = data.map(async el => {
 			const colors = await Colors.findAll({ where: { hex: el.color } });
+			console.log(colors);
 			return Products.create({
 				name: el.product.name,
 				description: el.product.description,
