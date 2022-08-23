@@ -10,8 +10,8 @@ export const ProductTypes = sequelize.define('ProductTypes', {
 		type: DataTypes.INTEGER,
 		allowNull: false,
 	},
-	price: {
-		type: DataTypes.FLOAT,
-		allowNull: false,
-	},
+	// price: {
+	// 	type: DataTypes.FLOAT,
+	// 	allowNull: false,
+	// },
 });

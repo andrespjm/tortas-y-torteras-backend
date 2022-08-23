@@ -18,8 +18,8 @@ const getAllProducts = async () => {
 			},
 			{
 				model: ProductTypes,
-				attributes: ['name', 'price', 'diameter'],
-				through: { attributes: ['quantity'] },
+				attributes: ['name', 'diameter'],
+				through: { attributes: ['quantity', 'price'] },
 			},
 		],
 	});
@@ -40,6 +40,8 @@ const createProduct = async data => {
 		color3, // ["hex1,name1","hex2,name2","hex3,name3"]
 		stockCakeTray,
 		stockTurntable,
+		priceCakeTray,
+		priceTurntable,
 	} = data;
 	const newProduct = await Products.create({
 		name,
@@ -68,12 +70,21 @@ const createProduct = async data => {
 
 	if (stockCakeTray) {
 		const stock = [
-			{ quantity: stockCakeTray, productTypeName: 'Cake Tray' },
-			{ quantity: stockTurntable, productTypeName: 'Turntable' },
+			{
+				quantity: stockCakeTray,
+				price: priceCakeTray,
+				productTypeName: 'Cake Tray',
+			},
+			{
+				quantity: stockTurntable,
+				price: priceTurntable,
+				productTypeName: 'Turntable',
+			},
 		];
 		const arrayStock = stock.map(el =>
 			Stocks.create({
 				quantity: el.quantity,
+				price: el.price,
 				ProductId: newProduct.id,
 				ProductTypeName: el.productTypeName,
 			})
@@ -92,8 +103,8 @@ const createProduct = async data => {
 			},
 			{
 				model: ProductTypes,
-				attributes: ['name', 'price', 'diameter'],
-				through: { attributes: ['quantity'] },
+				attributes: ['name', 'diameter'],
+				through: { attributes: ['quantity', 'price'] },
 			},
 		],
 	});
@@ -153,6 +164,7 @@ const updateProduct = async (
 				if (!existentStock) {
 					return Stocks.create({
 						quantity: el.quantity,
+						price: el.price,
 						ProductId: id,
 						ProductTypeName: el.productTypeName,
 					});
@@ -160,6 +172,7 @@ const updateProduct = async (
 					return Stocks.update(
 						{
 							quantity: el.quantity,
+							price: el.price,
 						},
 						{
 							where: {
@@ -186,8 +199,8 @@ const updateProduct = async (
 				},
 				{
 					model: ProductTypes,
-					attributes: ['name', 'price', 'diameter'],
-					through: { attributes: ['quantity'] },
+					attributes: ['name', 'diameter'],
+					through: { attributes: ['quantity', 'price'] },
 				},
 			],
 		});
@@ -209,8 +222,8 @@ const getDetailProducts = async id => {
 			},
 			{
 				model: ProductTypes,
-				attributes: ['name', 'price', 'diameter'],
-				through: { attributes: ['quantity'] },
+				attributes: ['name', 'diameter'],
+				through: { attributes: ['quantity', 'price'] },
 			},
 		],
 	});
@@ -236,6 +249,7 @@ const setJsonProducts = async () => {
 				el.stock?.map(el => {
 					return Stocks.create({
 						quantity: el.quantity,
+						price: el.price,
 						ProductId: product.id,
 						ProductTypeName: el.productTypeName,
 					});

@@ -31,8 +31,13 @@ const getStock = async data => {
 	}
 };
 
-const createStock = async (ProductTypeName, ProductId, quantity) => {
-	const stock = await Stocks.create({ ProductTypeName, ProductId, quantity });
+const createStock = async (ProductTypeName, ProductId, quantity, price) => {
+	const stock = await Stocks.create({
+		ProductTypeName,
+		ProductId,
+		quantity,
+		price,
+	});
 	if (!stock) throw new Error('Product stock not found');
 	return stock;
 };

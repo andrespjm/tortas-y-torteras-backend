@@ -11,4 +11,8 @@ export const OrderItems = sequelize.define('OrderItems', {
 		type: DataTypes.INTEGER,
 		allowNull: false,
 	},
+	price: {
+		type: DataTypes.FLOAT,
+		allowNull: false,
+	},
 });
