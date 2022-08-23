@@ -235,7 +235,7 @@ const getDetailProducts = async id => {
 const setJsonProducts = async () => {
 	const data = dataJson.Products;
 	try {
-		//  const data = (await axios(`http://localhost:5000/Products`)).data;
+		// const data = (await axios(`http://localhost:5000/Products`)).data;
 
 		const dataPromise = data.map(async el => {
 			const colors = await Colors.findAll({ where: { hex: el.color } });
