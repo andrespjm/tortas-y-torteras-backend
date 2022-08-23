@@ -1,6 +1,6 @@
 /* eslint-disable camelcase */
-import axios from 'axios';
 import { Colors } from '../models/Colors.js';
+import dataJson from '../db/torterasJSON.js';
 
 const getAllColors = async () => {
 	const colors = await Colors.findAll();
@@ -9,7 +9,7 @@ const getAllColors = async () => {
 };
 
 const setJsonColors = async () => {
-	const data = (await axios(`http://localhost:5000/Colors`)).data;
+	const data = dataJson.Colors;
 
 	const dataPromise = data.map(el => Colors.create(el));
 
