@@ -6,6 +6,7 @@ import purchases from './purchases.router.js';
 import stocks from './stocks.router.js';
 import orderItems from './orderItems.router.js';
 import productTypes from './productTypes.router.js';
+import review from './reviews.router.js';
 const router = Router();
 
 router.use('/products', products);
@@ -15,6 +16,7 @@ router.use('/purchases', purchases);
 router.use('/stocks', stocks);
 router.use('/orderItems', orderItems);
 router.use('/productTypes', productTypes);
+router.use('/review', review);
 router.use((_, res) => {
 	res.status(404).send('componenete por defecto');
 });

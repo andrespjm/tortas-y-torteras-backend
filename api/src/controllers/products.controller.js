@@ -1,5 +1,4 @@
 /* eslint-disable camelcase */
-// import axios from 'axios';
 import { Op } from 'sequelize';
 import { Colors } from '../models/Colors.js';
 import { Products } from '../models/Products.js';
@@ -235,8 +234,6 @@ const getDetailProducts = async id => {
 const setJsonProducts = async () => {
 	const data = dataJson.Products;
 	try {
-		// const data = (await axios(`http://localhost:5000/Products`)).data;
-
 		const dataPromise = data.map(async el => {
 			const colors = await Colors.findAll({ where: { hex: el.color } });
 			return Products.create({
@@ -270,8 +267,6 @@ const setJsonProducts = async () => {
 const setJsonProductTypes = async () => {
 	const data = dataJson.ProductType;
 	try {
-		// const data = (await axios(`http://localhost:5000/ProductType`)).data;
-
 		const dataPromise = data.map(el => ProductTypes.create(el));
 
 		await Promise.all(dataPromise);
