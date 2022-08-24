@@ -39,7 +39,7 @@ router.post('/signup', async (req, res) => {
 
 router.put('/user/:id', async (req, res) => {
 	const { id } = req.params;
-	const { name, lastname, email, password, birthDate, sex, identityCard } =
+	const { name, lastname, email, password, birthDate, gender, identityCard } =
 		req.body;
 	try {
 		const user = await updateUser(
@@ -49,7 +49,7 @@ router.put('/user/:id', async (req, res) => {
 			email,
 			password,
 			birthDate,
-			sex,
+			gender,
 			identityCard
 		);
 		res.status(200).send(user);
