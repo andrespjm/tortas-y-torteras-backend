@@ -34,11 +34,24 @@ export const Users = sequelize.define(
 			unique: true,
 			isEmail: { msg: 'Wrong email' },
 		},
+		birthDate: {
+			type: DataTypes.DATEONLY,
+		},
+		gender: {
+			type: DataTypes.ENUM('Male', 'Female', 'Other'),
+		},
+		identityCard: {
+			type: DataTypes.STRING,
+		},
 		password: DataTypes.STRING,
 	},
 	{
 		hooks: {
 			beforeCreate: async function (user) {
+				const salt = await bcrypt.genSalt(10); // any number you want
+				user.password = await bcrypt.hash(user.password, salt);
+			},
+			beforeUpdate: async function (user) {
 				const salt = await bcrypt.genSalt(10); // any number you want
 				user.password = await bcrypt.hash(user.password, salt);
 			},
