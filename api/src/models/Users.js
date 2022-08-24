@@ -37,7 +37,7 @@ export const Users = sequelize.define(
 		birthDate: {
 			type: DataTypes.DATEONLY,
 		},
-		sex: {
+		gender: {
 			type: DataTypes.ENUM('Male', 'Female', 'Other'),
 		},
 		identityCard: {
@@ -48,6 +48,10 @@ export const Users = sequelize.define(
 	{
 		hooks: {
 			beforeCreate: async function (user) {
+				const salt = await bcrypt.genSalt(10); // any number you want
+				user.password = await bcrypt.hash(user.password, salt);
+			},
+			beforeUpdate: async function (user) {
 				const salt = await bcrypt.genSalt(10); // any number you want
 				user.password = await bcrypt.hash(user.password, salt);
 			},
