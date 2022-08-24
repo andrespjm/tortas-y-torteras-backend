@@ -27,10 +27,22 @@ const updateUserEnabled = async (id, enabled) => {
 	return 'User updated';
 };
 
-const updateUser = async (id, name, lastname, email, password) => {
+const updateUser = async (
+	id,
+	name,
+	lastname,
+	email,
+	password,
+	birthDate,
+	sex,
+	identityCard
+) => {
 	const user = await Users.findOne({ where: { id } });
 	if (!user) throw new Error('User not found');
-	await Users.update({ name, lastname, email, password }, { where: { id } });
+	await Users.update(
+		{ name, lastname, email, password, birthDate, sex, identityCard },
+		{ where: { id } }
+	);
 	return 'User updated';
 };
 

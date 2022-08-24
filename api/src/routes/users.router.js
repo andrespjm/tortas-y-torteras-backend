@@ -39,9 +39,19 @@ router.post('/signup', async (req, res) => {
 
 router.put('/user/:id', async (req, res) => {
 	const { id } = req.params;
-	const { name, lastname, email, password } = req.body;
+	const { name, lastname, email, password, birthDate, sex, identityCard } =
+		req.body;
 	try {
-		const user = await updateUser(id, name, lastname, email, password);
+		const user = await updateUser(
+			id,
+			name,
+			lastname,
+			email,
+			password,
+			birthDate,
+			sex,
+			identityCard
+		);
 		res.status(200).send(user);
 	} catch (err) {
 		res.status(500).json({ error: err.message });

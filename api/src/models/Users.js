@@ -34,6 +34,15 @@ export const Users = sequelize.define(
 			unique: true,
 			isEmail: { msg: 'Wrong email' },
 		},
+		birthDate: {
+			type: DataTypes.DATEONLY,
+		},
+		sex: {
+			type: DataTypes.ENUM('Male', 'Female', 'Other'),
+		},
+		identityCard: {
+			type: DataTypes.STRING,
+		},
 		password: DataTypes.STRING,
 	},
 	{
