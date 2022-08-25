@@ -47,8 +47,8 @@ router.post('/:userId', async (req, res) => {
 		const purchaseData = req.body;
 		const purchase = await postPurchases(purchaseData, userId);
 		const purchaseMail = await getPurchases(userId); 	//	get info to send a mail
-		ejs.renderFile('../views/successfulPurchase', {purchaseMail}, (err, data) => {
-			if(err) throw new Error(err)
+		ejs.renderFile('../views/successfulPurchase.ejs', {purchaseMail}, (err, data) => {
+			if(err) console.log(err)
 			else{
 				sendMail(purchaseMail[0].User.email, 'Successful Purchase', data)
 			}
@@ -68,6 +68,14 @@ router.put('/:id', async (req, res) => {
 			.send(
 				await updatePurchase(id, status, shipmentCompany, shipmentTracking)
 			);
+			const purchaseMail = await getPurchases(id);
+			ejs.renderFile('../views/purchaseStatus.ejs', {purchaseMail}, (err, data) => {
+				if(err) console.log(err)
+				else{
+					sendMail(purchaseMail[0].User.email, 'Successful Purchase', data)
+				}
+			})
+
 	} catch (error) {
 		res.status(500).send(error.message);
 	}
