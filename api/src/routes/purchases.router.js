@@ -1,5 +1,6 @@
 /* eslint-disable camelcase */
 import { Router } from 'express';
+import ejs from 'ejs';
 import {
 	deletePurchase,
 	getPurchase,
@@ -7,6 +8,7 @@ import {
 	postPurchases,
 	updatePurchase,
 } from '../controllers/purchases.controller.js';
+import { sendMail } from '../nodemailer/sendMail.js';
 const router = Router();
 
 router.get('/', async (req, res) => {
@@ -44,6 +46,13 @@ router.post('/:userId', async (req, res) => {
 		const { userId } = req.params; 
 		const purchaseData = req.body;
 		const purchase = await postPurchases(purchaseData, userId);
+		const purchaseMail = await getPurchases(userId); 	//	get info to send a mail
+		ejs.renderFile('../views/successfulPurchase', {purchaseMail}, (err, data) => {
+			if(err) throw new Error(err)
+			else{
+				sendMail(purchaseMail[0].User.email, 'Successful Purchase', data)
+			}
+		})
 		res.status(200).send(purchase);
 	} catch (error) {
 		res.status(500).send(error.message);

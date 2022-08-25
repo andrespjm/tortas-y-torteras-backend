@@ -5,7 +5,6 @@ import dataJson from '../db/torterasJSON.js';
 import { Stocks } from '../models/Stocks.js';
 
 const getPurchases = async userId => {
-	console.log("entra")
 	if (userId) {
 		return await Purchases.findAll({ where: { UserId: userId }, include:[Users, Stocks]});
 	} else {
