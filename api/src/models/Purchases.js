@@ -12,30 +12,27 @@ export const Purchases = sequelize.define('Purchases', {
 	},
 	status: {
 		type: DataTypes.ENUM(
+			'Cart',
 			'Reserved',
 			'Paid',
 			'Manufacturing',
 			'Delivering',
 			'Received'
 		),
-		defaultValue: 'Reserved',
+		defaultValue: 'Cart',
 		allowNull: false,
 	},
 	phoneNumber: {
 		type: DataTypes.TEXT,
-		allowNull: false,
 	},
 	postalCode: {
 		type: DataTypes.STRING,
-		allowNull: false,
 	},
 	shippingAddressStreet: {
 		type: DataTypes.STRING,
-		allowNull: false,
 	},
 	shippingAddressNumber: {
 		type: DataTypes.INTEGER,
-		allowNull: false,
 	},
 	shipmentCompany: {
 		type: DataTypes.STRING,
@@ -56,3 +53,7 @@ Users.hasMany(Purchases);
 
 Stocks.belongsToMany(Purchases, { through: OrderItems });
 Purchases.belongsToMany(Stocks, { through: OrderItems });
+Purchases.hasMany(OrderItems);
+OrderItems.belongsTo(Purchases);
+Stocks.hasMany(OrderItems);
+OrderItems.belongsTo(Stocks);

@@ -12,6 +12,9 @@ export const Stocks = sequelize.define(
 		quantity: {
 			type: DataTypes.INTEGER,
 			allowNull: false,
+			validate: {
+				min: 0,
+			},
 		},
 		price: {
 			type: DataTypes.FLOAT,

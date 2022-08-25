@@ -6,15 +6,38 @@ import {
 	getPurchase,
 	getPurchases,
 	postPurchases,
-	updatePurchase,
+	getPurchasesData,
+	getPurchasesCart,
+	updatePurchaseCart,
+	updatePurchaseAdmin,
 } from '../controllers/purchases.controller.js';
 import { sendMail } from '../nodemailer/sendMail.js';
 const router = Router();
 
 router.get('/', async (req, res) => {
-	const { userId } = req.body;
+	const { userId } = req.query;
 	try {
 		const purchases = await getPurchases(userId);
+		res.status(200).send(purchases);
+	} catch (error) {
+		res.status(500).send(error.message);
+	}
+});
+
+router.get('/cart', async (req, res) => {
+	const { userId } = req.query;
+	try {
+		const purchases = await getPurchasesCart(userId);
+		res.status(200).send(purchases);
+	} catch (error) {
+		res.status(500).send(error.message);
+	}
+});
+
+router.get('/data', async (req, res) => {
+	const { userId } = req.query;
+	try {
+		const purchases = await getPurchasesData(userId);
 		res.status(200).send(purchases);
 	} catch (error) {
 		res.status(500).send(error.message);
@@ -59,6 +82,7 @@ router.post('/:userId', async (req, res) => {
 	}
 });
 
+// admin
 router.put('/:id', async (req, res) => {
 	const { id } = req.params;
 	const { status, shipmentCompany, shipmentTracking } = req.body;
@@ -66,7 +90,39 @@ router.put('/:id', async (req, res) => {
 		res
 			.status(200)
 			.send(
-				await updatePurchase(id, status, shipmentCompany, shipmentTracking)
+				await updatePurchaseAdmin(id, status, shipmentCompany, shipmentTracking)
+			);
+	} catch (error) {
+		res.status(500).send(error.message);
+	}
+});
+
+// cart
+router.put('/user/:id', async (req, res) => {
+	const { id } = req.params;
+	const {
+		status,
+		shipmentFee,
+		tax,
+		phoneNumber,
+		postalCode,
+		shippingAddressStreet,
+		shippingAddressNumber,
+	} = req.body;
+	try {
+		res
+			.status(200)
+			.send(
+				await updatePurchaseCart(
+					id,
+					status,
+					shipmentFee,
+					tax,
+					phoneNumber,
+					postalCode,
+					shippingAddressStreet,
+					shippingAddressNumber
+				)
 			);
 			const purchaseMail = await getPurchases(id);
 			ejs.renderFile('../views/purchaseStatus.ejs', {purchaseMail}, (err, data) => {

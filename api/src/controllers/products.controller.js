@@ -223,7 +223,7 @@ const getDetailProducts = async id => {
 			{
 				model: ProductTypes,
 				attributes: ['name', 'diameter'],
-				through: { attributes: ['quantity', 'price'] },
+				through: { attributes: ['quantity', 'price', 'id'] },
 			},
 		],
 	});

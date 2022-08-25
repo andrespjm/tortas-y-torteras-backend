@@ -9,7 +9,7 @@ import {
 const router = Router();
 
 router.get('/', async (req, res) => {
-	const data = req.body;
+	const data = req.query;
 	try {
 		const stock = await getStock(data);
 		res.status(200).send(stock);
