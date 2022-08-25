@@ -2,13 +2,39 @@
 import { Purchases } from '../models/Purchases.js';
 import { Users } from '../models/Users.js';
 import dataJson from '../db/torterasJSON.js';
+import { Op } from 'sequelize';
 
 const getPurchases = async userId => {
 	if (userId) {
-		return await Purchases.findAll({ where: { UserId: userId } });
+		return await Purchases.findAll({
+			where: { UserId: userId },
+			order: [['createdAt', 'DESC']],
+		});
 	} else {
-		return await Purchases.findAll();
+		return await Purchases.findAll({
+			order: [['createdAt', 'DESC']],
+		});
 	}
+};
+
+const getPurchasesCart = async userId => {
+	return await Purchases.findAll({
+		where: {
+			UserId: userId,
+			status: 'Cart',
+		},
+		order: [['createdAt', 'DESC']],
+	});
+};
+
+const getPurchasesData = async userId => {
+	return await Purchases.findAll({
+		where: {
+			UserId: userId,
+			phoneNumber: { [Op.not]: null },
+		},
+		order: [['createdAt', 'DESC']],
+	});
 };
 
 const getPurchase = async id => {
@@ -30,7 +56,7 @@ const postPurchases = async (purchaseData, userId) => {
 	return purchase;
 };
 
-const updatePurchase = async (
+const updatePurchaseAdmin = async (
 	id,
 	status,
 	shipmentCompany,
@@ -45,6 +71,38 @@ const updatePurchase = async (
 				status,
 				shipmentCompany,
 				shipmentTracking,
+			},
+			{
+				where: { id },
+			}
+		);
+	}
+	return 'Purchase udated';
+};
+
+const updatePurchaseCart = async (
+	id,
+	status,
+	shipmentFee,
+	tax,
+	phoneNumber,
+	postalCode,
+	shippingAddressStreet,
+	shippingAddressNumber
+) => {
+	const purchase = await Purchases.findOne({ where: { id } });
+	if (!purchase) {
+		throw new Error('Purchase order not found');
+	} else {
+		await Purchases.update(
+			{
+				status,
+				shipmentFee,
+				tax,
+				phoneNumber,
+				postalCode,
+				shippingAddressStreet,
+				shippingAddressNumber,
 			},
 			{
 				where: { id },
@@ -73,5 +131,8 @@ export {
 	postPurchases,
 	getPurchase,
 	deletePurchase,
-	updatePurchase,
+	updatePurchaseAdmin,
+	updatePurchaseCart,
+	getPurchasesData,
+	getPurchasesCart,
 };
