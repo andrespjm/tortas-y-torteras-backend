@@ -1,4 +1,5 @@
 import { Users } from '../models/Users.js';
+import { Purchases } from '../models/Purchases.js';
 import dataJson from '../db/torterasJSON.js';
 /**
  *
@@ -16,7 +17,7 @@ const getUsers = async () => {
 };
 
 const getUsersId = async id => {
-	const user = await Users.findOne({ where: { id } });
+	const user = await Users.findOne({ where: { id }, include: [Purchases]});
 	return user;
 };
 
