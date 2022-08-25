@@ -661,5 +661,61 @@ export default JSON.parse(
 				},
 			},
 		],
+		Reviews: [
+			{
+				comments: 'excellent product',
+				score: 0,
+				productId: 1,
+				userId: 1,
+			},
+			{
+				comments: 'excellent product2',
+				score: 2,
+				productId: 1,
+				userId: 2,
+			},
+			{
+				comments: 'excellent product3',
+				score: 4,
+				productId: 1,
+				userId: 3,
+			},
+			{
+				comments: 'excellent product',
+				score: 1,
+				productId: 2,
+				userId: 1,
+			},
+			{
+				comments: 'excellent product2',
+				score: 2,
+				productId: 2,
+				userId: 2,
+			},
+			{
+				comments: 'excellent product3',
+				score: 4,
+				productId: 2,
+				userId: 3,
+			},
+			{
+				comments: 'excellent product',
+				score: 4,
+				productId: 3,
+				userId: 1,
+			},
+			{
+				comments: 'excellent product2',
+				score: 5,
+				productId: 3,
+				userId: 2,
+			},
+			{
+				comments: 'excellent product3',
+				score: 4,
+				productId: 3,
+				userId: 3,
+			},
+		],
 	})
 );
