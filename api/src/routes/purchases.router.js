@@ -41,7 +41,7 @@ router.delete('/:id', async (req, res) => {
 
 router.post('/:userId', async (req, res) => {
 	try {
-		const { userId } = req.params;
+		const { userId } = req.params; 
 		const purchaseData = req.body;
 		const purchase = await postPurchases(purchaseData, userId);
 		res.status(200).send(purchase);
