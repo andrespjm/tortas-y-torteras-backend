@@ -3,17 +3,22 @@ import { Purchases } from '../models/Purchases.js';
 import { Users } from '../models/Users.js';
 import dataJson from '../db/torterasJSON.js';
 import { Op } from 'sequelize';
+import { Stocks } from '../models/Stocks.js';
+
 
 const getPurchases = async userId => {
 	if (userId) {
 		return await Purchases.findAll({
 			where: { UserId: userId },
 			order: [['createdAt', 'DESC']],
+			include:[Users, Stocks]
 		});
 	} else {
 		return await Purchases.findAll({
 			order: [['createdAt', 'DESC']],
+			include:[Users, Stocks]
 		});
+
 	}
 };
 

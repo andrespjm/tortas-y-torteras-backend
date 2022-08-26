@@ -1,5 +1,6 @@
 import { Users } from '../models/Users.js';
 import dataJson from '../db/torterasJSON.js';
+
 /**
  *
  * @param {name, lastname, email, password} data
@@ -16,7 +17,7 @@ const getUsers = async () => {
 };
 
 const getUsersId = async id => {
-	const user = await Users.findOne({ where: { id } });
+	const user = await Users.findOne({ where: { id }});
 	return user;
 };
 
