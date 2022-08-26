@@ -32,7 +32,7 @@ const updateUser = async (
 	id,
 	name,
 	lastname,
-	email,
+	typeIdentityCard,
 	password,
 	birthDate,
 	gender,
@@ -41,7 +41,15 @@ const updateUser = async (
 	const user = await Users.findOne({ where: { id } });
 	if (!user) throw new Error('User not found');
 	await Users.update(
-		{ name, lastname, email, password, birthDate, gender, identityCard },
+		{
+			name,
+			lastname,
+			typeIdentityCard,
+			password,
+			birthDate,
+			gender,
+			identityCard,
+		},
 		{ where: { id } }
 	);
 	return 'User updated';
