@@ -44,6 +44,9 @@ export const Users = sequelize.define(
 			type: DataTypes.STRING,
 		},
 		password: DataTypes.STRING,
+		typeIdentityCard: {
+			type: DataTypes.STRING,
+		},
 	},
 	{
 		hooks: {
