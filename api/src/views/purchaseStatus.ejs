@@ -8,7 +8,24 @@
 </head>
 <body>
     
-    <%= purchaseMail[0].%>
+    <h2>Purchase Status</h2>
+    <p>Hi, <%= purchaseMail[0].User.name %>, your purchase status is:</p>
+    <table>
+        <tr>
+            <th>Product Type</th>
+            <th>Price</th>
+            <th>Status</th>
+
+        </tr>
+        <tr>
+            <td><%= purchaseMail[0].Stocks[0].ProductTypeName %></td>
+            <td><%= purchaseMail[0].Stocks[0].price %></td>
+            <td><%= purchaseMail[0].status %></td>
+        </tr>
+
+
+    </table>
+    
     
 </body>
 </html>
