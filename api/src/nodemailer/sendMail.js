@@ -1,4 +1,4 @@
-import { transporter } from "./transporter";
+import { transporter } from "./transporter.js";
 import 'dotenv/config'
 
 const {MAIL_FROM, GMAIL_PASSWORD} = process.env;
