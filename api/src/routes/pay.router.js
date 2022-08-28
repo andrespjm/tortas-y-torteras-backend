@@ -15,9 +15,8 @@ router.post('/', async (req, res) => {
 		const preference = {
 			items,
 			back_urls: {
-				success: 'http://127.0.0.1:5173/home',
-				failure: 'http://127.0.0.1:5173/home',
-				pending: 'http://127.0.0.1:5173/home',
+				success: 'http://localhost:5173/paysuccess',
+				failure: 'http://localhost:5173/payfailure',
 			},
 			auto_return: 'approved',
 		};
