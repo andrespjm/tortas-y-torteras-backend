@@ -731,10 +731,10 @@ export default JSON.parse(
 			},
 			{
 				data: {
-					status: 'Received',
-					phoneNumber: '3516252000',
+					status: 'Paid',
+					phoneNumber: '3516252960',
 					postalCode: '5000',
-					shippingAddressStreet: 'San Martin',
+					shippingAddressStreet: 'Catamarca',
 					shippingAddressNumber: '500',
 					shipmentFee: '8',
 					tax: '13',
@@ -746,7 +746,7 @@ export default JSON.parse(
 					displayName: 'Ana Martinez',
 					birthDate: '1960/10/15',
 					gender: 'Female',
-					email: 'anamartinez@gmail.com',
+					email: 'eugeniavogt@yahoo.com.ar',
 					identityCard: '11252155',
 					profilePicture:
 						'https://img.freepik.com/vector-premium/dibujos-animados-perfil-mujer_18591-58475.jpg?w=740',

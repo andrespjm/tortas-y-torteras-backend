@@ -10,6 +10,8 @@ import {
 	updatePurchaseCart,
 	updatePurchaseAdmin,
 } from '../controllers/purchases.controller.js';
+import { getUsersId } from '../controllers/users.controller.js';
+import { sendMail } from '../nodemailer/sendMail.js';
 
 const router = Router();
 
@@ -80,11 +82,23 @@ router.put('/:id', async (req, res) => {
 	const { id } = req.params;
 	const { status, shipmentCompany, shipmentTracking } = req.body;
 	try {
-		res
-			.status(200)
-			.send(
-				await updatePurchaseAdmin(id, status, shipmentCompany, shipmentTracking)
-			);
+		const purchase = await getPurchase(id);
+		const user = await getUsersId(purchase.UserId);
+		const { email, firstName } = user;
+
+		await updatePurchaseAdmin(id, status, shipmentCompany, shipmentTracking);
+
+		res.render(
+			'shippedPurchase',
+			{ email, id, firstName, shipmentCompany, shipmentTracking },
+			(err, data) => {
+				if (err) console.log(err);
+				else {
+					sendMail(email, 'Your purchase was shipped', data);
+				}
+			}
+		);
+		res.status(200).send(purchase);
 	} catch (error) {
 		res.status(500).send(error.message);
 	}
