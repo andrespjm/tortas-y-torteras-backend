@@ -6,7 +6,7 @@ const REGEX = /^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$/;
 export const Users = sequelize.define(
 	'Users',
 	{
-		uid: {
+		id: {
 			type: DataTypes.STRING,
 			primaryKey: true,
 		},
@@ -39,7 +39,7 @@ export const Users = sequelize.define(
 			isEmail: { msg: 'Wrong email' },
 		},
 		birthDate: {
-			type: DataTypes.DATEONLY,
+			type: DataTypes.DATE,
 		},
 		gender: {
 			type: DataTypes.ENUM('Male', 'Female', 'Other'),
