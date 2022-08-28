@@ -4,21 +4,20 @@ import { Users } from '../models/Users.js';
 import dataJson from '../db/torterasJSON.js';
 import { Op } from 'sequelize';
 import { Stocks } from '../models/Stocks.js';
-
+import { OrderItems } from '../models/OrderItems.js';
 
 const getPurchases = async userId => {
 	if (userId) {
 		return await Purchases.findAll({
 			where: { UserId: userId },
 			order: [['createdAt', 'DESC']],
-			include:[Users, Stocks]
+			include: [Users, Stocks],
 		});
 	} else {
 		return await Purchases.findAll({
 			order: [['createdAt', 'DESC']],
-			include:[Users, Stocks]
+			include: [Users, Stocks],
 		});
-
 	}
 };
 
@@ -122,9 +121,22 @@ const setJsonPurchases = async () => {
 
 	const dataPromise = data.map(async el => {
 		const user = await Users.create(el.user);
-		return Purchases.create(el.data).then(data => data.setUser(user.id));
+		const purchase = await Purchases.create(el.data).then(data =>
+			data.setUser(user.id)
+		);
+		const id = purchase.id;
+		await Promise.all(
+			el.items.map(el =>
+				OrderItems.create({
+					StockId: el.StockId,
+					quantity: el.quantity,
+					PurchaseId: id,
+					price: el.price,
+					confirmed: el.confirmed,
+				})
+			)
+		);
 	});
-
 	await Promise.all(dataPromise);
 
 	return 'purchases loaded';

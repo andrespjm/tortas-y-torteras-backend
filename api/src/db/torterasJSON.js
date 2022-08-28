@@ -636,6 +636,19 @@ export default JSON.parse(
 					'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuuFvao09URaTtpuV_9bVgTvlLplF7BJ4yIg&usqp=CAU',
 				processCompleted: true,
 			},
+			{
+				id: 'f3fb880b-cbd8-4e90-bf7d-bfec23e8246b',
+				firstName: 'Maria',
+				lastName: 'Smith',
+				displayName: 'Maria Smith',
+				birthDate: '1975/06/20',
+				gender: 'Female',
+				email: 'mariasmith@gmail.com',
+				identityCard: '2525255',
+				profilePicture:
+					'https://w7.pngwing.com/pngs/295/312/png-transparent-old-people-white-haired-old-man-grandmother-old-lady-thumbnail.png',
+				processCompleted: true,
+			},
 		],
 		Purchases: [
 			{
@@ -645,9 +658,8 @@ export default JSON.parse(
 					postalCode: '5000',
 					shippingAddressStreet: 'San Martin',
 					shippingAddressNumber: '500',
-					shipmentCompany: 'DHL',
-					shipmentTracking: 'COL252555W',
 					shipmentFee: '5.2',
+					tax: '9',
 				},
 				user: {
 					id: '58ba8def-27f7-4844-b842-f5549957306a',
@@ -662,10 +674,24 @@ export default JSON.parse(
 						'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0LXna6Rb-JuPRNbErgsXjMcn2SM9sfsI8J7060hnLjw&s',
 					processCompleted: true,
 				},
+				items: [
+					{
+						quantity: 3,
+						price: 70,
+						confirmed: true,
+						StockId: 4,
+					},
+					{
+						quantity: 1,
+						price: 50,
+						confirmed: true,
+						StockId: 3,
+					},
+				],
 			},
 			{
 				data: {
-					status: 'Manufacturing',
+					status: 'Received',
 					phoneNumber: '3516252000',
 					postalCode: '5000',
 					shippingAddressStreet: 'Buenos Aires',
@@ -673,6 +699,7 @@ export default JSON.parse(
 					shipmentCompany: 'DHL',
 					shipmentTracking: 'COL252585W',
 					shipmentFee: '5.2',
+					tax: '9',
 				},
 				user: {
 					id: 'f61ecd2d-91af-46dd-852b-71ca561108f6',
@@ -687,6 +714,58 @@ export default JSON.parse(
 						'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRAS2FyUkuT0-9fbp8z89BSKEoMANFKFqImg&usqp=CAU',
 					processCompleted: true,
 				},
+				items: [
+					{
+						quantity: 1,
+						price: 70,
+						confirmed: true,
+						StockId: 2,
+					},
+					{
+						quantity: 2,
+						price: 50,
+						confirmed: true,
+						StockId: 1,
+					},
+				],
+			},
+			{
+				data: {
+					status: 'Received',
+					phoneNumber: '3516252000',
+					postalCode: '5000',
+					shippingAddressStreet: 'San Martin',
+					shippingAddressNumber: '500',
+					shipmentFee: '8',
+					tax: '13',
+				},
+				user: {
+					id: '34405bbb-8541-47d0-b288-d7dd2056c121',
+					firstName: 'Ana',
+					lastName: 'Martinez',
+					displayName: 'Ana Martinez',
+					birthDate: '1960/10/15',
+					gender: 'Female',
+					email: 'anamartinez@gmail.com',
+					identityCard: '11252155',
+					profilePicture:
+						'https://img.freepik.com/vector-premium/dibujos-animados-perfil-mujer_18591-58475.jpg?w=740',
+					processCompleted: true,
+				},
+				items: [
+					{
+						quantity: 1,
+						price: 70,
+						confirmed: true,
+						StockId: 8,
+					},
+					{
+						quantity: 1,
+						price: 50,
+						confirmed: true,
+						StockId: 13,
+					},
+				],
 			},
 		],
 		Reviews: [
