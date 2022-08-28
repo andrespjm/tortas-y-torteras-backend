@@ -70,4 +70,13 @@ const deleteStock = async id => {
 	return 'Stock deleted';
 };
 
-export { getStock, createStock, updateStock, deleteStock };
+const applyPurchaseStock = async (quantity, stockId) => {
+	Stocks.decrement('quantity', {
+		by: quantity,
+		where: {
+			id: stockId,
+		},
+	});
+};
+
+export { getStock, createStock, updateStock, deleteStock, applyPurchaseStock };

@@ -111,6 +111,17 @@ const addItem = async (num, id) => {
 	return 'Product added';
 };
 
+const changeOrderItemStatus = async orderId => {
+	OrderItems.update(
+		{
+			confirmed: true,
+		},
+		{
+			where: { PurchaseId: orderId },
+		}
+	);
+};
+
 const removeItem = async id => {
 	OrderItems.decrement('quantity', {
 		by: 1,
@@ -131,4 +142,5 @@ export {
 	createOrderItemsConfirmed,
 	deleteOrderItemsConfirmed,
 	deleteItemsFromPurchase,
+	changeOrderItemStatus,
 };

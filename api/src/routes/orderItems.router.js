@@ -8,6 +8,7 @@ import {
 	deleteOrderItemsConfirmed,
 	removeItem,
 	deleteItemsFromPurchase,
+	changeOrderItemStatus,
 } from '../controllers/orderItems.controller.js';
 const router = Router();
 
@@ -56,6 +57,16 @@ router.put('/add', async (req, res) => {
 	try {
 		await addItem(num, id);
 		res.status(200).send('Products added');
+	} catch (error) {
+		res.status(500).send(error.message);
+	}
+});
+
+router.put('/confirmed', async (req, res) => {
+	const { orderId } = req.body;
+	try {
+		await changeOrderItemStatus(orderId);
+		res.status(200).send('Order items confirmed');
 	} catch (error) {
 		res.status(500).send(error.message);
 	}
