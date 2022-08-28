@@ -611,7 +611,7 @@ export default JSON.parse(
 		],
 		Users: [
 			{
-				uid: '2e36407e-f111-434b-a0ba-82284c102e7c',
+				id: '2e36407e-f111-434b-a0ba-82284c102e7c',
 				firstName: 'Juan',
 				lastName: 'Perez',
 				displayName: 'Juan Perez',
@@ -624,7 +624,7 @@ export default JSON.parse(
 				processCompleted: true,
 			},
 			{
-				uid: 'b94011bb-fdb7-4b06-ba02-552c2199c1f1',
+				id: 'b94011bb-fdb7-4b06-ba02-552c2199c1f1',
 				firstName: 'Marcos',
 				lastName: 'Sosa',
 				displayName: 'Marcos Sosa',
@@ -650,7 +650,7 @@ export default JSON.parse(
 					shipmentFee: '5.2',
 				},
 				user: {
-					uid: '58ba8def-27f7-4844-b842-f5549957306a',
+					id: '58ba8def-27f7-4844-b842-f5549957306a',
 					firstName: 'Henry',
 					lastName: 'Coins',
 					displayName: 'Henry Coins',
@@ -675,7 +675,7 @@ export default JSON.parse(
 					shipmentFee: '5.2',
 				},
 				user: {
-					uid: 'f61ecd2d-91af-46dd-852b-71ca561108f6',
+					id: 'f61ecd2d-91af-46dd-852b-71ca561108f6',
 					firstName: 'Georgeous',
 					lastName: 'Papadopulous',
 					displayName: 'Georgeous Papadopulous',
