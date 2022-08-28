@@ -1,4 +1,4 @@
-import bcrypt from 'bcrypt';
+// import bcrypt from 'bcrypt';
 import { DataTypes } from 'sequelize';
 import { sequelize } from '../db/database.js';
 const REGEX = /^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$/;
@@ -6,28 +6,32 @@ const REGEX = /^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$/;
 export const Users = sequelize.define(
 	'Users',
 	{
-		id: {
-			type: DataTypes.INTEGER,
+		uid: {
+			type: DataTypes.STRING,
 			primaryKey: true,
-			autoIncrement: true,
 		},
-		name: {
+		firstName: {
 			type: DataTypes.STRING,
 			allowNull: false,
 			validate: {
 				is: REGEX,
 			},
 		},
-		lastname: {
+		lastName: {
 			type: DataTypes.STRING,
 			allowNull: false,
 			validate: {
 				is: REGEX,
 			},
 		},
-		enabled: {
+		displayName: {
+			type: DataTypes.STRING,
+			allowNull: false,
+		},
+		// logic erase
+		disabled: {
 			type: DataTypes.BOOLEAN,
-			defaultValue: true,
+			defaultValue: false,
 		},
 		email: {
 			type: DataTypes.STRING,
@@ -43,25 +47,33 @@ export const Users = sequelize.define(
 		identityCard: {
 			type: DataTypes.STRING,
 		},
-		password: DataTypes.STRING,
-		typeIdentityCard: {
+		profilePicture: {
 			type: DataTypes.STRING,
 		},
-	},
-	{
-		hooks: {
-			beforeCreate: async function (user) {
-				const salt = await bcrypt.genSalt(10); // any number you want
-				user.password = await bcrypt.hash(user.password, salt);
-			},
-			beforeUpdate: async function (user) {
-				const salt = await bcrypt.genSalt(10); // any number you want
-				user.password = await bcrypt.hash(user.password, salt);
-			},
+		processCompleted: {
+			type: DataTypes.BOOLEAN,
 		},
+		// password: DataTypes.STRING,
+		// typeIdentityCard: {
+		// 	type: DataTypes.STRING,
+		// },
 	}
+	// ,
+
+	// {
+	// 	hooks: {
+	// 		beforeCreate: async function (user) {
+	// 			const salt = await bcrypt.genSalt(10); // any number you want
+	// 			user.password = await bcrypt.hash(user.password, salt);
+	// 		},
+	// 		beforeUpdate: async function (user) {
+	// 			const salt = await bcrypt.genSalt(10); // any number you want
+	// 			user.password = await bcrypt.hash(user.password, salt);
+	// 		},
+	// 	},
+	// }
 );
 
-Users.prototype.validPassword = async function (password) {
-	return await bcrypt.compare(password, this.password);
-};
+// Users.prototype.validPassword = async function (password) {
+// 	return await bcrypt.compare(password, this.password);
+// };
