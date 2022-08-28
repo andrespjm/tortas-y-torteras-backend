@@ -1,5 +1,5 @@
-import { Users } from '../models/Users.js';
 import dataJson from '../db/torterasJSON.js';
+import { Users } from '../models/Users.js';
 
 // /**
 //  *
@@ -17,7 +17,7 @@ const getUsers = async () => {
 };
 
 const getUsersId = async id => {
-	const user = await Users.findOne({ where: { id }});
+	const user = await Users.findOne({ where: { id } });
 	return user;
 };
 
@@ -28,30 +28,11 @@ const updateUserEnabled = async (id, enabled) => {
 	return 'User updated';
 };
 
-const updateUser = async (
-	id,
-	name,
-	lastname,
-	typeIdentityCard,
-	password,
-	birthDate,
-	gender,
-	identityCard
-) => {
+const updateUser = async (id, data) => {
+	console.log(data);
 	const user = await Users.findOne({ where: { id } });
 	if (!user) throw new Error('User not found');
-	await Users.update(
-		{
-			name,
-			lastname,
-			typeIdentityCard,
-			password,
-			birthDate,
-			gender,
-			identityCard,
-		},
-		{ where: { id } }
-	);
+	await Users.update(data, { where: { id } });
 	return 'User updated';
 };
 
