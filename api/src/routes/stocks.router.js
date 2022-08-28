@@ -5,6 +5,7 @@ import {
 	createStock,
 	deleteStock,
 	updateStock,
+	applyPurchaseStock,
 } from '../controllers/stocks.controller.js';
 const router = Router();
 
@@ -34,6 +35,16 @@ router.post('/', async (req, res) => {
 		);
 
 		res.status(200).send(stock);
+	} catch (error) {
+		res.status(500).send(error.message);
+	}
+});
+
+router.put('/apply', async (req, res) => {
+	const { quantity, stockId } = req.body;
+	try {
+		await applyPurchaseStock(quantity, stockId);
+		res.status(200).send('stock applied');
 	} catch (error) {
 		res.status(500).send(error.message);
 	}
