@@ -1,10 +1,10 @@
 import { Router } from 'express';
 import {
-	signUp,
 	getUsers,
 	getUsersId,
-	updateUserEnabled,
+	signUp,
 	updateUser,
+	updateUserEnabled,
 } from '../controllers/users.controller.js';
 
 const router = Router();
@@ -39,28 +39,10 @@ router.post('/signup', async (req, res) => {
 
 router.put('/user/:id', async (req, res) => {
 	const { id } = req.params;
-	const {
-		name,
-		lastname,
-		email,
-		password,
-		birthDate,
-		gender,
-		identityCard,
-		typeIdentityCard,
-	} = req.body;
+	const data = req.body;
+	delete data.id;
 	try {
-		const user = await updateUser(
-			id,
-			name,
-			lastname,
-			email,
-			password,
-			birthDate,
-			gender,
-			identityCard,
-			typeIdentityCard
-		);
+		const user = await updateUser(id, data);
 		res.status(200).send(user);
 	} catch (err) {
 		res.status(500).json({ error: err.message });

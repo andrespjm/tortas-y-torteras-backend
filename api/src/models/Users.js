@@ -12,14 +12,14 @@ export const Users = sequelize.define(
 		},
 		firstName: {
 			type: DataTypes.STRING,
-			allowNull: false,
+			// allowNull: false,
 			validate: {
 				is: REGEX,
 			},
 		},
 		lastName: {
 			type: DataTypes.STRING,
-			allowNull: false,
+			// allowNull: false,
 			validate: {
 				is: REGEX,
 			},
@@ -52,6 +52,7 @@ export const Users = sequelize.define(
 		},
 		processCompleted: {
 			type: DataTypes.BOOLEAN,
+			defaultValue: false,
 		},
 		// password: DataTypes.STRING,
 		// typeIdentityCard: {
