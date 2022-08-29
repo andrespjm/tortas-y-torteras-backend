@@ -1,6 +1,6 @@
 import { Router } from 'express';
 import mercadopago from 'mercadopago';
-const { ACCESS_TOKEN } = process.env;
+const { ACCESS_TOKEN, HTTP_LOCAL } = process.env;
 mercadopago.configure({
 	access_token: ACCESS_TOKEN,
 });
@@ -15,8 +15,12 @@ router.post('/', async (req, res) => {
 		const preference = {
 			items,
 			back_urls: {
-				success: 'http://localhost:5173/paysuccess',
-				failure: 'http://localhost:5173/payfailure',
+				success:
+					HTTP_LOCAL + '/paysuccess' ||
+					'https://cakes-and-bases.vercel.app/paysuccess',
+				failure:
+					HTTP_LOCAL + '/payfailure' ||
+					'https://cakes-and-bases.vercel.app/payfailure',
 			},
 			auto_return: 'approved',
 		};

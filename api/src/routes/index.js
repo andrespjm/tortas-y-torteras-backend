@@ -22,7 +22,7 @@ router.use('/product-types', productTypes);
 router.use('/pay', pay);
 router.use('/mails', mails);
 router.use((_, res) => {
-	res.status(404).send('componenete por defecto');
+	res.status(404).send('componente por defecto');
 });
 
 export default router;
