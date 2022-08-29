@@ -668,7 +668,7 @@ export default JSON.parse(
 					displayName: 'Henry Coins',
 					birthDate: '2000/05/22',
 					gender: 'Male',
-					email: 'hola@mundo.com',
+					email: 'eugeniavogt@yahoo.com.ar',
 					identityCard: '20252155',
 					profilePicture:
 						'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0LXna6Rb-JuPRNbErgsXjMcn2SM9sfsI8J7060hnLjw&s',
