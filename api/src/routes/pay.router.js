@@ -41,5 +41,6 @@ router.get('/feedback', function (req, res) {
 		MerchantOrder: req.query.merchant_order_id,
 	});
 });
+console.log('pull');
 
 export default router;
