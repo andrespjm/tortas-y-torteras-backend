@@ -16,11 +16,13 @@ router.post('/', async (req, res) => {
 			items,
 			back_urls: {
 				success:
-					HTTP_LOCAL + '/paysuccess' ||
-					'https://cakes-and-bases.vercel.app/paysuccess',
+					process.env.NODE_ENV === 'production'
+						? 'https://cakes-and-bases.vercel.app/paysuccess'
+						: HTTP_LOCAL + '/paysuccess',
 				failure:
-					HTTP_LOCAL + '/payfailure' ||
-					'https://cakes-and-bases.vercel.app/payfailure',
+					process.env.NODE_ENV === 'production'
+						? 'https://cakes-and-bases.vercel.app/payfailure'
+						: HTTP_LOCAL + '/payfailure',
 			},
 			auto_return: 'approved',
 		};
