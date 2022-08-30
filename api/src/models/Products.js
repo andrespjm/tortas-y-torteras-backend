@@ -16,7 +16,7 @@ export const Products = sequelize.define(
 		name: {
 			type: DataTypes.STRING,
 			allowNull: false,
-			unique: true,
+			// unique: true,
 		},
 		description: {
 			type: DataTypes.STRING,
