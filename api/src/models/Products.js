@@ -9,9 +9,10 @@ export const Products = sequelize.define(
 	'Products',
 	{
 		id: {
-			type: DataTypes.UUID,
+			type: DataTypes.INTEGER,
 			primaryKey: true,
-			defaultValue: DataTypes.UUIDV4,
+			autoIncrement: true,
+			// defaultValue: DataTypes.UUIDV4,
 		},
 		name: {
 			type: DataTypes.STRING,
