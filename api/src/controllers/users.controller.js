@@ -1,5 +1,7 @@
 import dataJson from '../db/torterasJSON.js';
 import { Users } from '../models/Users.js';
+import { Purchases } from '../models/Purchases.js';
+import { OrderItems } from '../models/OrderItems.js';
 
 // /**
 //  *
@@ -18,6 +20,25 @@ const getUsers = async () => {
 
 const getUsersId = async id => {
 	const user = await Users.findOne({ where: { id } });
+	return user;
+};
+
+const getUserPurchases = async id => {
+	const user = await Users.findOne({
+		where: {
+			id,
+		},
+		include: [
+			{
+				model: Purchases,
+				include: [
+					{
+						model: OrderItems,
+					},
+				],
+			},
+		],
+	});
 	return user;
 };
 
@@ -53,4 +74,5 @@ export {
 	getUsersId,
 	updateUserEnabled,
 	updateUser,
+	getUserPurchases,
 };

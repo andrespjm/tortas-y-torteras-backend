@@ -1,5 +1,6 @@
 import { Router } from 'express';
 import {
+	getUserPurchases,
 	getUsers,
 	getUsersId,
 	signUp,
@@ -22,6 +23,16 @@ router.get('/:id', async (req, res) => {
 	const { id } = req.params;
 	try {
 		const user = await getUsersId(id);
+		res.status(200).send(user);
+	} catch (err) {
+		res.status(500).json({ error: err.message });
+	}
+});
+
+router.get('/purchases/:id', async (req, res) => {
+	const { id } = req.params;
+	try {
+		const user = await getUserPurchases(id);
 		res.status(200).send(user);
 	} catch (err) {
 		res.status(500).json({ error: err.message });
