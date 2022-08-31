@@ -7,7 +7,7 @@ const productReview = async productId => {
 		include: {
 			model: Users,
 			as: 'user',
-			attributes: ['name', 'lastname'],
+			attributes: ['firstName', 'lastName'],
 		},
 	});
 };
@@ -17,7 +17,7 @@ const allReview = async () => {
 		include: {
 			model: Users,
 			as: 'user',
-			attributes: ['name', 'lastname'],
+			attributes: ['firstName', 'lastName'],
 		},
 	});
 };
@@ -43,13 +43,16 @@ const averageProductScore = async productId => {
 		attributes: ['score'],
 	});
 	const sumScore = allScore.map(e => e.score).reduce((a, b) => a + b, 0);
-	const averageScore = sumScore / allScore.length;
-	return averageScore.toFixed(1);
+	const averageScore = (sumScore / allScore.length).toFixed(1);
+	const data = {
+		averageScore,
+		numberRevisions: allScore.length,
+	};
+	return data;
 };
 
 const setJsonReviews = async () => {
 	const data = dataJson.Reviews;
-	console.log(data);
 	data.map(
 		async e =>
 			await Reviews.create({
