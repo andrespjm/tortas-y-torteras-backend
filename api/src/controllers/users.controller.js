@@ -2,6 +2,8 @@ import dataJson from '../db/torterasJSON.js';
 import { Users } from '../models/Users.js';
 import { Purchases } from '../models/Purchases.js';
 import { OrderItems } from '../models/OrderItems.js';
+import { Stocks } from '../models/Stocks.js';
+import { Products } from '../models/Products.js';
 
 // /**
 //  *
@@ -34,6 +36,16 @@ const getUserPurchases = async id => {
 				include: [
 					{
 						model: OrderItems,
+						include: [
+							{
+								model: Stocks,
+								include: [
+									{
+										model: Products,
+									},
+								],
+							},
+						],
 					},
 				],
 			},
@@ -41,6 +53,8 @@ const getUserPurchases = async id => {
 	});
 	return user;
 };
+
+// , include: [{ model: Products }]
 
 const updateUserEnabled = async (id, enabled) => {
 	const user = await Users.findOne({ where: { id } });
