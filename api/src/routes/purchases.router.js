@@ -88,16 +88,26 @@ router.put('/:id', async (req, res) => {
 
 		await updatePurchaseAdmin(id, status, shipmentCompany, shipmentTracking);
 
-		res.render(
-			'shippedPurchase',
-			{ email, id, firstName, shipmentCompany, shipmentTracking },
-			(err, data) => {
+		status === 'Delivering' &&
+			res.render(
+				'shippedPurchase',
+				{ email, id, firstName, shipmentCompany, shipmentTracking },
+				(err, data) => {
+					if (err) console.log(err);
+					else {
+						sendMail(email, 'Your purchase was shipped', data);
+					}
+				}
+			);
+
+		status === 'Received' &&
+			res.render('receivedPurchase', { email, id, firstName }, (err, data) => {
 				if (err) console.log(err);
 				else {
-					sendMail(email, 'Your purchase was shipped', data);
+					sendMail(email, 'Your purchase was received', data);
 				}
-			}
-		);
+			});
+
 		res.status(200).send(purchase);
 	} catch (error) {
 		res.status(500).send(error.message);

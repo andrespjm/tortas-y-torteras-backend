@@ -5993,8 +5993,95 @@ export default JSON.parse(
 					'https://lh3.googleusercontent.com/a-/AFdZucp1NB3GkEe85mi1qV3WizR_mtEWbRMo4Y7z8P8T=s96-c',
 				processCompleted: true,
 			},
+			{
+				id: '58ba8def-27f7-4844-b842-f5549957306a',
+				firstName: 'Henry',
+				lastName: 'Coins',
+				displayName: 'Henry Coins',
+				birthDate: '2000/05/22',
+				gender: 'Male',
+				email: 'eugeniavogt@yahoo.com.ar',
+				identityCard: '20252155',
+				profilePicture:
+					'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0LXna6Rb-JuPRNbErgsXjMcn2SM9sfsI8J7060hnLjw&s',
+				processCompleted: true,
+			},
+			{
+				id: 'f61ecd2d-91af-46dd-852b-71ca561108f6',
+				firstName: 'Georgeous',
+				lastName: 'Papadopulous',
+				displayName: 'Georgeous Papadopulous',
+				birthDate: '1980/01/23',
+				gender: 'Male',
+				email: 'georgeouspapadopulous@world.com',
+				identityCard: '18200302',
+				profilePicture:
+					'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRAS2FyUkuT0-9fbp8z89BSKEoMANFKFqImg&usqp=CAU',
+				processCompleted: true,
+			},
+			{
+				id: '34405bbb-8541-47d0-b288-d7dd2056c121',
+				firstName: 'Matias',
+				lastName: 'Torrecilla',
+				displayName: 'Matias Torrecilla',
+				birthDate: '1998/10/15',
+				gender: 'Male',
+				email: 'mmaattuumza@gmail.com',
+				identityCard: '39002250',
+				profilePicture:
+					'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTV08Ejaq3NcdSDQTtaclHU6NyzKBvFAiixyw&usqp=CAU',
+				processCompleted: true,
+			},
 		],
 		Purchases: [
+			{
+				data: {
+					status: 'Paid',
+					phoneNumber: '3516252000',
+					postalCode: '2500',
+					shippingAddressStreet: 'San Martin',
+					shippingAddressNumber: '982',
+					shipmentFee: '20',
+					tax: '30',
+				},
+				user: {
+					id: '2e36407e-f111-434b-a0ba-82284c102e7c',
+				},
+				items: [
+					{
+						quantity: 3,
+						price: 80,
+						confirmed: true,
+						StockId: 88,
+					},
+					{
+						quantity: 1,
+						price: 60,
+						confirmed: true,
+						StockId: 38,
+					},
+				],
+			},
+			{
+				data: {
+					status: 'Cart',
+					phoneNumber: '3516252000',
+					postalCode: '2500',
+					shippingAddressStreet: 'San Martin',
+					shippingAddressNumber: '982',
+				},
+				user: {
+					id: '2e36407e-f111-434b-a0ba-82284c102e7c',
+				},
+				items: [
+					{
+						quantity: 1,
+						price: 60,
+						confirmed: false,
+						StockId: 91,
+					},
+				],
+			},
 			{
 				data: {
 					status: 'Paid',
@@ -6007,16 +6094,6 @@ export default JSON.parse(
 				},
 				user: {
 					id: '58ba8def-27f7-4844-b842-f5549957306a',
-					firstName: 'Henry',
-					lastName: 'Coins',
-					displayName: 'Henry Coins',
-					birthDate: '2000/05/22',
-					gender: 'Male',
-					email: 'eugeniavogt@yahoo.com.ar',
-					identityCard: '20252155',
-					profilePicture:
-						'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0LXna6Rb-JuPRNbErgsXjMcn2SM9sfsI8J7060hnLjw&s',
-					processCompleted: true,
 				},
 				items: [
 					{
@@ -6038,6 +6115,222 @@ export default JSON.parse(
 					status: 'Received',
 					phoneNumber: '3516252000',
 					postalCode: '5000',
+					shippingAddressStreet: 'San Martin',
+					shippingAddressNumber: '500',
+					shipmentCompany: 'DHL',
+					shipmentTracking: 'COL3255268u',
+					shipmentFee: '20',
+					tax: '30',
+				},
+				user: {
+					id: 'f3fb880b-cbd8-4e90-bf7d-bfec23e8246b',
+				},
+				items: [
+					{
+						quantity: 5,
+						price: 70,
+						confirmed: true,
+						StockId: 84,
+					},
+					{
+						quantity: 3,
+						price: 50,
+						confirmed: true,
+						StockId: 90,
+					},
+				],
+			},
+			{
+				data: {
+					status: 'Received',
+					phoneNumber: '356200',
+					postalCode: '5000',
+					shippingAddressStreet: 'Maipu',
+					shippingAddressNumber: '82',
+					shipmentCompany: 'OCA',
+					shipmentTracking: 'COL55653h',
+					shipmentFee: '20',
+					tax: '30',
+				},
+				user: {
+					id: 'b94011bb-fdb7-4b06-ba02-552c2199c1f1',
+				},
+				items: [
+					{
+						quantity: 1,
+						price: 70,
+						confirmed: true,
+						StockId: 97,
+					},
+				],
+			},
+			{
+				data: {
+					status: 'Received',
+					phoneNumber: '356200',
+					postalCode: '5000',
+					shippingAddressStreet: 'Maipu',
+					shippingAddressNumber: '82',
+					shipmentCompany: 'OCA',
+					shipmentTracking: 'COL55653h',
+					shipmentFee: '50',
+					tax: '70',
+				},
+				user: {
+					id: 'b94011bb-fdb7-4b06-ba02-552c2199c1f1',
+				},
+				items: [
+					{
+						quantity: 5,
+						price: 65,
+						confirmed: true,
+						StockId: 99,
+					},
+				],
+			},
+			{
+				data: {
+					status: 'Received',
+					phoneNumber: '356200',
+					postalCode: '5000',
+					shippingAddressStreet: 'Maipu',
+					shippingAddressNumber: '82',
+					shipmentCompany: 'OCA',
+					shipmentTracking: 'COL55653h',
+					shipmentFee: '50',
+					tax: '70',
+				},
+				user: {
+					id: 'b94011bb-fdb7-4b06-ba02-552c2199c1f1',
+				},
+				items: [
+					{
+						quantity: 1,
+						price: 70,
+						confirmed: true,
+						StockId: 102,
+					},
+					{
+						quantity: 2,
+						price: 80,
+						confirmed: true,
+						StockId: 103,
+					},
+					{
+						quantity: 3,
+						price: 65,
+						confirmed: true,
+						StockId: 140,
+					},
+				],
+			},
+			{
+				data: {
+					status: 'Received',
+					phoneNumber: '351424858',
+					postalCode: '5000',
+					shippingAddressStreet: 'Catamarca',
+					shippingAddressNumber: '800',
+					shipmentCompany: 'OCA',
+					shipmentTracking: 'COL70014h',
+					shipmentFee: '15',
+					tax: '25',
+				},
+				user: {
+					id: 'OZJqLj3i9SaDNLVmdxDw8zvInpI3',
+				},
+				items: [
+					{
+						quantity: 2,
+						price: 70,
+						confirmed: true,
+						StockId: 140,
+					},
+				],
+			},
+			{
+				data: {
+					status: 'Paid',
+					phoneNumber: '351424858',
+					postalCode: '5000',
+					shippingAddressStreet: 'Catamarca',
+					shippingAddressNumber: '800',
+					shipmentFee: '15',
+					tax: '25',
+				},
+				user: {
+					id: 'OZJqLj3i9SaDNLVmdxDw8zvInpI3',
+				},
+				items: [
+					{
+						quantity: 2,
+						price: 70,
+						confirmed: true,
+						StockId: 140,
+					},
+				],
+			},
+			{
+				data: {
+					status: 'Delivering',
+					phoneNumber: '3516252000',
+					postalCode: '5000',
+					shipmentCompany: 'DHL',
+					shipmentTracking: 'COL8844462W',
+					shippingAddressStreet: 'San Martin',
+					shippingAddressNumber: '500',
+					shipmentFee: '20',
+					tax: '30',
+				},
+				user: {
+					id: 'f3fb880b-cbd8-4e90-bf7d-bfec23e8246b',
+				},
+				items: [
+					{
+						quantity: 5,
+						price: 70,
+						confirmed: true,
+						StockId: 84,
+					},
+					{
+						quantity: 3,
+						price: 50,
+						confirmed: true,
+						StockId: 90,
+					},
+				],
+			},
+			{
+				data: {
+					status: 'Cart',
+					phoneNumber: '3516252000',
+					postalCode: '5000',
+					shippingAddressStreet: 'San Martin',
+					shippingAddressNumber: '500',
+				},
+				user: {
+					id: 'f3fb880b-cbd8-4e90-bf7d-bfec23e8246b',
+				},
+				items: [
+					{
+						quantity: 1,
+						price: 60,
+						confirmed: false,
+						StockId: 52,
+					},
+					{
+						quantity: 1,
+						price: 50,
+						confirmed: false,
+						StockId: 88,
+					},
+				],
+			},
+			{
+				data: {
+					status: 'Received',
+					phoneNumber: '3516287511',
+					postalCode: '5000',
 					shippingAddressStreet: 'Buenos Aires',
 					shippingAddressNumber: '3500',
 					shipmentCompany: 'DHL',
@@ -6047,16 +6340,6 @@ export default JSON.parse(
 				},
 				user: {
 					id: 'f61ecd2d-91af-46dd-852b-71ca561108f6',
-					firstName: 'Georgeous',
-					lastName: 'Papadopulous',
-					displayName: 'Georgeous Papadopulous',
-					birthDate: '1980/01/23',
-					gender: 'Male',
-					email: 'georgeouspapadopulous@world.com',
-					identityCard: '18200302',
-					profilePicture:
-						'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRAS2FyUkuT0-9fbp8z89BSKEoMANFKFqImg&usqp=CAU',
-					processCompleted: true,
 				},
 				items: [
 					{
@@ -6085,16 +6368,6 @@ export default JSON.parse(
 				},
 				user: {
 					id: '34405bbb-8541-47d0-b288-d7dd2056c121',
-					firstName: 'Matias',
-					lastName: 'Torrecilla',
-					displayName: 'Matias Torrecilla',
-					birthDate: '1998/10/15',
-					gender: 'Male',
-					email: 'mmaattuumza@gmail.com',
-					identityCard: '39002250',
-					profilePicture:
-						'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTV08Ejaq3NcdSDQTtaclHU6NyzKBvFAiixyw&usqp=CAU',
-					processCompleted: true,
 				},
 				items: [
 					{
@@ -6108,6 +6381,120 @@ export default JSON.parse(
 						price: 50,
 						confirmed: true,
 						StockId: 13,
+					},
+				],
+			},
+			{
+				data: {
+					status: 'Paid',
+					phoneNumber: '540200068',
+					postalCode: '5000',
+					shippingAddressStreet: 'Colon',
+					shippingAddressNumber: '54',
+					shipmentFee: '20',
+					tax: '30',
+				},
+				user: {
+					id: 'CKaB6TJzlIgWyiwaLthVqkfDZDV2',
+				},
+				items: [
+					{
+						quantity: 3,
+						price: 70,
+						confirmed: true,
+						StockId: 64,
+					},
+					{
+						quantity: 1,
+						price: 60,
+						confirmed: true,
+						StockId: 67,
+					},
+				],
+			},
+			{
+				data: {
+					status: 'Paid',
+					phoneNumber: '540200068',
+					postalCode: '5000',
+					shippingAddressStreet: 'Colon',
+					shippingAddressNumber: '54',
+					shipmentFee: '30',
+					tax: '40',
+				},
+				user: {
+					id: 'CKaB6TJzlIgWyiwaLthVqkfDZDV2',
+				},
+				items: [
+					{
+						quantity: 1,
+						price: 70,
+						confirmed: true,
+						StockId: 64,
+					},
+					{
+						quantity: 1,
+						price: 70,
+						confirmed: true,
+						StockId: 65,
+					},
+					{
+						quantity: 1,
+						price: 60,
+						confirmed: true,
+						StockId: 87,
+					},
+				],
+			},
+			{
+				data: {
+					status: 'Cart',
+					phoneNumber: '3516252960',
+					postalCode: '5000',
+					shippingAddressStreet: 'Remedios de Escalada',
+					shippingAddressNumber: '1108',
+				},
+				user: {
+					id: '34405bbb-8541-47d0-b288-d7dd2056c121',
+				},
+				items: [
+					{
+						quantity: 1,
+						price: 70,
+						confirmed: false,
+						StockId: 97,
+					},
+					{
+						quantity: 1,
+						price: 50,
+						confirmed: false,
+						StockId: 104,
+					},
+				],
+			},
+			{
+				data: {
+					status: 'Cart',
+					phoneNumber: '3516287511',
+					postalCode: '5000',
+					shippingAddressStreet: 'Buenos Aires',
+					shippingAddressNumber: '3500',
+				},
+				user: {
+					id: 'f61ecd2d-91af-46dd-852b-71ca561108f6',
+				},
+				items: [
+					{
+						quantity: 1,
+						price: 70,
+						confirmed: false,
+						StockId: 97,
+					},
+					{
+						quantity: 1,
+						price: 50,
+						confirmed: false,
+						StockId: 104,
 					},
 				],
 			},

@@ -4,6 +4,7 @@ import { Purchases } from '../models/Purchases.js';
 import { OrderItems } from '../models/OrderItems.js';
 import { Stocks } from '../models/Stocks.js';
 import { Products } from '../models/Products.js';
+import { Op } from 'sequelize';
 
 // /**
 //  *
@@ -33,6 +34,12 @@ const getUserPurchases = async id => {
 		include: [
 			{
 				model: Purchases,
+				where: {
+					status: {
+						[Op.not]: 'Cart',
+					},
+				},
+
 				include: [
 					{
 						model: OrderItems,
@@ -56,19 +63,18 @@ const getUserPurchases = async id => {
 
 // , include: [{ model: Products }]
 
-const updateUserEnabled = async (id, enabled) => {
+const updateUserEnabled = async (id, disabled) => {
 	const user = await Users.findOne({ where: { id } });
 	if (!user) throw new Error('User not found');
-	await Users.update({ enabled }, { where: { id } });
-	return 'User updated';
+	await Users.update({ disabled }, { where: { id } });
+	return user;
 };
 
 const updateUser = async (id, data) => {
-	console.log(data);
 	const user = await Users.findOne({ where: { id } });
 	if (!user) throw new Error('User not found');
 	await Users.update(data, { where: { id } });
-	return 'User updated';
+	return user;
 };
 
 const setJsonUsers = async () => {
