@@ -17,6 +17,9 @@ const getPurchases = async userId => {
 		return await Purchases.findAll({
 			order: [['createdAt', 'DESC']],
 			include: [Users, Stocks],
+			where: {
+				status: { [Op.not]: 'Cart' },
+			},
 		});
 	}
 };
@@ -120,9 +123,9 @@ const setJsonPurchases = async () => {
 	const data = dataJson.Purchases;
 
 	const dataPromise = data.map(async el => {
-		const user = await Users.create(el.user);
+		// const user = await Users.create(el.user);
 		const purchase = await Purchases.create(el.data).then(data =>
-			data.setUser(user.id)
+			data.setUser(el.user.id)
 		);
 		const id = purchase.id;
 		await Promise.all(

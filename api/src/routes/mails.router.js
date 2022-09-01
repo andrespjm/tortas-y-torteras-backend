@@ -47,6 +47,26 @@ router.post('/shipp', async (req, res) => {
 	}
 });
 
+router.post('/received', async (req, res) => {
+	const { purchaseMail, orderId, name } = req.body;
+	try {
+		res.render(
+			'receivedPurchase',
+			{ purchaseMail, orderId, name },
+			(err, data) => {
+				if (err) console.log(err);
+				else {
+					sendMail(purchaseMail, 'Your purchase was received', data);
+				}
+			}
+		);
+
+		res.status(200).send('mail delivered');
+	} catch (error) {
+		res.status(500).send(error.message);
+	}
+});
+
 router.post('/disc', async (req, res) => {
 	const { purchaseMail, name, porc } = req.body;
 	try {
