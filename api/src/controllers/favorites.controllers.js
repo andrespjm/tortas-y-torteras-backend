@@ -6,7 +6,7 @@ const allfavorites = async userid => {
 		attributes: [],
 		include: {
 			model: Products,
-			attributes: ['name', 'description', 'id', 'collection'],
+			attributes: ['name', 'description', 'id', 'collection', 'img_home'],
 			through: { attributes: [] },
 		},
 	});
