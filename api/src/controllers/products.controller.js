@@ -19,7 +19,7 @@ const getAllProducts = async () => {
 			{
 				model: ProductTypes,
 				attributes: ['name', 'diameter'],
-				through: { attributes: ['quantity', 'price'] },
+				through: { attributes: ['quantityST', 'priceST'] },
 			},
 		],
 	});
@@ -83,8 +83,8 @@ const createProduct = async data => {
 		];
 		const arrayStock = stock.map(el =>
 			Stocks.create({
-				quantity: el.quantity,
-				price: el.price,
+				quantityST: el.quantity,
+				priceST: el.price,
 				ProductId: newProduct.id,
 				ProductTypeName: el.productTypeName,
 			})
@@ -104,7 +104,7 @@ const createProduct = async data => {
 			{
 				model: ProductTypes,
 				attributes: ['name', 'diameter'],
-				through: { attributes: ['quantity', 'price'] },
+				through: { attributes: ['quantityST', 'priceST'] },
 			},
 		],
 	});
@@ -163,16 +163,16 @@ const updateProduct = async (
 				});
 				if (!existentStock) {
 					return Stocks.create({
-						quantity: el.quantity,
-						price: el.price,
+						quantityST: el.quantity,
+						priceST: el.price,
 						ProductId: id,
 						ProductTypeName: el.productTypeName,
 					});
 				} else {
 					return Stocks.update(
 						{
-							quantity: el.quantity,
-							price: el.price,
+							quantityST: el.quantity,
+							priceST: el.price,
 						},
 						{
 							where: {
@@ -200,7 +200,7 @@ const updateProduct = async (
 				{
 					model: ProductTypes,
 					attributes: ['name', 'diameter'],
-					through: { attributes: ['quantity', 'price'] },
+					through: { attributes: ['quantityST', 'priceST'] },
 				},
 			],
 		});
@@ -223,7 +223,7 @@ const getDetailProducts = async id => {
 			{
 				model: ProductTypes,
 				attributes: ['name', 'diameter'],
-				through: { attributes: ['quantity', 'price', 'id'] },
+				through: { attributes: ['quantityST', 'priceST', 'id'] },
 			},
 		],
 	});
@@ -247,8 +247,8 @@ const setJsonProducts = async () => {
 				product.setColors(colors);
 				el.stock?.map(el => {
 					return Stocks.create({
-						quantity: el.quantity,
-						price: el.price,
+						quantityST: el.quantity,
+						priceST: el.price,
 						ProductId: product.id,
 						ProductTypeName: el.productTypeName,
 					});
@@ -292,8 +292,8 @@ const filterProducts = (
 		e =>
 			(stock
 				? stock === 'true'
-					? e.ProductTypes.find(e => e.Stocks.quantity > 0)
-					: !e.ProductTypes.find(e => e.Stocks.quantity > 0)
+					? e.ProductTypes.find(e => e.Stocks.quantityST > 0)
+					: !e.ProductTypes.find(e => e.Stocks.quantityST > 0)
 				: true) &&
 			(color1
 				? e.Colors.find(e => e.name.replace(/\s/g, '') === color1)
