@@ -52,7 +52,7 @@ router.put('/user/:id', async (req, res) => {
 	const { id } = req.params;
 	const data = req.body;
 	delete data.id;
-	delete data.disabled;
+	delete data.enabled;
 	delete data.processCompleted;
 	try {
 		const user = await updateUser(id, data);
@@ -64,9 +64,9 @@ router.put('/user/:id', async (req, res) => {
 
 router.put('/:id', async (req, res) => {
 	const { id } = req.params;
-	const { disabled } = req.body;
+	const { enabled } = req.body;
 	try {
-		const user = await updateUserEnabled(id, disabled);
+		const user = await updateUserEnabled(id, enabled);
 		res.status(200).send(user);
 	} catch (err) {
 		res.status(500).json({ error: err.message });

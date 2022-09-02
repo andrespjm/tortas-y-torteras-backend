@@ -247,8 +247,8 @@ const setJsonProducts = async () => {
 				product.setColors(colors);
 				el.stock?.map(el => {
 					return Stocks.create({
-						quantity: el.quantity,
-						price: el.price,
+						quantityST: el.quantity,
+						priceST: el.price,
 						ProductId: product.id,
 						ProductTypeName: el.productTypeName,
 					});

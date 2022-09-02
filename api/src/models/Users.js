@@ -29,9 +29,9 @@ export const Users = sequelize.define(
 			allowNull: false,
 		},
 		// logic erase
-		disabled: {
+		enabled: {
 			type: DataTypes.BOOLEAN,
-			defaultValue: false,
+			defaultValue: true,
 		},
 		email: {
 			type: DataTypes.STRING,

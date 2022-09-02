@@ -31,6 +31,7 @@ const getUserPurchases = async id => {
 		where: {
 			id,
 		},
+		order: [[{ model: Purchases }, 'createdAt', 'DESC']],
 		include: [
 			{
 				model: Purchases,
@@ -39,7 +40,6 @@ const getUserPurchases = async id => {
 						[Op.not]: 'Cart',
 					},
 				},
-
 				include: [
 					{
 						model: OrderItems,
@@ -63,10 +63,10 @@ const getUserPurchases = async id => {
 
 // , include: [{ model: Products }]
 
-const updateUserEnabled = async (id, disabled) => {
+const updateUserEnabled = async (id, enabled) => {
 	const user = await Users.findOne({ where: { id } });
 	if (!user) throw new Error('User not found');
-	await Users.update({ disabled }, { where: { id } });
+	await Users.update({ enabled }, { where: { id } });
 	return user;
 };
 

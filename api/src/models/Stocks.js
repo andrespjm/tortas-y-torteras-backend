@@ -9,14 +9,14 @@ export const Stocks = sequelize.define(
 			primaryKey: true,
 			autoIncrement: true,
 		},
-		quantity: {
+		quantityST: {
 			type: DataTypes.INTEGER,
 			allowNull: false,
 			validate: {
 				min: 0,
 			},
 		},
-		price: {
+		priceST: {
 			type: DataTypes.FLOAT,
 			allowNull: false,
 		},
