@@ -106,7 +106,17 @@ const getSales = async data => {
 			raw: true,
 		});
 
-		return sales;
+		const totalSalesPromise = sales.map(el => ({
+			productType: el['OrderItems.Stock.ProductTypeName'],
+			shipmentFee: el.shipmentFee,
+			tax: el.tax,
+			products: el['OrderItems.productprice'],
+			total: el.shipmentFee + el.tax + el['OrderItems.productprice'],
+		}));
+
+		const totalSales = await Promise.all(totalSalesPromise);
+
+		return totalSales;
 	}
 
 	const sales = await Purchases.findAll({
