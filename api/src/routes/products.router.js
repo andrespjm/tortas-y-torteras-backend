@@ -96,31 +96,12 @@ router.put(
 		try {
 			const { id } = req.params;
 			const image = req.files;
-			let {
-				name,
-				description,
-				img_home,
-				img_detail,
-				collection,
-				artist,
-				colors,
-				stock,
-			} = req.body;
+			const data = req.body;
 			const images = await uploadImageHelper(image);
-			img_home = images.imgHome;
-			img_detail = images.imgDetail || [];
+			data.img_home = images.imgHome;
+			data.img_detail = images.imgDetail || [];
 
-			const products = await updateProduct(
-				name,
-				description,
-				img_home,
-				img_detail,
-				collection,
-				artist,
-				colors,
-				stock,
-				id
-			);
+			const products = await updateProduct(data, id);
 
 			res.status(200).send(products);
 		} catch (e) {
