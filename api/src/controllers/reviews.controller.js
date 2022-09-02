@@ -1,13 +1,14 @@
 import { Reviews } from '../models/Reviews.js';
 import { Users } from '../models/Users.js';
 import dataJson from '../db/torterasJSON.js';
+
 const productReview = async productId => {
 	return await Reviews.findAll({
 		where: { productId },
 		include: {
 			model: Users,
 			as: 'user',
-			attributes: ['firstName', 'lastName'],
+			attributes: ['firstName', 'lastName', 'displayName'],
 		},
 	});
 };
@@ -17,7 +18,7 @@ const allReview = async () => {
 		include: {
 			model: Users,
 			as: 'user',
-			attributes: ['firstName', 'lastName'],
+			attributes: ['firstName', 'lastName', 'displayName'],
 		},
 	});
 };
