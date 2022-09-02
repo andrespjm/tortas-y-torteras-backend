@@ -32,5 +32,19 @@ const addOrRemoveFromFavorites = async (userid, productid) => {
 		return 'was removed from favorites';
 	}
 };
+const removeFavorites = async (userid, productid) => {
+	const user = await Users.findByPk(userid);
+	const product = await Products.findByPk(productid);
+	const likes = await Likes.findOne({
+		where: {
+			UserId: userid,
+			ProductId: productid,
+		},
+	});
+	if (likes) {
+		user.removeProducts(product);
+		return 'was removed from favorites';
+	}
+};
 
-export { addOrRemoveFromFavorites, allfavorites };
+export { addOrRemoveFromFavorites, allfavorites, removeFavorites };

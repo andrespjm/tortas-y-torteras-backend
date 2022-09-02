@@ -6535,7 +6535,7 @@ export default JSON.parse(
 		Reviews: [
 			{
 				comments: 'excellent product',
-				score: 0,
+				score: 4,
 				productId: 1,
 				userId: '2e36407e-f111-434b-a0ba-82284c102e7c',
 			},
