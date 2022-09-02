@@ -3,6 +3,7 @@ import {
 	addOrRemoveFromFavorites,
 	allfavorites,
 	removeFavorites,
+	favoriteStatus,
 } from '../controllers/favorites.controllers.js';
 
 const router = Router();
@@ -11,6 +12,16 @@ router.get('/', async (req, res) => {
 	try {
 		const favorite = await allfavorites(userid);
 		res.send(favorite);
+	} catch (err) {
+		res.status(500).json({ error: err.message });
+	}
+});
+router.put('/status', async (req, res) => {
+	const { productid, userid } = req.body;
+	try {
+		console.log(productid, userid);
+		const status = await favoriteStatus(userid, productid);
+		res.send(status);
 	} catch (err) {
 		res.status(500).json({ error: err.message });
 	}
