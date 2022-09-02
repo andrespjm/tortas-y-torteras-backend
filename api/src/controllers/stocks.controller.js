@@ -40,8 +40,8 @@ const createStock = async (ProductTypeName, ProductId, quantity, price) => {
 	const stock = await Stocks.create({
 		ProductTypeName,
 		ProductId,
-		quantity,
-		price,
+		quantityST: quantity,
+		priceST: price,
 	});
 	return stock;
 };
@@ -54,8 +54,8 @@ const updateStock = async (id, quantity, price) => {
 	} else {
 		await Stocks.update(
 			{
-				quantity,
-				price,
+				quantityST: quantity,
+				priceST: price,
 			},
 			{
 				where: { id },
@@ -71,7 +71,7 @@ const deleteStock = async id => {
 };
 
 const applyPurchaseStock = async (quantity, stockId) => {
-	Stocks.decrement('quantity', {
+	Stocks.decrement('quantityST', {
 		by: quantity,
 		where: {
 			id: stockId,

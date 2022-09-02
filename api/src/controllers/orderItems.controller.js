@@ -12,7 +12,7 @@ const getOrderItems = async PurchaseId => {
 				{
 					model: Stocks,
 					include: [{ model: Products, attributes: ['name', 'img_home'] }],
-					attributes: ['ProductTypeName', 'quantity'],
+					attributes: ['ProductTypeName', 'quantityST'],
 				},
 			],
 		});
@@ -22,7 +22,7 @@ const getOrderItems = async PurchaseId => {
 				{
 					model: Stocks,
 					include: [{ model: Products, attributes: ['name', 'img_home'] }],
-					attributes: ['ProductTypeName', 'quantity'],
+					attributes: ['ProductTypeName', 'quantityST'],
 				},
 			],
 		});
@@ -73,7 +73,7 @@ const createOrderItemsConfirmed = async (
 		PurchaseId: purchaseId,
 		confirmed: true,
 	});
-	Stocks.decrement('quantity', {
+	Stocks.decrement('quantityST', {
 		by: quantity,
 		where: {
 			id: stockId,
@@ -90,7 +90,7 @@ const deleteOrderItemsConfirmed = async id => {
 	await OrderItems.destroy({
 		where: { id },
 	});
-	Stocks.increment('quantity', {
+	Stocks.increment('quantityST', {
 		by: orderItem.quantity,
 		where: {
 			id: orderItem.StockId,
