@@ -10,6 +10,7 @@ import users from './users.router.js';
 import pay from './pay.router.js';
 import mails from './mails.router.js';
 import sales from './sales.router.js';
+import favorites from './favorites.router.js';
 const router = Router();
 
 router.use('/products', products);
@@ -23,6 +24,7 @@ router.use('/product-types', productTypes);
 router.use('/pay', pay);
 router.use('/mails', mails);
 router.use('/sales', sales);
+router.use('/favorites', favorites);
 router.use((_, res) => {
 	res.status(404).send('componente por defecto');
 });

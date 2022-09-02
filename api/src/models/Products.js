@@ -3,7 +3,7 @@ import { sequelize } from '../db/database.js';
 import { Colors } from '../models/Colors.js';
 import { ProductTypes } from '../models/ProductTypes.js';
 import { Stocks } from '../models/Stocks.js';
-
+import { Users } from './Users.js';
 const REGEX = /^[a-zA-Z0-9-()-: .]+$/;
 export const Products = sequelize.define(
 	'Products',
@@ -58,3 +58,7 @@ ProductTypes.hasMany(Stocks);
 Stocks.belongsTo(ProductTypes);
 Products.hasMany(Stocks);
 Stocks.belongsTo(Products);
+
+Products.belongsToMany(Users, { through: 'Likes' });
+Users.belongsToMany(Products, { through: 'Likes' });
+export const Likes = sequelize.models.Likes;
