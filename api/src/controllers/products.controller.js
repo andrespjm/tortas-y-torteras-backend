@@ -110,17 +110,23 @@ const createProduct = async data => {
 	});
 };
 
-const updateProduct = async (
-	name,
-	description,
-	img_home,
-	img_detail,
-	collection,
-	artist,
-	colors,
-	stock,
-	id
-) => {
+const updateProduct = async (data, id) => {
+	const {
+		name,
+		description,
+		img_home,
+		img_detail,
+		collection,
+		artist,
+		color1,
+		color2,
+		color3,
+		stockCakeTray,
+		stockTurntable,
+		priceCakeTray,
+		priceTurntable,
+	} = data;
+
 	const product = await Products.findOne({ where: { id } });
 	if (!product) {
 		throw new Error('Product not found');
@@ -139,7 +145,12 @@ const updateProduct = async (
 			}
 		);
 
-		if (colors) {
+		if (color1) {
+			const colors = [
+				{ hex: color1.split(',')[0], name: color1.split(',')[1] },
+				{ hex: color2.split(',')[0], name: color2.split(',')[1] },
+				{ hex: color3.split(',')[0], name: color3.split(',')[1] },
+			];
 			const colorId = [];
 			for (let i = 0; i < colors.length; i++) {
 				const [instance] = await Colors.findOrCreate({
@@ -151,7 +162,20 @@ const updateProduct = async (
 			await product.setColors(colorId);
 		}
 
-		if (stock) {
+		if (stockCakeTray) {
+			const stock = [
+				{
+					quantity: stockCakeTray,
+					price: priceCakeTray,
+					productTypeName: 'Cake Tray',
+				},
+				{
+					quantity: stockTurntable,
+					price: priceTurntable,
+					productTypeName: 'Turntable',
+				},
+			];
+
 			const arrayStock = stock.map(async el => {
 				const existentStock = await Stocks.findOne({
 					where: {

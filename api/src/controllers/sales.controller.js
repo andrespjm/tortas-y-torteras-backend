@@ -3,6 +3,7 @@ import { col, fn, literal, Op } from 'sequelize';
 import { OrderItems } from '../models/OrderItems.js';
 import { Stocks } from '../models/Stocks.js';
 import { Products } from '../models/Products.js';
+import { Users } from '../models/Users.js';
 
 const getSales = async data => {
 	const { total } = data;
@@ -25,12 +26,17 @@ const getSales = async data => {
 						},
 					],
 				},
+				{
+					model: Users,
+				},
 			],
 		});
 		const totalSalesPromise = sales.map(el => ({
 			orderId: el.id,
 			client: el.UserId,
 			status: el.status,
+			name: el.User.displayName,
+			email: el.User.email,
 			date: el.createdAt,
 			shipmentFee: el.shipmentFee,
 			tax: el.tax,
@@ -136,6 +142,9 @@ const getSales = async data => {
 						],
 					},
 				],
+			},
+			{
+				model: Users,
 			},
 		],
 	});
