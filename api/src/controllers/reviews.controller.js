@@ -1,15 +1,24 @@
 import { Reviews } from '../models/Reviews.js';
 import { Users } from '../models/Users.js';
 import dataJson from '../db/torterasJSON.js';
+import { Products } from '../models/Products.js';
 
 const productReview = async productId => {
 	return await Reviews.findAll({
 		where: { productId },
-		include: {
-			model: Users,
-			as: 'user',
-			attributes: ['firstName', 'lastName', 'displayName'],
-		},
+		include: [
+			{
+				model: Users,
+				as: 'user',
+				attributes: ['firstName', 'lastName', 'displayName'],
+			},
+
+			{
+				model: Products,
+				as: 'product',
+				attributes: ['img_home'],
+			},
+		],
 	});
 };
 
