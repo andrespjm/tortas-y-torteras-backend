@@ -6,6 +6,7 @@ import {
 	signUp,
 	updateUser,
 	updateUserEnabled,
+	deleteAccountUser,
 } from '../controllers/users.controller.js';
 
 const router = Router();
@@ -56,6 +57,16 @@ router.put('/user/:id', async (req, res) => {
 	delete data.processCompleted;
 	try {
 		const user = await updateUser(id, data);
+		res.status(200).send(user);
+	} catch (err) {
+		res.status(500).json({ error: err.message });
+	}
+});
+
+router.put('/deleteUser/:id', async (req, res) => {
+	const { id } = req.params;
+	try {
+		const user = await deleteAccountUser(id);
 		res.status(200).send(user);
 	} catch (err) {
 		res.status(500).json({ error: err.message });
