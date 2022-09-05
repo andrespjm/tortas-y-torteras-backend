@@ -5,17 +5,15 @@ import { Products } from '../models/Products.js';
 
 const productReview = async productId => {
 	return await Reviews.findAll({
-		where: { productId },
+		where: { ProductId: productId },
 		include: [
 			{
 				model: Users,
-				as: 'user',
 				attributes: ['firstName', 'lastName', 'displayName'],
 			},
 
 			{
 				model: Products,
-				as: 'product',
 				attributes: ['img_home'],
 			},
 		],
