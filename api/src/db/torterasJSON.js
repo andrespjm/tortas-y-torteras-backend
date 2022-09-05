@@ -6593,7 +6593,7 @@ export default JSON.parse(
 				score: 5,
 				ProductId: 50,
 				UserId: 'b94011bb-fdb7-4b06-ba02-552c2199c1f1',
-			},
+      },
 		],
 	})
 );

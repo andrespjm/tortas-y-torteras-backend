@@ -21,11 +21,17 @@ export const Reviews = sequelize.define(
 		comments: {
 			type: DataTypes.STRING,
 		},
+		qualified: {
+			type: DataTypes.BOOLEAN,
+			defaultValue: false,
+		},
 	},
 	{
 		timestamps: false,
 	}
 );
 
-Reviews.belongsTo(Products, { as: 'product', allowNull: false });
-Reviews.belongsTo(Users, { as: 'user', allowNull: false });
+Reviews.belongsTo(Products);
+Products.hasMany(Reviews);
+Reviews.belongsTo(Users);
+Users.hasMany(Reviews);
