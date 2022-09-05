@@ -96,14 +96,24 @@ const updateUserEnabled = async (id, enabled) => {
 	const user = await Users.findOne({ where: { id } });
 	if (!user) throw new Error('User not found');
 	await Users.update({ enabled }, { where: { id } });
-	return user;
+	const userUpdated = await Users.findOne({ where: { id } });
+	return userUpdated;
 };
 
 const updateUser = async (id, data) => {
 	const user = await Users.findOne({ where: { id } });
 	if (!user) throw new Error('User not found');
 	await Users.update(data, { where: { id } });
-	return user;
+	const userUpdated = await Users.findOne({ where: { id } });
+	return userUpdated;
+};
+
+const deleteAccountUser = async (id, data) => {
+	const user = await Users.findOne({ where: { id } });
+	if (!user) throw new Error('User not found');
+	await Users.update({ enabled: false }, { where: { id } });
+	const userUpdated = await Users.findOne({ where: { id } });
+	return userUpdated;
 };
 
 const setJsonUsers = async () => {
@@ -124,4 +134,5 @@ export {
 	updateUserEnabled,
 	updateUser,
 	getUserPurchases,
+	deleteAccountUser,
 };

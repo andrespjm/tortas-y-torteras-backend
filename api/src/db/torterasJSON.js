@@ -152,7 +152,7 @@ export default JSON.parse(
 					],
 					description: 'A piece of art full of color!!',
 					name: 'Medina',
-					collection: 'Abstract',
+					collection: 'Other',
 					artist: 'Aliris Barona',
 				},
 				color: ['#800080', '#FFC0CB', '#A52A2A'],
@@ -449,7 +449,7 @@ export default JSON.parse(
 					description:
 						'The meaning of life is to find your talent. The purpose of life is to share it',
 					name: 'Najran',
-					collection: 'Abstract',
+					collection: 'Other',
 					artist: 'Aliris Barona',
 				},
 				color: ['#ADD8E6', '#0000FF', '#FFFFFF'],
@@ -1061,7 +1061,7 @@ export default JSON.parse(
 					description:
 						"A very special and different Turntable, which really catches everyone's attention!",
 					name: 'Mexicali',
-					collection: 'Abstract',
+					collection: 'Other',
 					artist: 'Aliris Barona',
 				},
 				color: ['#FFC0CB', '#ADD8E6', '#FFFF00'],
@@ -2146,7 +2146,7 @@ export default JSON.parse(
 					description:
 						'May your life never lack sweetness and color!!! Banana and Chocolate Chip Cake',
 					name: 'Aracaju',
-					collection: 'Abstract',
+					collection: 'Other',
 					artist: 'Aliris Barona',
 				},
 				color: ['#800080', '#FFFFFF', '#03bb85'],
@@ -6593,7 +6593,7 @@ export default JSON.parse(
 				score: 5,
 				ProductId: 50,
 				UserId: 'b94011bb-fdb7-4b06-ba02-552c2199c1f1',
-      },
+			},
 		],
 	})
 );
