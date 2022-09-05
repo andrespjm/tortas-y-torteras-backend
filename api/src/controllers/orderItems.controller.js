@@ -11,7 +11,9 @@ const getOrderItems = async PurchaseId => {
 			include: [
 				{
 					model: Stocks,
-					include: [{ model: Products, attributes: ['name', 'img_home'] }],
+					include: [
+						{ model: Products, attributes: ['name', 'img_home', 'id'] },
+					],
 					attributes: ['ProductTypeName', 'quantityST'],
 				},
 			],

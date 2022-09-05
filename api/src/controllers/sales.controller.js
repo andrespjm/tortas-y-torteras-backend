@@ -38,6 +38,7 @@ const getSales = async data => {
 			name: el.User.displayName,
 			email: el.User.email,
 			date: el.createdAt,
+			month: el.createdAt.getMonth(),
 			shipmentFee: el.shipmentFee,
 			tax: el.tax,
 			products: el.OrderItems.reduce(

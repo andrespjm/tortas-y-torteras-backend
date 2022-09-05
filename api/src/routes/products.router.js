@@ -93,13 +93,25 @@ router.put(
 		tempFileDir: './uploads',
 	}),
 	async (req, res) => {
+		const data = req.body;
+		const image = req.files;
 		try {
 			const { id } = req.params;
-			const image = req.files;
-			const data = req.body;
-			const images = await uploadImageHelper(image);
-			data.img_home = images.imgHome;
-			data.img_detail = images.imgDetail || [];
+			console.log(image);
+			if (image) {
+				const images = await uploadImageHelper(image);
+				console.log(images);
+				if (images.imgHome && images.imgDetail.length > 0) {
+					data.img_home = images.imgHome;
+					data.img_detail = images.imgDetail || [];
+				} else if (images.imgHome) {
+					data.img_home = images.imgHome;
+				} else if (images.imgDetail.length > 0) {
+					data.img_detail = images.imgDetail || [];
+				} else {
+					console.log('no img');
+				}
+			}
 
 			const products = await updateProduct(data, id);
 
