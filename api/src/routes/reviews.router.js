@@ -12,6 +12,7 @@ const router = Router();
 router.get('/', async (req, res) => {
 	try {
 		const { productId } = req.query;
+		console.log(productId);
 		productId
 			? res.json(await productReview(productId))
 			: res.json(await allReview());
