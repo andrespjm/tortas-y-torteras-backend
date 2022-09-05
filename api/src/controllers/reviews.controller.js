@@ -35,8 +35,8 @@ const allReview = async () => {
 const createReview = async (comments, score, productId, userId) => {
 	const review = await Reviews.findOrCreate({
 		where: {
-			productId,
-			userId,
+			ProductId: productId,
+			UserId: userId,
 		},
 		defaults: {
 			comments,
@@ -49,7 +49,7 @@ const createReview = async (comments, score, productId, userId) => {
 
 const averageProductScore = async productId => {
 	const allScore = await Reviews.findAll({
-		where: { productId },
+		where: { ProductId: productId },
 		attributes: ['score'],
 	});
 	const sumScore = allScore.map(e => e.score).reduce((a, b) => a + b, 0);
@@ -66,13 +66,33 @@ const setJsonReviews = async () => {
 	data.map(
 		async e =>
 			await Reviews.create({
-				productId: e.productId,
-				userId: e.userId,
+				ProductId: e.ProductId,
+				UserId: e.UserId,
 				comments: e.comments,
 				score: e.score,
 			})
 	);
 };
+
+// const userReviewByProduct = async (productId, userId) => {
+// 	// const productId = [1, 2, 3, 5, 100];
+// 	// const userId = 'b94011bb-fdb7-4b06-ba02-552c2199c1f1';
+
+// 	const promise = [];
+
+// 	for (let i = 0; i < productId.length; i++) {
+// 		const resp = await Reviews.findAll({
+// 			where: {
+// 				[Op.and]: [{ ProductId: productId[i] }, { UserId: userId }],
+// 			},
+// 		});
+// 		promise.push(resp);
+// 	}
+// 	return promise.map(e => {
+// 		if (e.length) return true;
+// 		return false;
+// 	});
+// };
 
 export {
 	createReview,
@@ -80,4 +100,5 @@ export {
 	productReview,
 	allReview,
 	setJsonReviews,
+	// userReviewByProduct,
 };
