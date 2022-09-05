@@ -4,6 +4,7 @@ import {
 	productReview,
 	averageProductScore,
 	allReview,
+	// userReviewByProduct,
 } from '../controllers/reviews.controller.js';
 
 const router = Router();
@@ -11,6 +12,7 @@ const router = Router();
 router.get('/', async (req, res) => {
 	try {
 		const { productId } = req.query;
+		console.log(productId);
 		productId
 			? res.json(await productReview(productId))
 			: res.json(await allReview());
@@ -18,6 +20,16 @@ router.get('/', async (req, res) => {
 		res.status(500).json({ error: err.message });
 	}
 });
+
+// router.get('/prueba', async (req, res) => {
+// 	// const { productId, userId } = req.body;
+// 	console.log();
+// 	try {
+// 		res.json(await userReviewByProduct());
+// 	} catch (err) {
+// 		res.status(500).json({ error: err.message });
+// 	}
+// });
 
 router.get('/score/:productId', async (req, res) => {
 	const { productId } = req.params;
