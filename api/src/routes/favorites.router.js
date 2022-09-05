@@ -37,7 +37,8 @@ router.put('/', async (req, res) => {
 	}
 });
 router.delete('/', async (req, res) => {
-	const { productid, userid } = req.body;
+	const { userid, productid } = req.body;
+
 	try {
 		const favorite = await removeFavorites(userid, productid);
 		res.send(favorite);
