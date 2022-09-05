@@ -19,7 +19,7 @@ export default JSON.parse(
 					],
 					description:
 						'Beautiful Rotating cake, accompanied by a delicious Chocolate Cake!',
-					name: 'Madrid',
+					name: 'Neom',
 					collection: 'Abstract',
 					artist: 'Aliris Barona',
 				},
@@ -46,7 +46,7 @@ export default JSON.parse(
 						},
 					],
 					description: 'Beautiful unique cake full of Color!',
-					name: 'Singapur',
+					name: 'Riad',
 					collection: 'Flowers',
 					artist: 'Aliris Barona',
 				},
@@ -69,7 +69,7 @@ export default JSON.parse(
 						},
 					],
 					description: 'Functional Art for the Table',
-					name: 'Tokio',
+					name: 'Meca',
 					collection: 'Abstract',
 					artist: 'Aliris Barona',
 				},
@@ -92,7 +92,7 @@ export default JSON.parse(
 						},
 					],
 					description: 'This beauty from Tortera went to La Sucursal del Cielo',
-					name: 'París',
+					name: 'Dammam',
 					collection: 'Abstract',
 					artist: 'Aliris Barona',
 				},
@@ -151,7 +151,7 @@ export default JSON.parse(
 						},
 					],
 					description: 'A piece of art full of color!!',
-					name: 'Delhi',
+					name: 'Medina',
 					collection: 'Abstract',
 					artist: 'Aliris Barona',
 				},
@@ -183,7 +183,7 @@ export default JSON.parse(
 					],
 					description:
 						'In it, an Ancheta where wine, a good cheese and grapes were his company!',
-					name: 'Shanghai',
+					name: 'Yidda',
 					collection: 'Flowers',
 					artist: 'Aliris Barona',
 				},
@@ -211,7 +211,1183 @@ export default JSON.parse(
 					],
 					description:
 						'This beauty of Rotating Table accompanied by a delicious Carrot and Banana cake',
-					name: 'Dhaka',
+					name: 'Taif',
+					collection: 'Flowers',
+					artist: 'Aliris Barona',
+				},
+				color: ['#FFD700', '#FFA500', '#800080'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '55' },
+					{ quantity: '8', productTypeName: 'Turntable', price: '75' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/9gGGfRJ/IMG-E6694.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/YX21F4Y/IMG-E6695.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/cX6WhCr/IMG-E6692.jpg',
+						},
+					],
+					description: 'Cakes and Torteras reaching every corner of Colombia',
+					name: 'Hail',
+					collection: 'Flowers',
+					artist: 'Aliris Barona',
+				},
+				color: ['#ADD8E6', '#0000FF', '#FFFFFF'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '70' },
+					{ quantity: '1', productTypeName: 'Turntable', price: '90' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/87qc5r3/IMG-E6602.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/5KJg958/IMG-0077.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/vQFH08M/IMG-E6601.jpg',
+						},
+					],
+					description:
+						'NEVER stop fighting for what makes your heart beat faster. You are getting closer to achieving it!',
+					name: 'Bisha',
+					collection: 'Flowers',
+					artist: 'Aliris Barona',
+				},
+				color: ['#800080', '#ADD8E6', '#A52A2A'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
+					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/DG5ZVtV/IMG-E6377.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/Z6JbcW8/LZDR9910.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/CHLG7qg/IMG-E6376.jpg',
+						},
+					],
+					description:
+						'Utilitarian art is an artistic creation made with the fundamental elements of composition and technique, as well as being a practical, useful and functional object.',
+					name: 'Tabuk',
+					collection: 'Butterflies',
+					artist: 'Aliris Barona',
+				},
+				color: ['#FFC0CB', '#800080', '#FFD700'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
+					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/fvHTmKD/IMG-0038.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/wNxB0vr/IMG-E0051.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/6HzN8jC/IMG-6503.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/d7gBX6G/IMG-0046.jpg',
+						},
+					],
+					description: "We are what we leave in people's hearts",
+					name: 'Jizán',
+					collection: 'Flowers',
+					artist: 'Aliris Barona',
+				},
+				color: ['#03bb85', '#800080', '#FFFFFF'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
+					{ quantity: '8', productTypeName: 'Turntable', price: '70' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/CtzjMPS/OFOZ4031.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/3f8ZtXh/IMG-E6314.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/FhJ9wr6/IMG-6317.jpg',
+						},
+					],
+					description:
+						'For you this spectacular Tortera. So that you can enjoy it and show off all your creations in it!',
+					name: 'Sakaka',
+					collection: 'Abstract',
+					artist: 'Aliris Barona',
+				},
+				color: ['#ADD8E6', '#800080', '#FFC0CB'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
+					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/VJ03rMM/IMG-6311.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/4NjMKZ1/IMG-E6311.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/3RtQpp9/IMG-6312.jpg',
+						},
+					],
+					description:
+						'May your life never lack sweetness and color!!! Banana and Chocolate Chip Cake',
+					name: 'Buraida',
+					collection: 'Abstract',
+					artist: 'Aliris Barona',
+				},
+				color: ['#800080', '#FFFFFF', '#03bb85'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '60' },
+					{ quantity: '1', productTypeName: 'Turntable', price: '80' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/NsjBR6r/IMG-E6192.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/J7gWksv/IRCS2191.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/cvqZLDx/IMG-E6194.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/fqJbdyJ/DIHZ6664.jpg',
+						},
+					],
+					description: 'Creativity is intelligence having fun',
+					name: 'Arar',
+					collection: 'Flowers',
+					artist: 'Aliris Barona',
+				},
+				color: ['#0000FF', '#800080', '#FFC0CB'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
+					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/9gGGfRJ/IMG-E6694.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/whV4M7C/WFHZ2287.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/YX21F4Y/IMG-E6695.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/YX21F4Y/IMG-E6695.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/MCNGNrp/IMG-6683.jpg',
+						},
+					],
+					description:
+						'The meaning of life is to find your talent. The purpose of life is to share it',
+					name: 'Najran',
+					collection: 'Abstract',
+					artist: 'Aliris Barona',
+				},
+				color: ['#ADD8E6', '#0000FF', '#FFFFFF'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
+					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/DKFH2T5/QTNC7251.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/DYXWhWf/DOBM0118.jpg',
+						},
+					],
+					description:
+						"A very special and different Turntable, which really catches everyone's attention!",
+					name: 'Abha',
+					collection: 'Abstract',
+					artist: 'Aliris Barona',
+				},
+				color: ['#FFC0CB', '#ADD8E6', '#FFFF00'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
+					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/xs05ByL/IMG-6011.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/7rgHXpq/IMG-E6012.jpg',
+						},
+					],
+					description:
+						'With you this beautiful rotating table that accompanies the beauties that you prepare with so much love!!',
+					name: 'Al Jubail',
+					collection: 'Flowers',
+					artist: 'Aliris Barona',
+				},
+				color: ['#FFA500', '#800080', '#ADD8E6'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
+					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/ZSk6J2k/IMG-9911.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/YhFgPjC/IMG-9910.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/mc9ghPQ/IMG-09912.jpg',
+						},
+					],
+					description:
+						'As always… accompanied by a Delicious Orange and Poppy Cake! 🍰🍊',
+					name: 'Al Hofuf',
+					collection: 'Flowers',
+					artist: 'Aliris Barona',
+				},
+				color: ['#800080', '#ADD8E6', '#FFA500'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
+					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/qWXDRCG/IMG-9904.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/JmwkLVk/IMG-E9904.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/X2KZBzt/IMG-9903.jpg',
+						},
+					],
+					description:
+						'When you know where you are going... the Universe opens the way for you',
+					name: 'Al Bahah',
+					collection: 'Abstract',
+					artist: 'Aliris Barona',
+				},
+				color: ['#FFC0CB', '#ADD8E6', '#800080'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
+					{ quantity: '8', productTypeName: 'Turntable', price: '70' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/ySvzzTm/IMG-9906.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/9YV5Rk4/IMG-9916.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/dP8ryDg/IMG-9884.jpg',
+						},
+					],
+					description: 'Dedicate yourself to create, grow and believe',
+					name: 'Al Mubarraz',
+					collection: 'Flowers',
+					artist: 'Aliris Barona',
+				},
+				color: ['#ADD8E6', '#03bb85', '#0000FF'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
+					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/Qv8SSPP/AXEF1454.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/GFxrYK1/IMG-E4815.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/DMdkpK9/CEWAE4328.jpg',
+						},
+					],
+					description:
+						'Beautiful Rotating cake, accompanied by a delicious Chocolate Cake!',
+					name: 'Yanbu',
+					collection: 'Abstract',
+					artist: 'Aliris Barona',
+				},
+				color: ['#ADD8E6', '#FFA500', '#800080'],
+				stock: [
+					{ quantity: '0', productTypeName: 'Cake Tray', price: '50' },
+					{ quantity: '0', productTypeName: 'Turntable', price: '70' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/y6ZX2d0/IMG-E6801.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/rZ5fnNL/SEVH0044.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/2nxxDYH/IMG-E6803.jpg',
+						},
+					],
+					description: 'Beautiful unique cake full of Color!',
+					name: 'Unaizah',
+					collection: 'Flowers',
+					artist: 'Aliris Barona',
+				},
+				color: ['#ADD8E6', '#FFA500', '#800080'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
+					{ quantity: '8', productTypeName: 'Turntable', price: '70' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/3WjTxpy/IMG-E4816.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/PT8ZHHr/IMG-E4817.jpg',
+						},
+					],
+					description: 'Functional Art for the Table',
+					name: 'Ar Rass',
+					collection: 'Abstract',
+					artist: 'Aliris Barona',
+				},
+				color: ['#ADD8E6', '#FFA500', '#800080'],
+				stock: [
+					{ quantity: '0', productTypeName: 'Cake Tray', price: '50' },
+					{ quantity: '0', productTypeName: 'Turntable', price: '70' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/0XBs5zT/CXSF5512.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/0XBs5zT/CXSF5512.jpg',
+						},
+					],
+					description: 'This beauty from Tortera went to La Sucursal del Cielo',
+					name: 'Dhahran',
+					collection: 'Abstract',
+					artist: 'Aliris Barona',
+				},
+				color: ['#ADD8E6', '#FFA500', '#800080'],
+				stock: [
+					{ quantity: '0', productTypeName: 'Cake Tray', price: '50' },
+					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/7RxjdM0/IMG-0049.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/q739hry/IMG-E0052.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/cT97NfH/IMG-0052.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/NZHmdSW/IMG-0075.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/vD7xxbc/IMG-E6502.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/L913cbG/IMG-E0075.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/JH7wySm/IMG-0047.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/XSJjHVB/IMG-0053.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/c2Qp0db/IMG-0051.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/3cVPX0K/IMG-0055.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/NV5BddT/IMG-0074.jpg',
+						},
+					],
+					description: 'A piece of art full of color!!',
+					name: 'Afif',
+					collection: 'Abstract',
+					artist: 'Aliris Barona',
+				},
+				color: ['#800080', '#FFC0CB', '#A52A2A'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
+					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/cD6QtJ0/IMG-E6578.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/LtRGscm/IMG-6578.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/djCF45V/IMG-0072.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/CmKNdBj/IMG-0080.jpg',
+						},
+					],
+					description:
+						'In it, an Ancheta where wine, a good cheese and grapes were his company!',
+					name: 'Qatif',
+					collection: 'Flowers',
+					artist: 'Aliris Barona',
+				},
+				color: ['#FFFF00', '#03bb85', '#ADD8E6'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '40' },
+					{ quantity: '1', productTypeName: 'Turntable', price: '60' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/YtPJs8c/IMG-0045.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/F09PRVF/IMG-0042.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/Jy3qFYC/IMG-0043.jpg',
+						},
+					],
+					description:
+						'This beauty of Rotating Table accompanied by a delicious Carrot and Banana cake',
+					name: 'Tijuana',
+					collection: 'Flowers',
+					artist: 'Aliris Barona',
+				},
+				color: ['#FFD700', '#FFA500', '#800080'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '55' },
+					{ quantity: '8', productTypeName: 'Turntable', price: '75' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/9gGGfRJ/IMG-E6694.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/YX21F4Y/IMG-E6695.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/cX6WhCr/IMG-E6692.jpg',
+						},
+					],
+					description: 'Cakes and Torteras reaching every corner of Colombia',
+					name: 'Leon',
+					collection: 'Flowers',
+					artist: 'Aliris Barona',
+				},
+				color: ['#ADD8E6', '#0000FF', '#FFFFFF'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '70' },
+					{ quantity: '1', productTypeName: 'Turntable', price: '90' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/87qc5r3/IMG-E6602.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/5KJg958/IMG-0077.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/vQFH08M/IMG-E6601.jpg',
+						},
+					],
+					description:
+						'NEVER stop fighting for what makes your heart beat faster. You are getting closer to achieving it!',
+					name: 'Zapopan',
+					collection: 'Flowers',
+					artist: 'Aliris Barona',
+				},
+				color: ['#800080', '#ADD8E6', '#A52A2A'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
+					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/DG5ZVtV/IMG-E6377.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/Z6JbcW8/LZDR9910.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/CHLG7qg/IMG-E6376.jpg',
+						},
+					],
+					description:
+						'Utilitarian art is an artistic creation made with the fundamental elements of composition and technique, as well as being a practical, useful and functional object.',
+					name: 'Monterrey',
+					collection: 'Butterflies',
+					artist: 'Aliris Barona',
+				},
+				color: ['#FFC0CB', '#800080', '#FFD700'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
+					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/fvHTmKD/IMG-0038.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/wNxB0vr/IMG-E0051.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/6HzN8jC/IMG-6503.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/d7gBX6G/IMG-0046.jpg',
+						},
+					],
+					description: "We are what we leave in people's hearts",
+					name: 'Chihuahua',
+					collection: 'Flowers',
+					artist: 'Aliris Barona',
+				},
+				color: ['#03bb85', '#800080', '#FFFFFF'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
+					{ quantity: '8', productTypeName: 'Turntable', price: '70' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/CtzjMPS/OFOZ4031.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/3f8ZtXh/IMG-E6314.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/FhJ9wr6/IMG-6317.jpg',
+						},
+					],
+					description:
+						'For you this spectacular Tortera. So that you can enjoy it and show off all your creations in it!',
+					name: 'Mérida',
+					collection: 'Abstract',
+					artist: 'Aliris Barona',
+				},
+				color: ['#ADD8E6', '#800080', '#FFC0CB'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
+					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/VJ03rMM/IMG-6311.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/4NjMKZ1/IMG-E6311.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/3RtQpp9/IMG-6312.jpg',
+						},
+					],
+					description:
+						'May your life never lack sweetness and color!!! Banana and Chocolate Chip Cake',
+					name: 'Saltillo',
+					collection: 'Abstract',
+					artist: 'Aliris Barona',
+				},
+				color: ['#800080', '#FFFFFF', '#03bb85'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '60' },
+					{ quantity: '1', productTypeName: 'Turntable', price: '80' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/NsjBR6r/IMG-E6192.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/J7gWksv/IRCS2191.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/cvqZLDx/IMG-E6194.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/fqJbdyJ/DIHZ6664.jpg',
+						},
+					],
+					description: 'Creativity is intelligence having fun',
+					name: 'Aguascalientes',
+					collection: 'Flowers',
+					artist: 'Aliris Barona',
+				},
+				color: ['#0000FF', '#800080', '#FFC0CB'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
+					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/9gGGfRJ/IMG-E6694.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/whV4M7C/WFHZ2287.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/YX21F4Y/IMG-E6695.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/YX21F4Y/IMG-E6695.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/MCNGNrp/IMG-6683.jpg',
+						},
+					],
+					description:
+						'The meaning of life is to find your talent. The purpose of life is to share it',
+					name: 'Hermosillo',
+					collection: 'Abstract',
+					artist: 'Aliris Barona',
+				},
+				color: ['#ADD8E6', '#0000FF', '#FFFFFF'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
+					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/DKFH2T5/QTNC7251.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/DYXWhWf/DOBM0118.jpg',
+						},
+					],
+					description:
+						"A very special and different Turntable, which really catches everyone's attention!",
+					name: 'Mexicali',
+					collection: 'Abstract',
+					artist: 'Aliris Barona',
+				},
+				color: ['#FFC0CB', '#ADD8E6', '#FFFF00'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
+					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/xs05ByL/IMG-6011.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/7rgHXpq/IMG-E6012.jpg',
+						},
+					],
+					description:
+						'With you this beautiful rotating table that accompanies the beauties that you prepare with so much love!!',
+					name: 'Morelia',
+					collection: 'Flowers',
+					artist: 'Aliris Barona',
+				},
+				color: ['#FFA500', '#800080', '#ADD8E6'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
+					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/ZSk6J2k/IMG-9911.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/YhFgPjC/IMG-9910.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/mc9ghPQ/IMG-09912.jpg',
+						},
+					],
+					description:
+						'As always… accompanied by a Delicious Orange and Poppy Cake! 🍰🍊',
+					name: 'Reynosa',
+					collection: 'Flowers',
+					artist: 'Aliris Barona',
+				},
+				color: ['#800080', '#ADD8E6', '#FFA500'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
+					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/qWXDRCG/IMG-9904.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/JmwkLVk/IMG-E9904.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/X2KZBzt/IMG-9903.jpg',
+						},
+					],
+					description:
+						'When you know where you are going... the Universe opens the way for you',
+					name: 'Tlaquepaque',
+					collection: 'Abstract',
+					artist: 'Aliris Barona',
+				},
+				color: ['#FFC0CB', '#ADD8E6', '#800080'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
+					{ quantity: '8', productTypeName: 'Turntable', price: '70' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/ySvzzTm/IMG-9906.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/9YV5Rk4/IMG-9916.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/dP8ryDg/IMG-9884.jpg',
+						},
+					],
+					description: 'Dedicate yourself to create, grow and believe',
+					name: 'Guadalupe',
+					collection: 'Flowers',
+					artist: 'Aliris Barona',
+				},
+				color: ['#ADD8E6', '#03bb85', '#0000FF'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
+					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/Qv8SSPP/AXEF1454.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/GFxrYK1/IMG-E4815.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/DMdkpK9/CEWAE4328.jpg',
+						},
+					],
+					description:
+						'Beautiful Rotating cake, accompanied by a delicious Chocolate Cake!',
+					name: 'Irapuato',
+					collection: 'Abstract',
+					artist: 'Aliris Barona',
+				},
+				color: ['#ADD8E6', '#FFA500', '#800080'],
+				stock: [
+					{ quantity: '0', productTypeName: 'Cake Tray', price: '50' },
+					{ quantity: '0', productTypeName: 'Turntable', price: '70' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/y6ZX2d0/IMG-E6801.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/rZ5fnNL/SEVH0044.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/2nxxDYH/IMG-E6803.jpg',
+						},
+					],
+					description: 'Beautiful unique cake full of Color!',
+					name: 'Xalapa',
+					collection: 'Flowers',
+					artist: 'Aliris Barona',
+				},
+				color: ['#ADD8E6', '#FFA500', '#800080'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
+					{ quantity: '8', productTypeName: 'Turntable', price: '70' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/3WjTxpy/IMG-E4816.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/PT8ZHHr/IMG-E4817.jpg',
+						},
+					],
+					description: 'Functional Art for the Table',
+					name: 'Ojo de Agua',
+					collection: 'Abstract',
+					artist: 'Aliris Barona',
+				},
+				color: ['#ADD8E6', '#FFA500', '#800080'],
+				stock: [
+					{ quantity: '0', productTypeName: 'Cake Tray', price: '50' },
+					{ quantity: '0', productTypeName: 'Turntable', price: '70' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/0XBs5zT/CXSF5512.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/0XBs5zT/CXSF5512.jpg',
+						},
+					],
+					description: 'This beauty from Tortera went to La Sucursal del Cielo',
+					name: 'Celaya',
+					collection: 'Abstract',
+					artist: 'Aliris Barona',
+				},
+				color: ['#ADD8E6', '#FFA500', '#800080'],
+				stock: [
+					{ quantity: '0', productTypeName: 'Cake Tray', price: '50' },
+					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/7RxjdM0/IMG-0049.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/q739hry/IMG-E0052.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/cT97NfH/IMG-0052.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/NZHmdSW/IMG-0075.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/vD7xxbc/IMG-E6502.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/L913cbG/IMG-E0075.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/JH7wySm/IMG-0047.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/XSJjHVB/IMG-0053.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/c2Qp0db/IMG-0051.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/3cVPX0K/IMG-0055.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/NV5BddT/IMG-0074.jpg',
+						},
+					],
+					description: 'A piece of art full of color!!',
+					name: 'Villahermosa',
+					collection: 'Abstract',
+					artist: 'Aliris Barona',
+				},
+				color: ['#800080', '#FFC0CB', '#A52A2A'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
+					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/cD6QtJ0/IMG-E6578.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/LtRGscm/IMG-6578.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/djCF45V/IMG-0072.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/CmKNdBj/IMG-0080.jpg',
+						},
+					],
+					description:
+						'In it, an Ancheta where wine, a good cheese and grapes were his company!',
+					name: 'Ensenada',
+					collection: 'Flowers',
+					artist: 'Aliris Barona',
+				},
+				color: ['#FFFF00', '#03bb85', '#ADD8E6'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '40' },
+					{ quantity: '1', productTypeName: 'Turntable', price: '60' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/YtPJs8c/IMG-0045.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/F09PRVF/IMG-0042.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/Jy3qFYC/IMG-0043.jpg',
+						},
+					],
+					description:
+						'This beauty of Rotating Table accompanied by a delicious Carrot and Banana cake',
+					name: 'Caucasia',
 					collection: 'Flowers',
 					artist: 'Aliris Barona',
 				},
@@ -266,7 +1442,7 @@ export default JSON.parse(
 					],
 					description:
 						'NEVER stop fighting for what makes your heart beat faster. You are getting closer to achieving it!',
-					name: 'Beijing',
+					name: 'Girardot',
 					collection: 'Flowers',
 					artist: 'Aliris Barona',
 				},
@@ -294,7 +1470,7 @@ export default JSON.parse(
 					],
 					description:
 						'Utilitarian art is an artistic creation made with the fundamental elements of composition and technique, as well as being a practical, useful and functional object.',
-					name: 'Osaka',
+					name: 'Tunja',
 					collection: 'Butterflies',
 					artist: 'Aliris Barona',
 				},
@@ -325,7 +1501,7 @@ export default JSON.parse(
 						},
 					],
 					description: "We are what we leave in people's hearts",
-					name: 'Manila',
+					name: 'Sogamoso',
 					collection: 'Flowers',
 					artist: 'Aliris Barona',
 				},
@@ -353,7 +1529,7 @@ export default JSON.parse(
 					],
 					description:
 						'For you this spectacular Tortera. So that you can enjoy it and show off all your creations in it!',
-					name: 'Kolkata',
+					name: 'Manizales',
 					collection: 'Abstract',
 					artist: 'Aliris Barona',
 				},
@@ -381,7 +1557,7 @@ export default JSON.parse(
 					],
 					description:
 						'May your life never lack sweetness and color!!! Banana and Chocolate Chip Cake',
-					name: 'Lima',
+					name: 'Florencia',
 					collection: 'Abstract',
 					artist: 'Aliris Barona',
 				},
@@ -412,7 +1588,7 @@ export default JSON.parse(
 						},
 					],
 					description: 'Creativity is intelligence having fun',
-					name: 'London',
+					name: 'Popayán',
 					collection: 'Flowers',
 					artist: 'Aliris Barona',
 				},
@@ -448,7 +1624,7 @@ export default JSON.parse(
 					],
 					description:
 						'The meaning of life is to find your talent. The purpose of life is to share it',
-					name: 'Luanda',
+					name: 'Valledupar',
 					collection: 'Abstract',
 					artist: 'Aliris Barona',
 				},
@@ -472,7 +1648,7 @@ export default JSON.parse(
 					],
 					description:
 						"A very special and different Turntable, which really catches everyone's attention!",
-					name: 'Toronto',
+					name: 'Montería',
 					collection: 'Abstract',
 					artist: 'Aliris Barona',
 				},
@@ -496,7 +1672,7 @@ export default JSON.parse(
 					],
 					description:
 						'With you this beautiful rotating table that accompanies the beauties that you prepare with so much love!!',
-					name: 'Dalian',
+					name: 'Maicao',
 					collection: 'Flowers',
 					artist: 'Aliris Barona',
 				},
@@ -524,7 +1700,7 @@ export default JSON.parse(
 					],
 					description:
 						'As always… accompanied by a Delicious Orange and Poppy Cake! 🍰🍊',
-					name: 'Belo Horizonte',
+					name: 'Villavicencio',
 					collection: 'Flowers',
 					artist: 'Aliris Barona',
 				},
@@ -552,7 +1728,7 @@ export default JSON.parse(
 					],
 					description:
 						'When you know where you are going... the Universe opens the way for you',
-					name: 'Alexandria',
+					name: 'Ipiales',
 					collection: 'Abstract',
 					artist: 'Aliris Barona',
 				},
@@ -579,7 +1755,3535 @@ export default JSON.parse(
 						},
 					],
 					description: 'Dedicate yourself to create, grow and believe',
-					name: 'Guadalajara',
+					name: 'Tumaco',
+					collection: 'Flowers',
+					artist: 'Aliris Barona',
+				},
+				color: ['#ADD8E6', '#03bb85', '#0000FF'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
+					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/Qv8SSPP/AXEF1454.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/GFxrYK1/IMG-E4815.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/DMdkpK9/CEWAE4328.jpg',
+						},
+					],
+					description:
+						'Beautiful Rotating cake, accompanied by a delicious Chocolate Cake!',
+					name: 'Pamplona',
+					collection: 'Abstract',
+					artist: 'Aliris Barona',
+				},
+				color: ['#ADD8E6', '#FFA500', '#800080'],
+				stock: [
+					{ quantity: '0', productTypeName: 'Cake Tray', price: '50' },
+					{ quantity: '0', productTypeName: 'Turntable', price: '70' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/y6ZX2d0/IMG-E6801.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/rZ5fnNL/SEVH0044.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/2nxxDYH/IMG-E6803.jpg',
+						},
+					],
+					description: 'Beautiful unique cake full of Color!',
+					name: 'Puerto Asís',
+					collection: 'Flowers',
+					artist: 'Aliris Barona',
+				},
+				color: ['#ADD8E6', '#FFA500', '#800080'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
+					{ quantity: '8', productTypeName: 'Turntable', price: '70' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/3WjTxpy/IMG-E4816.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/PT8ZHHr/IMG-E4817.jpg',
+						},
+					],
+					description: 'Functional Art for the Table',
+					name: 'Armenia',
+					collection: 'Abstract',
+					artist: 'Aliris Barona',
+				},
+				color: ['#ADD8E6', '#FFA500', '#800080'],
+				stock: [
+					{ quantity: '0', productTypeName: 'Cake Tray', price: '50' },
+					{ quantity: '0', productTypeName: 'Turntable', price: '70' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/0XBs5zT/CXSF5512.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/0XBs5zT/CXSF5512.jpg',
+						},
+					],
+					description: 'This beauty from Tortera went to La Sucursal del Cielo',
+					name: 'Pereira',
+					collection: 'Abstract',
+					artist: 'Aliris Barona',
+				},
+				color: ['#ADD8E6', '#FFA500', '#800080'],
+				stock: [
+					{ quantity: '0', productTypeName: 'Cake Tray', price: '50' },
+					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/7RxjdM0/IMG-0049.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/q739hry/IMG-E0052.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/cT97NfH/IMG-0052.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/NZHmdSW/IMG-0075.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/vD7xxbc/IMG-E6502.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/L913cbG/IMG-E0075.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/JH7wySm/IMG-0047.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/XSJjHVB/IMG-0053.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/c2Qp0db/IMG-0051.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/3cVPX0K/IMG-0055.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/NV5BddT/IMG-0074.jpg',
+						},
+					],
+					description: 'A piece of art full of color!!',
+					name: 'Málaga',
+					collection: 'Abstract',
+					artist: 'Aliris Barona',
+				},
+				color: ['#800080', '#FFC0CB', '#A52A2A'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
+					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/cD6QtJ0/IMG-E6578.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/LtRGscm/IMG-6578.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/djCF45V/IMG-0072.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/CmKNdBj/IMG-0080.jpg',
+						},
+					],
+					description:
+						'In it, an Ancheta where wine, a good cheese and grapes were his company!',
+					name: 'Cali',
+					collection: 'Flowers',
+					artist: 'Aliris Barona',
+				},
+				color: ['#FFFF00', '#03bb85', '#ADD8E6'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '40' },
+					{ quantity: '1', productTypeName: 'Turntable', price: '60' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/YtPJs8c/IMG-0045.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/F09PRVF/IMG-0042.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/Jy3qFYC/IMG-0043.jpg',
+						},
+					],
+					description:
+						'This beauty of Rotating Table accompanied by a delicious Carrot and Banana cake',
+					name: 'Buenaventura',
+					collection: 'Flowers',
+					artist: 'Aliris Barona',
+				},
+				color: ['#FFD700', '#FFA500', '#800080'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '55' },
+					{ quantity: '8', productTypeName: 'Turntable', price: '75' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/9gGGfRJ/IMG-E6694.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/YX21F4Y/IMG-E6695.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/cX6WhCr/IMG-E6692.jpg',
+						},
+					],
+					description: 'Cakes and Torteras reaching every corner of Colombia',
+					name: 'Curitiba',
+					collection: 'Flowers',
+					artist: 'Aliris Barona',
+				},
+				color: ['#ADD8E6', '#0000FF', '#FFFFFF'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '70' },
+					{ quantity: '1', productTypeName: 'Turntable', price: '90' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/87qc5r3/IMG-E6602.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/5KJg958/IMG-0077.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/vQFH08M/IMG-E6601.jpg',
+						},
+					],
+					description:
+						'NEVER stop fighting for what makes your heart beat faster. You are getting closer to achieving it!',
+					name: 'Recife',
+					collection: 'Flowers',
+					artist: 'Aliris Barona',
+				},
+				color: ['#800080', '#ADD8E6', '#A52A2A'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
+					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/DG5ZVtV/IMG-E6377.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/Z6JbcW8/LZDR9910.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/CHLG7qg/IMG-E6376.jpg',
+						},
+					],
+					description:
+						'Utilitarian art is an artistic creation made with the fundamental elements of composition and technique, as well as being a practical, useful and functional object.',
+					name: 'Porto Alegre',
+					collection: 'Butterflies',
+					artist: 'Aliris Barona',
+				},
+				color: ['#FFC0CB', '#800080', '#FFD700'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
+					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/fvHTmKD/IMG-0038.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/wNxB0vr/IMG-E0051.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/6HzN8jC/IMG-6503.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/d7gBX6G/IMG-0046.jpg',
+						},
+					],
+					description: "We are what we leave in people's hearts",
+					name: 'Maceió',
+					collection: 'Flowers',
+					artist: 'Aliris Barona',
+				},
+				color: ['#03bb85', '#800080', '#FFFFFF'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
+					{ quantity: '8', productTypeName: 'Turntable', price: '70' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/CtzjMPS/OFOZ4031.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/3f8ZtXh/IMG-E6314.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/FhJ9wr6/IMG-6317.jpg',
+						},
+					],
+					description:
+						'For you this spectacular Tortera. So that you can enjoy it and show off all your creations in it!',
+					name: 'Natal',
+					collection: 'Abstract',
+					artist: 'Aliris Barona',
+				},
+				color: ['#ADD8E6', '#800080', '#FFC0CB'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
+					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/VJ03rMM/IMG-6311.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/4NjMKZ1/IMG-E6311.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/3RtQpp9/IMG-6312.jpg',
+						},
+					],
+					description:
+						'May your life never lack sweetness and color!!! Banana and Chocolate Chip Cake',
+					name: 'Aracaju',
+					collection: 'Abstract',
+					artist: 'Aliris Barona',
+				},
+				color: ['#800080', '#FFFFFF', '#03bb85'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '60' },
+					{ quantity: '1', productTypeName: 'Turntable', price: '80' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/NsjBR6r/IMG-E6192.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/J7gWksv/IRCS2191.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/cvqZLDx/IMG-E6194.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/fqJbdyJ/DIHZ6664.jpg',
+						},
+					],
+					description: 'Creativity is intelligence having fun',
+					name: 'Manaus',
+					collection: 'Flowers',
+					artist: 'Aliris Barona',
+				},
+				color: ['#0000FF', '#800080', '#FFC0CB'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
+					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/9gGGfRJ/IMG-E6694.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/whV4M7C/WFHZ2287.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/YX21F4Y/IMG-E6695.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/YX21F4Y/IMG-E6695.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/MCNGNrp/IMG-6683.jpg',
+						},
+					],
+					description:
+						'The meaning of life is to find your talent. The purpose of life is to share it',
+					name: 'Salvador',
+					collection: 'Abstract',
+					artist: 'Aliris Barona',
+				},
+				color: ['#ADD8E6', '#0000FF', '#FFFFFF'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
+					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/DKFH2T5/QTNC7251.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/DYXWhWf/DOBM0118.jpg',
+						},
+					],
+					description:
+						"A very special and different Turntable, which really catches everyone's attention!",
+					name: 'Porto Velho',
+					collection: 'Abstract',
+					artist: 'Aliris Barona',
+				},
+				color: ['#FFC0CB', '#ADD8E6', '#FFFF00'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
+					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/xs05ByL/IMG-6011.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/7rgHXpq/IMG-E6012.jpg',
+						},
+					],
+					description:
+						'With you this beautiful rotating table that accompanies the beauties that you prepare with so much love!!',
+					name: 'Florianópolis',
+					collection: 'Flowers',
+					artist: 'Aliris Barona',
+				},
+				color: ['#FFA500', '#800080', '#ADD8E6'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
+					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/ZSk6J2k/IMG-9911.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/YhFgPjC/IMG-9910.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/mc9ghPQ/IMG-09912.jpg',
+						},
+					],
+					description:
+						'As always… accompanied by a Delicious Orange and Poppy Cake! 🍰🍊',
+					name: 'Macapá',
+					collection: 'Flowers',
+					artist: 'Aliris Barona',
+				},
+				color: ['#800080', '#ADD8E6', '#FFA500'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
+					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/qWXDRCG/IMG-9904.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/JmwkLVk/IMG-E9904.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/X2KZBzt/IMG-9903.jpg',
+						},
+					],
+					description:
+						'When you know where you are going... the Universe opens the way for you',
+					name: 'Rio Branco',
+					collection: 'Abstract',
+					artist: 'Aliris Barona',
+				},
+				color: ['#FFC0CB', '#ADD8E6', '#800080'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
+					{ quantity: '8', productTypeName: 'Turntable', price: '70' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/ySvzzTm/IMG-9906.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/9YV5Rk4/IMG-9916.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/dP8ryDg/IMG-9884.jpg',
+						},
+					],
+					description: 'Dedicate yourself to create, grow and believe',
+					name: 'Boa Vista',
+					collection: 'Flowers',
+					artist: 'Aliris Barona',
+				},
+				color: ['#ADD8E6', '#03bb85', '#0000FF'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
+					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/Qv8SSPP/AXEF1454.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/GFxrYK1/IMG-E4815.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/DMdkpK9/CEWAE4328.jpg',
+						},
+					],
+					description:
+						'Beautiful Rotating cake, accompanied by a delicious Chocolate Cake!',
+					name: 'Palmas',
+					collection: 'Abstract',
+					artist: 'Aliris Barona',
+				},
+				color: ['#ADD8E6', '#FFA500', '#800080'],
+				stock: [
+					{ quantity: '0', productTypeName: 'Cake Tray', price: '50' },
+					{ quantity: '0', productTypeName: 'Turntable', price: '70' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/y6ZX2d0/IMG-E6801.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/rZ5fnNL/SEVH0044.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/2nxxDYH/IMG-E6803.jpg',
+						},
+					],
+					description: 'Beautiful unique cake full of Color!',
+					name: 'Murcia',
+					collection: 'Flowers',
+					artist: 'Aliris Barona',
+				},
+				color: ['#ADD8E6', '#FFA500', '#800080'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
+					{ quantity: '8', productTypeName: 'Turntable', price: '70' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/3WjTxpy/IMG-E4816.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/PT8ZHHr/IMG-E4817.jpg',
+						},
+					],
+					description: 'Functional Art for the Table',
+					name: 'Bilbao',
+					collection: 'Abstract',
+					artist: 'Aliris Barona',
+				},
+				color: ['#ADD8E6', '#FFA500', '#800080'],
+				stock: [
+					{ quantity: '0', productTypeName: 'Cake Tray', price: '50' },
+					{ quantity: '0', productTypeName: 'Turntable', price: '70' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/0XBs5zT/CXSF5512.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/0XBs5zT/CXSF5512.jpg',
+						},
+					],
+					description: 'This beauty from Tortera went to La Sucursal del Cielo',
+					name: 'Alicante',
+					collection: 'Abstract',
+					artist: 'Aliris Barona',
+				},
+				color: ['#ADD8E6', '#FFA500', '#800080'],
+				stock: [
+					{ quantity: '0', productTypeName: 'Cake Tray', price: '50' },
+					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/7RxjdM0/IMG-0049.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/q739hry/IMG-E0052.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/cT97NfH/IMG-0052.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/NZHmdSW/IMG-0075.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/vD7xxbc/IMG-E6502.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/L913cbG/IMG-E0075.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/JH7wySm/IMG-0047.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/XSJjHVB/IMG-0053.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/c2Qp0db/IMG-0051.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/3cVPX0K/IMG-0055.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/NV5BddT/IMG-0074.jpg',
+						},
+					],
+					description: 'A piece of art full of color!!',
+					name: 'Valladolid',
+					collection: 'Abstract',
+					artist: 'Aliris Barona',
+				},
+				color: ['#800080', '#FFC0CB', '#A52A2A'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
+					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/cD6QtJ0/IMG-E6578.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/LtRGscm/IMG-6578.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/djCF45V/IMG-0072.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/CmKNdBj/IMG-0080.jpg',
+						},
+					],
+					description:
+						'In it, an Ancheta where wine, a good cheese and grapes were his company!',
+					name: 'Vigo',
+					collection: 'Flowers',
+					artist: 'Aliris Barona',
+				},
+				color: ['#FFFF00', '#03bb85', '#ADD8E6'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '40' },
+					{ quantity: '1', productTypeName: 'Turntable', price: '60' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/YtPJs8c/IMG-0045.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/F09PRVF/IMG-0042.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/Jy3qFYC/IMG-0043.jpg',
+						},
+					],
+					description:
+						'This beauty of Rotating Table accompanied by a delicious Carrot and Banana cake',
+					name: 'Vitoria',
+					collection: 'Flowers',
+					artist: 'Aliris Barona',
+				},
+				color: ['#FFD700', '#FFA500', '#800080'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '55' },
+					{ quantity: '8', productTypeName: 'Turntable', price: '75' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/9gGGfRJ/IMG-E6694.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/YX21F4Y/IMG-E6695.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/cX6WhCr/IMG-E6692.jpg',
+						},
+					],
+					description: 'Cakes and Torteras reaching every corner of Colombia',
+					name: 'La Coruña',
+					collection: 'Flowers',
+					artist: 'Aliris Barona',
+				},
+				color: ['#ADD8E6', '#0000FF', '#FFFFFF'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '70' },
+					{ quantity: '1', productTypeName: 'Turntable', price: '90' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/87qc5r3/IMG-E6602.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/5KJg958/IMG-0077.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/vQFH08M/IMG-E6601.jpg',
+						},
+					],
+					description:
+						'NEVER stop fighting for what makes your heart beat faster. You are getting closer to achieving it!',
+					name: 'Elche',
+					collection: 'Flowers',
+					artist: 'Aliris Barona',
+				},
+				color: ['#800080', '#ADD8E6', '#A52A2A'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
+					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/DG5ZVtV/IMG-E6377.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/Z6JbcW8/LZDR9910.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/CHLG7qg/IMG-E6376.jpg',
+						},
+					],
+					description:
+						'Utilitarian art is an artistic creation made with the fundamental elements of composition and technique, as well as being a practical, useful and functional object.',
+					name: 'Granada',
+					collection: 'Butterflies',
+					artist: 'Aliris Barona',
+				},
+				color: ['#FFC0CB', '#800080', '#FFD700'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
+					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/fvHTmKD/IMG-0038.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/wNxB0vr/IMG-E0051.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/6HzN8jC/IMG-6503.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/d7gBX6G/IMG-0046.jpg',
+						},
+					],
+					description: "We are what we leave in people's hearts",
+					name: 'Tarrasa',
+					collection: 'Flowers',
+					artist: 'Aliris Barona',
+				},
+				color: ['#03bb85', '#800080', '#FFFFFF'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
+					{ quantity: '8', productTypeName: 'Turntable', price: '70' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/CtzjMPS/OFOZ4031.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/3f8ZtXh/IMG-E6314.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/FhJ9wr6/IMG-6317.jpg',
+						},
+					],
+					description:
+						'For you this spectacular Tortera. So that you can enjoy it and show off all your creations in it!',
+					name: 'Badalona',
+					collection: 'Abstract',
+					artist: 'Aliris Barona',
+				},
+				color: ['#ADD8E6', '#800080', '#FFC0CB'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
+					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/VJ03rMM/IMG-6311.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/4NjMKZ1/IMG-E6311.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/3RtQpp9/IMG-6312.jpg',
+						},
+					],
+					description:
+						'May your life never lack sweetness and color!!! Banana and Chocolate Chip Cake',
+					name: 'Oviedo',
+					collection: 'Abstract',
+					artist: 'Aliris Barona',
+				},
+				color: ['#800080', '#FFFFFF', '#03bb85'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '60' },
+					{ quantity: '1', productTypeName: 'Turntable', price: '80' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/NsjBR6r/IMG-E6192.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/J7gWksv/IRCS2191.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/cvqZLDx/IMG-E6194.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/fqJbdyJ/DIHZ6664.jpg',
+						},
+					],
+					description: 'Creativity is intelligence having fun',
+					name: 'Burgos',
+					collection: 'Flowers',
+					artist: 'Aliris Barona',
+				},
+				color: ['#0000FF', '#800080', '#FFC0CB'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
+					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/9gGGfRJ/IMG-E6694.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/whV4M7C/WFHZ2287.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/YX21F4Y/IMG-E6695.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/YX21F4Y/IMG-E6695.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/MCNGNrp/IMG-6683.jpg',
+						},
+					],
+					description:
+						'The meaning of life is to find your talent. The purpose of life is to share it',
+					name: 'Badajoz',
+					collection: 'Abstract',
+					artist: 'Aliris Barona',
+				},
+				color: ['#ADD8E6', '#0000FF', '#FFFFFF'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
+					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/DKFH2T5/QTNC7251.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/DYXWhWf/DOBM0118.jpg',
+						},
+					],
+					description:
+						"A very special and different Turntable, which really catches everyone's attention!",
+					name: 'Marbella',
+					collection: 'Abstract',
+					artist: 'Aliris Barona',
+				},
+				color: ['#FFC0CB', '#ADD8E6', '#FFFF00'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
+					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/xs05ByL/IMG-6011.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/7rgHXpq/IMG-E6012.jpg',
+						},
+					],
+					description:
+						'With you this beautiful rotating table that accompanies the beauties that you prepare with so much love!!',
+					name: 'Salamanca',
+					collection: 'Flowers',
+					artist: 'Aliris Barona',
+				},
+				color: ['#FFA500', '#800080', '#ADD8E6'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
+					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/ZSk6J2k/IMG-9911.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/YhFgPjC/IMG-9910.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/mc9ghPQ/IMG-09912.jpg',
+						},
+					],
+					description:
+						'As always… accompanied by a Delicious Orange and Poppy Cake! 🍰🍊',
+					name: 'Huelva',
+					collection: 'Flowers',
+					artist: 'Aliris Barona',
+				},
+				color: ['#800080', '#ADD8E6', '#FFA500'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
+					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/qWXDRCG/IMG-9904.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/JmwkLVk/IMG-E9904.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/X2KZBzt/IMG-9903.jpg',
+						},
+					],
+					description:
+						'When you know where you are going... the Universe opens the way for you',
+					name: 'Tarragona',
+					collection: 'Abstract',
+					artist: 'Aliris Barona',
+				},
+				color: ['#FFC0CB', '#ADD8E6', '#800080'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
+					{ quantity: '8', productTypeName: 'Turntable', price: '70' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/ySvzzTm/IMG-9906.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/9YV5Rk4/IMG-9916.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/dP8ryDg/IMG-9884.jpg',
+						},
+					],
+					description: 'Dedicate yourself to create, grow and believe',
+					name: 'Parla',
+					collection: 'Flowers',
+					artist: 'Aliris Barona',
+				},
+				color: ['#ADD8E6', '#03bb85', '#0000FF'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
+					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/Qv8SSPP/AXEF1454.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/GFxrYK1/IMG-E4815.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/DMdkpK9/CEWAE4328.jpg',
+						},
+					],
+					description:
+						'Beautiful Rotating cake, accompanied by a delicious Chocolate Cake!',
+					name: 'Algeciras',
+					collection: 'Abstract',
+					artist: 'Aliris Barona',
+				},
+				color: ['#ADD8E6', '#FFA500', '#800080'],
+				stock: [
+					{ quantity: '0', productTypeName: 'Cake Tray', price: '50' },
+					{ quantity: '0', productTypeName: 'Turntable', price: '70' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/y6ZX2d0/IMG-E6801.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/rZ5fnNL/SEVH0044.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/2nxxDYH/IMG-E6803.jpg',
+						},
+					],
+					description: 'Beautiful unique cake full of Color!',
+					name: 'Reus',
+					collection: 'Flowers',
+					artist: 'Aliris Barona',
+				},
+				color: ['#ADD8E6', '#FFA500', '#800080'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
+					{ quantity: '8', productTypeName: 'Turntable', price: '70' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/3WjTxpy/IMG-E4816.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/PT8ZHHr/IMG-E4817.jpg',
+						},
+					],
+					description: 'Functional Art for the Table',
+					name: 'Orense',
+					collection: 'Abstract',
+					artist: 'Aliris Barona',
+				},
+				color: ['#ADD8E6', '#FFA500', '#800080'],
+				stock: [
+					{ quantity: '0', productTypeName: 'Cake Tray', price: '50' },
+					{ quantity: '0', productTypeName: 'Turntable', price: '70' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/0XBs5zT/CXSF5512.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/0XBs5zT/CXSF5512.jpg',
+						},
+					],
+					description: 'This beauty from Tortera went to La Sucursal del Cielo',
+					name: 'Telde',
+					collection: 'Abstract',
+					artist: 'Aliris Barona',
+				},
+				color: ['#ADD8E6', '#FFA500', '#800080'],
+				stock: [
+					{ quantity: '0', productTypeName: 'Cake Tray', price: '50' },
+					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/7RxjdM0/IMG-0049.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/q739hry/IMG-E0052.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/cT97NfH/IMG-0052.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/NZHmdSW/IMG-0075.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/vD7xxbc/IMG-E6502.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/L913cbG/IMG-E0075.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/JH7wySm/IMG-0047.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/XSJjHVB/IMG-0053.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/c2Qp0db/IMG-0051.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/3cVPX0K/IMG-0055.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/NV5BddT/IMG-0074.jpg',
+						},
+					],
+					description: 'A piece of art full of color!!',
+					name: 'Gerona',
+					collection: 'Abstract',
+					artist: 'Aliris Barona',
+				},
+				color: ['#800080', '#FFC0CB', '#A52A2A'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
+					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/cD6QtJ0/IMG-E6578.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/LtRGscm/IMG-6578.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/djCF45V/IMG-0072.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/CmKNdBj/IMG-0080.jpg',
+						},
+					],
+					description:
+						'In it, an Ancheta where wine, a good cheese and grapes were his company!',
+					name: 'Baracaldo',
+					collection: 'Flowers',
+					artist: 'Aliris Barona',
+				},
+				color: ['#FFFF00', '#03bb85', '#ADD8E6'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '40' },
+					{ quantity: '1', productTypeName: 'Turntable', price: '60' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/YtPJs8c/IMG-0045.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/F09PRVF/IMG-0042.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/Jy3qFYC/IMG-0043.jpg',
+						},
+					],
+					description:
+						'This beauty of Rotating Table accompanied by a delicious Carrot and Banana cake',
+					name: 'Lugo',
+					collection: 'Flowers',
+					artist: 'Aliris Barona',
+				},
+				color: ['#FFD700', '#FFA500', '#800080'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '55' },
+					{ quantity: '8', productTypeName: 'Turntable', price: '75' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/9gGGfRJ/IMG-E6694.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/YX21F4Y/IMG-E6695.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/cX6WhCr/IMG-E6692.jpg',
+						},
+					],
+					description: 'Cakes and Torteras reaching every corner of Colombia',
+					name: 'Lorca',
+					collection: 'Flowers',
+					artist: 'Aliris Barona',
+				},
+				color: ['#ADD8E6', '#0000FF', '#FFFFFF'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '70' },
+					{ quantity: '1', productTypeName: 'Turntable', price: '90' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/87qc5r3/IMG-E6602.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/5KJg958/IMG-0077.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/vQFH08M/IMG-E6601.jpg',
+						},
+					],
+					description:
+						'NEVER stop fighting for what makes your heart beat faster. You are getting closer to achieving it!',
+					name: 'Melilla',
+					collection: 'Flowers',
+					artist: 'Aliris Barona',
+				},
+				color: ['#800080', '#ADD8E6', '#A52A2A'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
+					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/DG5ZVtV/IMG-E6377.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/Z6JbcW8/LZDR9910.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/CHLG7qg/IMG-E6376.jpg',
+						},
+					],
+					description:
+						'Utilitarian art is an artistic creation made with the fundamental elements of composition and technique, as well as being a practical, useful and functional object.',
+					name: 'Toledo',
+					collection: 'Butterflies',
+					artist: 'Aliris Barona',
+				},
+				color: ['#FFC0CB', '#800080', '#FFD700'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
+					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/fvHTmKD/IMG-0038.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/wNxB0vr/IMG-E0051.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/6HzN8jC/IMG-6503.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/d7gBX6G/IMG-0046.jpg',
+						},
+					],
+					description: "We are what we leave in people's hearts",
+					name: 'Torrente',
+					collection: 'Flowers',
+					artist: 'Aliris Barona',
+				},
+				color: ['#03bb85', '#800080', '#FFFFFF'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
+					{ quantity: '8', productTypeName: 'Turntable', price: '70' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/CtzjMPS/OFOZ4031.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/3f8ZtXh/IMG-E6314.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/FhJ9wr6/IMG-6317.jpg',
+						},
+					],
+					description:
+						'For you this spectacular Tortera. So that you can enjoy it and show off all your creations in it!',
+					name: 'Ceuta',
+					collection: 'Abstract',
+					artist: 'Aliris Barona',
+				},
+				color: ['#ADD8E6', '#800080', '#FFC0CB'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
+					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/VJ03rMM/IMG-6311.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/4NjMKZ1/IMG-E6311.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/3RtQpp9/IMG-6312.jpg',
+						},
+					],
+					description:
+						'May your life never lack sweetness and color!!! Banana and Chocolate Chip Cake',
+					name: 'Pontevedra',
+					collection: 'Abstract',
+					artist: 'Aliris Barona',
+				},
+				color: ['#800080', '#FFFFFF', '#03bb85'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '60' },
+					{ quantity: '1', productTypeName: 'Turntable', price: '80' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/NsjBR6r/IMG-E6192.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/J7gWksv/IRCS2191.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/cvqZLDx/IMG-E6194.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/fqJbdyJ/DIHZ6664.jpg',
+						},
+					],
+					description: 'Creativity is intelligence having fun',
+					name: 'Torrevieja',
+					collection: 'Flowers',
+					artist: 'Aliris Barona',
+				},
+				color: ['#0000FF', '#800080', '#FFC0CB'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
+					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/9gGGfRJ/IMG-E6694.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/whV4M7C/WFHZ2287.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/YX21F4Y/IMG-E6695.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/YX21F4Y/IMG-E6695.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/MCNGNrp/IMG-6683.jpg',
+						},
+					],
+					description:
+						'The meaning of life is to find your talent. The purpose of life is to share it',
+					name: 'Huaca',
+					collection: 'Abstract',
+					artist: 'Aliris Barona',
+				},
+				color: ['#ADD8E6', '#0000FF', '#FFFFFF'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
+					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/DKFH2T5/QTNC7251.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/DYXWhWf/DOBM0118.jpg',
+						},
+					],
+					description:
+						"A very special and different Turntable, which really catches everyone's attention!",
+					name: 'Fuengirola',
+					collection: 'Abstract',
+					artist: 'Aliris Barona',
+				},
+				color: ['#FFC0CB', '#ADD8E6', '#FFFF00'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
+					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/xs05ByL/IMG-6011.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/7rgHXpq/IMG-E6012.jpg',
+						},
+					],
+					description:
+						'With you this beautiful rotating table that accompanies the beauties that you prepare with so much love!!',
+					name: 'Arona',
+					collection: 'Flowers',
+					artist: 'Aliris Barona',
+				},
+				color: ['#FFA500', '#800080', '#ADD8E6'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
+					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/ZSk6J2k/IMG-9911.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/YhFgPjC/IMG-9910.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/mc9ghPQ/IMG-09912.jpg',
+						},
+					],
+					description:
+						'As always… accompanied by a Delicious Orange and Poppy Cake! 🍰🍊',
+					name: 'Coslada',
+					collection: 'Flowers',
+					artist: 'Aliris Barona',
+				},
+				color: ['#800080', '#ADD8E6', '#FFA500'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
+					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/qWXDRCG/IMG-9904.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/JmwkLVk/IMG-E9904.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/X2KZBzt/IMG-9903.jpg',
+						},
+					],
+					description:
+						'When you know where you are going... the Universe opens the way for you',
+					name: 'Orihuela',
+					collection: 'Abstract',
+					artist: 'Aliris Barona',
+				},
+				color: ['#FFC0CB', '#ADD8E6', '#800080'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
+					{ quantity: '8', productTypeName: 'Turntable', price: '70' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/ySvzzTm/IMG-9906.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/9YV5Rk4/IMG-9916.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/dP8ryDg/IMG-9884.jpg',
+						},
+					],
+					description: 'Dedicate yourself to create, grow and believe',
+					name: 'Manresa',
+					collection: 'Flowers',
+					artist: 'Aliris Barona',
+				},
+				color: ['#ADD8E6', '#03bb85', '#0000FF'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
+					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/Qv8SSPP/AXEF1454.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/GFxrYK1/IMG-E4815.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/DMdkpK9/CEWAE4328.jpg',
+						},
+					],
+					description:
+						'Beautiful Rotating cake, accompanied by a delicious Chocolate Cake!',
+					name: 'Guecho',
+					collection: 'Abstract',
+					artist: 'Aliris Barona',
+				},
+				color: ['#ADD8E6', '#FFA500', '#800080'],
+				stock: [
+					{ quantity: '0', productTypeName: 'Cake Tray', price: '50' },
+					{ quantity: '0', productTypeName: 'Turntable', price: '70' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/y6ZX2d0/IMG-E6801.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/rZ5fnNL/SEVH0044.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/2nxxDYH/IMG-E6803.jpg',
+						},
+					],
+					description: 'Beautiful unique cake full of Color!',
+					name: 'Palencia',
+					collection: 'Flowers',
+					artist: 'Aliris Barona',
+				},
+				color: ['#ADD8E6', '#FFA500', '#800080'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
+					{ quantity: '8', productTypeName: 'Turntable', price: '70' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/3WjTxpy/IMG-E4816.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/PT8ZHHr/IMG-E4817.jpg',
+						},
+					],
+					description: 'Functional Art for the Table',
+					name: 'Majadahonda',
+					collection: 'Abstract',
+					artist: 'Aliris Barona',
+				},
+				color: ['#ADD8E6', '#FFA500', '#800080'],
+				stock: [
+					{ quantity: '0', productTypeName: 'Cake Tray', price: '50' },
+					{ quantity: '0', productTypeName: 'Turntable', price: '70' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/0XBs5zT/CXSF5512.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/0XBs5zT/CXSF5512.jpg',
+						},
+					],
+					description: 'This beauty from Tortera went to La Sucursal del Cielo',
+					name: 'Estepona',
+					collection: 'Abstract',
+					artist: 'Aliris Barona',
+				},
+				color: ['#ADD8E6', '#FFA500', '#800080'],
+				stock: [
+					{ quantity: '0', productTypeName: 'Cake Tray', price: '50' },
+					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/7RxjdM0/IMG-0049.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/q739hry/IMG-E0052.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/cT97NfH/IMG-0052.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/NZHmdSW/IMG-0075.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/vD7xxbc/IMG-E6502.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/L913cbG/IMG-E0075.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/JH7wySm/IMG-0047.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/XSJjHVB/IMG-0053.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/c2Qp0db/IMG-0051.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/3cVPX0K/IMG-0055.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/NV5BddT/IMG-0074.jpg',
+						},
+					],
+					description: 'A piece of art full of color!!',
+					name: 'Ferrol',
+					collection: 'Abstract',
+					artist: 'Aliris Barona',
+				},
+				color: ['#800080', '#FFC0CB', '#A52A2A'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
+					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/cD6QtJ0/IMG-E6578.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/LtRGscm/IMG-6578.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/djCF45V/IMG-0072.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/CmKNdBj/IMG-0080.jpg',
+						},
+					],
+					description:
+						'In it, an Ancheta where wine, a good cheese and grapes were his company!',
+					name: 'Alcoy',
+					collection: 'Flowers',
+					artist: 'Aliris Barona',
+				},
+				color: ['#FFFF00', '#03bb85', '#ADD8E6'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '40' },
+					{ quantity: '1', productTypeName: 'Turntable', price: '60' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/YtPJs8c/IMG-0045.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/F09PRVF/IMG-0042.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/Jy3qFYC/IMG-0043.jpg',
+						},
+					],
+					description:
+						'This beauty of Rotating Table accompanied by a delicious Carrot and Banana cake',
+					name: 'Aranjuez',
+					collection: 'Flowers',
+					artist: 'Aliris Barona',
+				},
+				color: ['#FFD700', '#FFA500', '#800080'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '55' },
+					{ quantity: '8', productTypeName: 'Turntable', price: '75' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/9gGGfRJ/IMG-E6694.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/YX21F4Y/IMG-E6695.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/cX6WhCr/IMG-E6692.jpg',
+						},
+					],
+					description: 'Cakes and Torteras reaching every corner of Colombia',
+					name: 'Palora',
+					collection: 'Flowers',
+					artist: 'Aliris Barona',
+				},
+				color: ['#ADD8E6', '#0000FF', '#FFFFFF'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '70' },
+					{ quantity: '1', productTypeName: 'Turntable', price: '90' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/87qc5r3/IMG-E6602.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/5KJg958/IMG-0077.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/vQFH08M/IMG-E6601.jpg',
+						},
+					],
+					description:
+						'NEVER stop fighting for what makes your heart beat faster. You are getting closer to achieving it!',
+					name: 'Pinto',
+					collection: 'Flowers',
+					artist: 'Aliris Barona',
+				},
+				color: ['#800080', '#ADD8E6', '#A52A2A'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
+					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/DG5ZVtV/IMG-E6377.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/Z6JbcW8/LZDR9910.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/CHLG7qg/IMG-E6376.jpg',
+						},
+					],
+					description:
+						'Utilitarian art is an artistic creation made with the fundamental elements of composition and technique, as well as being a practical, useful and functional object.',
+					name: 'Elda',
+					collection: 'Butterflies',
+					artist: 'Aliris Barona',
+				},
+				color: ['#FFC0CB', '#800080', '#FFD700'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
+					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/fvHTmKD/IMG-0038.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/wNxB0vr/IMG-E0051.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/6HzN8jC/IMG-6503.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/d7gBX6G/IMG-0046.jpg',
+						},
+					],
+					description: "We are what we leave in people's hearts",
+					name: 'Colmenar Viejo',
+					collection: 'Flowers',
+					artist: 'Aliris Barona',
+				},
+				color: ['#03bb85', '#800080', '#FFFFFF'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
+					{ quantity: '8', productTypeName: 'Turntable', price: '70' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/CtzjMPS/OFOZ4031.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/3f8ZtXh/IMG-E6314.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/FhJ9wr6/IMG-6317.jpg',
+						},
+					],
+					description:
+						'For you this spectacular Tortera. So that you can enjoy it and show off all your creations in it!',
+					name: 'Ibiza',
+					collection: 'Abstract',
+					artist: 'Aliris Barona',
+				},
+				color: ['#ADD8E6', '#800080', '#FFC0CB'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
+					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/VJ03rMM/IMG-6311.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/4NjMKZ1/IMG-E6311.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/3RtQpp9/IMG-6312.jpg',
+						},
+					],
+					description:
+						'May your life never lack sweetness and color!!! Banana and Chocolate Chip Cake',
+					name: 'Utrera',
+					collection: 'Abstract',
+					artist: 'Aliris Barona',
+				},
+				color: ['#800080', '#FFFFFF', '#03bb85'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '60' },
+					{ quantity: '1', productTypeName: 'Turntable', price: '80' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/NsjBR6r/IMG-E6192.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/J7gWksv/IRCS2191.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/cvqZLDx/IMG-E6194.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/fqJbdyJ/DIHZ6664.jpg',
+						},
+					],
+					description: 'Creativity is intelligence having fun',
+					name: 'Adeje',
+					collection: 'Flowers',
+					artist: 'Aliris Barona',
+				},
+				color: ['#0000FF', '#800080', '#FFC0CB'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
+					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/9gGGfRJ/IMG-E6694.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/whV4M7C/WFHZ2287.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/YX21F4Y/IMG-E6695.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/YX21F4Y/IMG-E6695.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/MCNGNrp/IMG-6683.jpg',
+						},
+					],
+					description:
+						'The meaning of life is to find your talent. The purpose of life is to share it',
+					name: 'Puertollano',
+					collection: 'Abstract',
+					artist: 'Aliris Barona',
+				},
+				color: ['#ADD8E6', '#0000FF', '#FFFFFF'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
+					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/DKFH2T5/QTNC7251.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/DYXWhWf/DOBM0118.jpg',
+						},
+					],
+					description:
+						"A very special and different Turntable, which really catches everyone's attention!",
+					name: 'Lucena',
+					collection: 'Abstract',
+					artist: 'Aliris Barona',
+				},
+				color: ['#FFC0CB', '#ADD8E6', '#FFFF00'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
+					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/xs05ByL/IMG-6011.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/7rgHXpq/IMG-E6012.jpg',
+						},
+					],
+					description:
+						'With you this beautiful rotating table that accompanies the beauties that you prepare with so much love!!',
+					name: 'La Orotava',
+					collection: 'Flowers',
+					artist: 'Aliris Barona',
+				},
+				color: ['#FFA500', '#800080', '#ADD8E6'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
+					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/ZSk6J2k/IMG-9911.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/YhFgPjC/IMG-9910.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/mc9ghPQ/IMG-09912.jpg',
+						},
+					],
+					description:
+						'As always… accompanied by a Delicious Orange and Poppy Cake! 🍰🍊',
+					name: 'Antequera',
+					collection: 'Flowers',
+					artist: 'Aliris Barona',
+				},
+				color: ['#800080', '#ADD8E6', '#FFA500'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
+					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/qWXDRCG/IMG-9904.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/JmwkLVk/IMG-E9904.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/X2KZBzt/IMG-9903.jpg',
+						},
+					],
+					description:
+						'When you know where you are going... the Universe opens the way for you',
+					name: 'Basauri',
+					collection: 'Abstract',
+					artist: 'Aliris Barona',
+				},
+				color: ['#FFC0CB', '#ADD8E6', '#800080'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
+					{ quantity: '8', productTypeName: 'Turntable', price: '70' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/ySvzzTm/IMG-9906.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/9YV5Rk4/IMG-9916.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/dP8ryDg/IMG-9884.jpg',
+						},
+					],
+					description: 'Dedicate yourself to create, grow and believe',
+					name: 'Cuenca',
+					collection: 'Flowers',
+					artist: 'Aliris Barona',
+				},
+				color: ['#ADD8E6', '#03bb85', '#0000FF'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
+					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/Qv8SSPP/AXEF1454.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/GFxrYK1/IMG-E4815.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/DMdkpK9/CEWAE4328.jpg',
+						},
+					],
+					description:
+						'Beautiful Rotating cake, accompanied by a delicious Chocolate Cake!',
+					name: 'Machala',
+					collection: 'Abstract',
+					artist: 'Aliris Barona',
+				},
+				color: ['#ADD8E6', '#FFA500', '#800080'],
+				stock: [
+					{ quantity: '0', productTypeName: 'Cake Tray', price: '50' },
+					{ quantity: '0', productTypeName: 'Turntable', price: '70' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/y6ZX2d0/IMG-E6801.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/rZ5fnNL/SEVH0044.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/2nxxDYH/IMG-E6803.jpg',
+						},
+					],
+					description: 'Beautiful unique cake full of Color!',
+					name: 'Portoviejo',
+					collection: 'Flowers',
+					artist: 'Aliris Barona',
+				},
+				color: ['#ADD8E6', '#FFA500', '#800080'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
+					{ quantity: '8', productTypeName: 'Turntable', price: '70' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/3WjTxpy/IMG-E4816.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/PT8ZHHr/IMG-E4817.jpg',
+						},
+					],
+					description: 'Functional Art for the Table',
+					name: 'Loja',
+					collection: 'Abstract',
+					artist: 'Aliris Barona',
+				},
+				color: ['#ADD8E6', '#FFA500', '#800080'],
+				stock: [
+					{ quantity: '0', productTypeName: 'Cake Tray', price: '50' },
+					{ quantity: '0', productTypeName: 'Turntable', price: '70' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/0XBs5zT/CXSF5512.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/0XBs5zT/CXSF5512.jpg',
+						},
+					],
+					description: 'This beauty from Tortera went to La Sucursal del Cielo',
+					name: 'Manta',
+					collection: 'Abstract',
+					artist: 'Aliris Barona',
+				},
+				color: ['#ADD8E6', '#FFA500', '#800080'],
+				stock: [
+					{ quantity: '0', productTypeName: 'Cake Tray', price: '50' },
+					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/7RxjdM0/IMG-0049.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/q739hry/IMG-E0052.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/cT97NfH/IMG-0052.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/NZHmdSW/IMG-0075.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/vD7xxbc/IMG-E6502.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/L913cbG/IMG-E0075.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/JH7wySm/IMG-0047.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/XSJjHVB/IMG-0053.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/c2Qp0db/IMG-0051.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/3cVPX0K/IMG-0055.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/NV5BddT/IMG-0074.jpg',
+						},
+					],
+					description: 'A piece of art full of color!!',
+					name: 'Ambato',
+					collection: 'Abstract',
+					artist: 'Aliris Barona',
+				},
+				color: ['#800080', '#FFC0CB', '#A52A2A'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
+					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/cD6QtJ0/IMG-E6578.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/LtRGscm/IMG-6578.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/djCF45V/IMG-0072.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/CmKNdBj/IMG-0080.jpg',
+						},
+					],
+					description:
+						'In it, an Ancheta where wine, a good cheese and grapes were his company!',
+					name: 'Esmeraldas',
+					collection: 'Flowers',
+					artist: 'Aliris Barona',
+				},
+				color: ['#FFFF00', '#03bb85', '#ADD8E6'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '40' },
+					{ quantity: '1', productTypeName: 'Turntable', price: '60' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/YtPJs8c/IMG-0045.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/F09PRVF/IMG-0042.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/Jy3qFYC/IMG-0043.jpg',
+						},
+					],
+					description:
+						'This beauty of Rotating Table accompanied by a delicious Carrot and Banana cake',
+					name: 'Riobamba',
+					collection: 'Flowers',
+					artist: 'Aliris Barona',
+				},
+				color: ['#FFD700', '#FFA500', '#800080'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '55' },
+					{ quantity: '8', productTypeName: 'Turntable', price: '75' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/9gGGfRJ/IMG-E6694.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/YX21F4Y/IMG-E6695.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/cX6WhCr/IMG-E6692.jpg',
+						},
+					],
+					description: 'Cakes and Torteras reaching every corner of Colombia',
+					name: 'Babahoyo',
+					collection: 'Flowers',
+					artist: 'Aliris Barona',
+				},
+				color: ['#ADD8E6', '#0000FF', '#FFFFFF'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '70' },
+					{ quantity: '1', productTypeName: 'Turntable', price: '90' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/87qc5r3/IMG-E6602.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/5KJg958/IMG-0077.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/vQFH08M/IMG-E6601.jpg',
+						},
+					],
+					description:
+						'NEVER stop fighting for what makes your heart beat faster. You are getting closer to achieving it!',
+					name: 'Latacunga',
+					collection: 'Flowers',
+					artist: 'Aliris Barona',
+				},
+				color: ['#800080', '#ADD8E6', '#A52A2A'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
+					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/DG5ZVtV/IMG-E6377.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/Z6JbcW8/LZDR9910.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/CHLG7qg/IMG-E6376.jpg',
+						},
+					],
+					description:
+						'Utilitarian art is an artistic creation made with the fundamental elements of composition and technique, as well as being a practical, useful and functional object.',
+					name: 'Daule',
+					collection: 'Butterflies',
+					artist: 'Aliris Barona',
+				},
+				color: ['#FFC0CB', '#800080', '#FFD700'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
+					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/fvHTmKD/IMG-0038.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/wNxB0vr/IMG-E0051.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/6HzN8jC/IMG-6503.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/d7gBX6G/IMG-0046.jpg',
+						},
+					],
+					description: "We are what we leave in people's hearts",
+					name: 'Tulcan',
+					collection: 'Flowers',
+					artist: 'Aliris Barona',
+				},
+				color: ['#03bb85', '#800080', '#FFFFFF'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
+					{ quantity: '8', productTypeName: 'Turntable', price: '70' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/CtzjMPS/OFOZ4031.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/3f8ZtXh/IMG-E6314.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/FhJ9wr6/IMG-6317.jpg',
+						},
+					],
+					description:
+						'For you this spectacular Tortera. So that you can enjoy it and show off all your creations in it!',
+					name: 'Chone',
+					collection: 'Abstract',
+					artist: 'Aliris Barona',
+				},
+				color: ['#ADD8E6', '#800080', '#FFC0CB'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
+					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/VJ03rMM/IMG-6311.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/4NjMKZ1/IMG-E6311.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/3RtQpp9/IMG-6312.jpg',
+						},
+					],
+					description:
+						'May your life never lack sweetness and color!!! Banana and Chocolate Chip Cake',
+					name: 'Pasaje',
+					collection: 'Abstract',
+					artist: 'Aliris Barona',
+				},
+				color: ['#800080', '#FFFFFF', '#03bb85'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '60' },
+					{ quantity: '1', productTypeName: 'Turntable', price: '80' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/NsjBR6r/IMG-E6192.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/J7gWksv/IRCS2191.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/cvqZLDx/IMG-E6194.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/fqJbdyJ/DIHZ6664.jpg',
+						},
+					],
+					description: 'Creativity is intelligence having fun',
+					name: 'Nueva Loja',
+					collection: 'Flowers',
+					artist: 'Aliris Barona',
+				},
+				color: ['#0000FF', '#800080', '#FFC0CB'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
+					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/9gGGfRJ/IMG-E6694.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/whV4M7C/WFHZ2287.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/YX21F4Y/IMG-E6695.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/YX21F4Y/IMG-E6695.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/MCNGNrp/IMG-6683.jpg',
+						},
+					],
+					description:
+						'The meaning of life is to find your talent. The purpose of life is to share it',
+					name: 'El Carmen',
+					collection: 'Abstract',
+					artist: 'Aliris Barona',
+				},
+				color: ['#ADD8E6', '#0000FF', '#FFFFFF'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
+					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/DKFH2T5/QTNC7251.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/DYXWhWf/DOBM0118.jpg',
+						},
+					],
+					description:
+						"A very special and different Turntable, which really catches everyone's attention!",
+					name: 'Montecristi',
+					collection: 'Abstract',
+					artist: 'Aliris Barona',
+				},
+				color: ['#FFC0CB', '#ADD8E6', '#FFFF00'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
+					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/xs05ByL/IMG-6011.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/7rgHXpq/IMG-E6012.jpg',
+						},
+					],
+					description:
+						'With you this beautiful rotating table that accompanies the beauties that you prepare with so much love!!',
+					name: 'Samborondon',
+					collection: 'Flowers',
+					artist: 'Aliris Barona',
+				},
+				color: ['#FFA500', '#800080', '#ADD8E6'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
+					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/ZSk6J2k/IMG-9911.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/YhFgPjC/IMG-9910.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/mc9ghPQ/IMG-09912.jpg',
+						},
+					],
+					description:
+						'As always… accompanied by a Delicious Orange and Poppy Cake! 🍰🍊',
+					name: 'Jipijapa',
+					collection: 'Flowers',
+					artist: 'Aliris Barona',
+				},
+				color: ['#800080', '#ADD8E6', '#FFA500'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
+					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/qWXDRCG/IMG-9904.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/JmwkLVk/IMG-E9904.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/X2KZBzt/IMG-9903.jpg',
+						},
+					],
+					description:
+						'When you know where you are going... the Universe opens the way for you',
+					name: 'Otavalo',
+					collection: 'Abstract',
+					artist: 'Aliris Barona',
+				},
+				color: ['#FFC0CB', '#ADD8E6', '#800080'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
+					{ quantity: '8', productTypeName: 'Turntable', price: '70' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/ySvzzTm/IMG-9906.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/9YV5Rk4/IMG-9916.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/dP8ryDg/IMG-9884.jpg',
+						},
+					],
+					description: 'Dedicate yourself to create, grow and believe',
+					name: 'Cayambe',
+					collection: 'Flowers',
+					artist: 'Aliris Barona',
+				},
+				color: ['#ADD8E6', '#03bb85', '#0000FF'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
+					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/Qv8SSPP/AXEF1454.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/GFxrYK1/IMG-E4815.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/DMdkpK9/CEWAE4328.jpg',
+						},
+					],
+					description:
+						'Beautiful Rotating cake, accompanied by a delicious Chocolate Cake!',
+					name: 'Salinas',
+					collection: 'Abstract',
+					artist: 'Aliris Barona',
+				},
+				color: ['#ADD8E6', '#FFA500', '#800080'],
+				stock: [
+					{ quantity: '0', productTypeName: 'Cake Tray', price: '50' },
+					{ quantity: '0', productTypeName: 'Turntable', price: '70' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/y6ZX2d0/IMG-E6801.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/rZ5fnNL/SEVH0044.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/2nxxDYH/IMG-E6803.jpg',
+						},
+					],
+					description: 'Beautiful unique cake full of Color!',
+					name: 'Azogues',
+					collection: 'Flowers',
+					artist: 'Aliris Barona',
+				},
+				color: ['#ADD8E6', '#FFA500', '#800080'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
+					{ quantity: '8', productTypeName: 'Turntable', price: '70' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/3WjTxpy/IMG-E4816.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/PT8ZHHr/IMG-E4817.jpg',
+						},
+					],
+					description: 'Functional Art for the Table',
+					name: 'Puyo',
+					collection: 'Abstract',
+					artist: 'Aliris Barona',
+				},
+				color: ['#ADD8E6', '#FFA500', '#800080'],
+				stock: [
+					{ quantity: '0', productTypeName: 'Cake Tray', price: '50' },
+					{ quantity: '0', productTypeName: 'Turntable', price: '70' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/0XBs5zT/CXSF5512.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/0XBs5zT/CXSF5512.jpg',
+						},
+					],
+					description: 'This beauty from Tortera went to La Sucursal del Cielo',
+					name: 'Guaranda',
+					collection: 'Abstract',
+					artist: 'Aliris Barona',
+				},
+				color: ['#ADD8E6', '#FFA500', '#800080'],
+				stock: [
+					{ quantity: '0', productTypeName: 'Cake Tray', price: '50' },
+					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/7RxjdM0/IMG-0049.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/q739hry/IMG-E0052.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/cT97NfH/IMG-0052.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/NZHmdSW/IMG-0075.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/vD7xxbc/IMG-E6502.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/L913cbG/IMG-E0075.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/JH7wySm/IMG-0047.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/XSJjHVB/IMG-0053.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/c2Qp0db/IMG-0051.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/3cVPX0K/IMG-0055.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/NV5BddT/IMG-0074.jpg',
+						},
+					],
+					description: 'A piece of art full of color!!',
+					name: 'Macas',
+					collection: 'Abstract',
+					artist: 'Aliris Barona',
+				},
+				color: ['#800080', '#FFC0CB', '#A52A2A'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
+					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/cD6QtJ0/IMG-E6578.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/LtRGscm/IMG-6578.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/djCF45V/IMG-0072.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/CmKNdBj/IMG-0080.jpg',
+						},
+					],
+					description:
+						'In it, an Ancheta where wine, a good cheese and grapes were his company!',
+					name: 'Calceta',
+					collection: 'Flowers',
+					artist: 'Aliris Barona',
+				},
+				color: ['#FFFF00', '#03bb85', '#ADD8E6'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '40' },
+					{ quantity: '1', productTypeName: 'Turntable', price: '60' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/YtPJs8c/IMG-0045.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/F09PRVF/IMG-0042.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/Jy3qFYC/IMG-0043.jpg',
+						},
+					],
+					description:
+						'This beauty of Rotating Table accompanied by a delicious Carrot and Banana cake',
+					name: 'Jaramijó',
+					collection: 'Flowers',
+					artist: 'Aliris Barona',
+				},
+				color: ['#FFD700', '#FFA500', '#800080'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '55' },
+					{ quantity: '8', productTypeName: 'Turntable', price: '75' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/9gGGfRJ/IMG-E6694.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/YX21F4Y/IMG-E6695.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/cX6WhCr/IMG-E6692.jpg',
+						},
+					],
+					description: 'Cakes and Torteras reaching every corner of Colombia',
+					name: 'Arenillas',
+					collection: 'Flowers',
+					artist: 'Aliris Barona',
+				},
+				color: ['#ADD8E6', '#0000FF', '#FFFFFF'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '70' },
+					{ quantity: '1', productTypeName: 'Turntable', price: '90' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/87qc5r3/IMG-E6602.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/5KJg958/IMG-0077.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/vQFH08M/IMG-E6601.jpg',
+						},
+					],
+					description:
+						'NEVER stop fighting for what makes your heart beat faster. You are getting closer to achieving it!',
+					name: 'Machachi',
+					collection: 'Flowers',
+					artist: 'Aliris Barona',
+				},
+				color: ['#800080', '#ADD8E6', '#A52A2A'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
+					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/DG5ZVtV/IMG-E6377.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/Z6JbcW8/LZDR9910.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/CHLG7qg/IMG-E6376.jpg',
+						},
+					],
+					description:
+						'Utilitarian art is an artistic creation made with the fundamental elements of composition and technique, as well as being a practical, useful and functional object.',
+					name: 'Puerto Ayora',
+					collection: 'Butterflies',
+					artist: 'Aliris Barona',
+				},
+				color: ['#FFC0CB', '#800080', '#FFD700'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
+					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/fvHTmKD/IMG-0038.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/wNxB0vr/IMG-E0051.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/6HzN8jC/IMG-6503.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/d7gBX6G/IMG-0046.jpg',
+						},
+					],
+					description: "We are what we leave in people's hearts",
+					name: 'Balao',
+					collection: 'Flowers',
+					artist: 'Aliris Barona',
+				},
+				color: ['#03bb85', '#800080', '#FFFFFF'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
+					{ quantity: '8', productTypeName: 'Turntable', price: '70' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/CtzjMPS/OFOZ4031.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/3f8ZtXh/IMG-E6314.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/FhJ9wr6/IMG-6317.jpg',
+						},
+					],
+					description:
+						'For you this spectacular Tortera. So that you can enjoy it and show off all your creations in it!',
+					name: 'Cotacachi',
+					collection: 'Abstract',
+					artist: 'Aliris Barona',
+				},
+				color: ['#ADD8E6', '#800080', '#FFC0CB'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
+					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/VJ03rMM/IMG-6311.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/4NjMKZ1/IMG-E6311.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/3RtQpp9/IMG-6312.jpg',
+						},
+					],
+					description:
+						'May your life never lack sweetness and color!!! Banana and Chocolate Chip Cake',
+					name: 'Portovelo',
+					collection: 'Abstract',
+					artist: 'Aliris Barona',
+				},
+				color: ['#800080', '#FFFFFF', '#03bb85'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '60' },
+					{ quantity: '1', productTypeName: 'Turntable', price: '80' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/NsjBR6r/IMG-E6192.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/J7gWksv/IRCS2191.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/cvqZLDx/IMG-E6194.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/fqJbdyJ/DIHZ6664.jpg',
+						},
+					],
+					description: 'Creativity is intelligence having fun',
+					name: 'Gualaquiza',
+					collection: 'Flowers',
+					artist: 'Aliris Barona',
+				},
+				color: ['#0000FF', '#800080', '#FFC0CB'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
+					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/9gGGfRJ/IMG-E6694.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/whV4M7C/WFHZ2287.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/YX21F4Y/IMG-E6695.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/YX21F4Y/IMG-E6695.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/MCNGNrp/IMG-6683.jpg',
+						},
+					],
+					description:
+						'The meaning of life is to find your talent. The purpose of life is to share it',
+					name: 'Caluma',
+					collection: 'Abstract',
+					artist: 'Aliris Barona',
+				},
+				color: ['#ADD8E6', '#0000FF', '#FFFFFF'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
+					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/DKFH2T5/QTNC7251.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/DYXWhWf/DOBM0118.jpg',
+						},
+					],
+					description:
+						"A very special and different Turntable, which really catches everyone's attention!",
+					name: 'Jama',
+					collection: 'Abstract',
+					artist: 'Aliris Barona',
+				},
+				color: ['#FFC0CB', '#ADD8E6', '#FFFF00'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
+					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/xs05ByL/IMG-6011.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/7rgHXpq/IMG-E6012.jpg',
+						},
+					],
+					description:
+						'With you this beautiful rotating table that accompanies the beauties that you prepare with so much love!!',
+					name: 'Muisne',
+					collection: 'Flowers',
+					artist: 'Aliris Barona',
+				},
+				color: ['#FFA500', '#800080', '#ADD8E6'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
+					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/ZSk6J2k/IMG-9911.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/YhFgPjC/IMG-9910.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/mc9ghPQ/IMG-09912.jpg',
+						},
+					],
+					description:
+						'As always… accompanied by a Delicious Orange and Poppy Cake! 🍰🍊',
+					name: 'Junín',
+					collection: 'Flowers',
+					artist: 'Aliris Barona',
+				},
+				color: ['#800080', '#ADD8E6', '#FFA500'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
+					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/qWXDRCG/IMG-9904.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/JmwkLVk/IMG-E9904.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/X2KZBzt/IMG-9903.jpg',
+						},
+					],
+					description:
+						'When you know where you are going... the Universe opens the way for you',
+					name: 'Celica',
+					collection: 'Abstract',
+					artist: 'Aliris Barona',
+				},
+				color: ['#FFC0CB', '#ADD8E6', '#800080'],
+				stock: [
+					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
+					{ quantity: '8', productTypeName: 'Turntable', price: '70' },
+				],
+			},
+			{
+				product: {
+					img_home: {
+						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+						secure_url: 'https://i.ibb.co/ySvzzTm/IMG-9906.jpg',
+					},
+					img_detail: [
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/9YV5Rk4/IMG-9916.jpg',
+						},
+						{
+							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
+							secure_url: 'https://i.ibb.co/dP8ryDg/IMG-9884.jpg',
+						},
+					],
+					description: 'Dedicate yourself to create, grow and believe',
+					name: 'Balsas',
 					collection: 'Flowers',
 					artist: 'Aliris Barona',
 				},
@@ -826,4711 +5530,7 @@ export default JSON.parse(
 						},
 					],
 					description: 'Cakes and Torteras reaching every corner of Colombia',
-					name: 'Mumbai',
-					collection: 'Flowers',
-					artist: 'Aliris Barona',
-				},
-				color: ['#ADD8E6', '#0000FF', '#FFFFFF'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '70' },
-					{ quantity: '1', productTypeName: 'Turntable', price: '90' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/87qc5r3/IMG-E6602.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/5KJg958/IMG-0077.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/vQFH08M/IMG-E6601.jpg',
-						},
-					],
-					description:
-						'NEVER stop fighting for what makes your heart beat faster. You are getting closer to achieving it!',
-					name: 'Beijing',
-					collection: 'Flowers',
-					artist: 'Aliris Barona',
-				},
-				color: ['#800080', '#ADD8E6', '#A52A2A'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
-					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/DG5ZVtV/IMG-E6377.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/Z6JbcW8/LZDR9910.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/CHLG7qg/IMG-E6376.jpg',
-						},
-					],
-					description:
-						'Utilitarian art is an artistic creation made with the fundamental elements of composition and technique, as well as being a practical, useful and functional object.',
-					name: 'Osaka',
-					collection: 'Butterflies',
-					artist: 'Aliris Barona',
-				},
-				color: ['#FFC0CB', '#800080', '#FFD700'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
-					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/fvHTmKD/IMG-0038.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/wNxB0vr/IMG-E0051.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/6HzN8jC/IMG-6503.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/d7gBX6G/IMG-0046.jpg',
-						},
-					],
-					description: "We are what we leave in people's hearts",
-					name: 'Manila',
-					collection: 'Flowers',
-					artist: 'Aliris Barona',
-				},
-				color: ['#03bb85', '#800080', '#FFFFFF'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
-					{ quantity: '8', productTypeName: 'Turntable', price: '70' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/CtzjMPS/OFOZ4031.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/3f8ZtXh/IMG-E6314.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/FhJ9wr6/IMG-6317.jpg',
-						},
-					],
-					description:
-						'For you this spectacular Tortera. So that you can enjoy it and show off all your creations in it!',
-					name: 'Kolkata',
-					collection: 'Abstract',
-					artist: 'Aliris Barona',
-				},
-				color: ['#ADD8E6', '#800080', '#FFC0CB'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
-					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/VJ03rMM/IMG-6311.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/4NjMKZ1/IMG-E6311.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/3RtQpp9/IMG-6312.jpg',
-						},
-					],
-					description:
-						'May your life never lack sweetness and color!!! Banana and Chocolate Chip Cake',
-					name: 'Lima',
-					collection: 'Abstract',
-					artist: 'Aliris Barona',
-				},
-				color: ['#800080', '#FFFFFF', '#03bb85'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '60' },
-					{ quantity: '1', productTypeName: 'Turntable', price: '80' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/NsjBR6r/IMG-E6192.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/J7gWksv/IRCS2191.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/cvqZLDx/IMG-E6194.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/fqJbdyJ/DIHZ6664.jpg',
-						},
-					],
-					description: 'Creativity is intelligence having fun',
-					name: 'London',
-					collection: 'Flowers',
-					artist: 'Aliris Barona',
-				},
-				color: ['#0000FF', '#800080', '#FFC0CB'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
-					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/9gGGfRJ/IMG-E6694.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/whV4M7C/WFHZ2287.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/YX21F4Y/IMG-E6695.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/YX21F4Y/IMG-E6695.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/MCNGNrp/IMG-6683.jpg',
-						},
-					],
-					description:
-						'The meaning of life is to find your talent. The purpose of life is to share it',
-					name: 'Luanda',
-					collection: 'Abstract',
-					artist: 'Aliris Barona',
-				},
-				color: ['#ADD8E6', '#0000FF', '#FFFFFF'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
-					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/DKFH2T5/QTNC7251.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/DYXWhWf/DOBM0118.jpg',
-						},
-					],
-					description:
-						"A very special and different Turntable, which really catches everyone's attention!",
-					name: 'Toronto',
-					collection: 'Abstract',
-					artist: 'Aliris Barona',
-				},
-				color: ['#FFC0CB', '#ADD8E6', '#FFFF00'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
-					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/xs05ByL/IMG-6011.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/7rgHXpq/IMG-E6012.jpg',
-						},
-					],
-					description:
-						'With you this beautiful rotating table that accompanies the beauties that you prepare with so much love!!',
-					name: 'Dalian',
-					collection: 'Flowers',
-					artist: 'Aliris Barona',
-				},
-				color: ['#FFA500', '#800080', '#ADD8E6'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
-					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/ZSk6J2k/IMG-9911.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/YhFgPjC/IMG-9910.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/mc9ghPQ/IMG-09912.jpg',
-						},
-					],
-					description:
-						'As always… accompanied by a Delicious Orange and Poppy Cake! 🍰🍊',
-					name: 'Belo Horizonte',
-					collection: 'Flowers',
-					artist: 'Aliris Barona',
-				},
-				color: ['#800080', '#ADD8E6', '#FFA500'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
-					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/qWXDRCG/IMG-9904.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/JmwkLVk/IMG-E9904.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/X2KZBzt/IMG-9903.jpg',
-						},
-					],
-					description:
-						'When you know where you are going... the Universe opens the way for you',
-					name: 'Alexandria',
-					collection: 'Abstract',
-					artist: 'Aliris Barona',
-				},
-				color: ['#FFC0CB', '#ADD8E6', '#800080'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
-					{ quantity: '8', productTypeName: 'Turntable', price: '70' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/ySvzzTm/IMG-9906.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/9YV5Rk4/IMG-9916.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/dP8ryDg/IMG-9884.jpg',
-						},
-					],
-					description: 'Dedicate yourself to create, grow and believe',
-					name: 'Guadalajara',
-					collection: 'Flowers',
-					artist: 'Aliris Barona',
-				},
-				color: ['#ADD8E6', '#03bb85', '#0000FF'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
-					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/Qv8SSPP/AXEF1454.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/GFxrYK1/IMG-E4815.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/DMdkpK9/CEWAE4328.jpg',
-						},
-					],
-					description:
-						'Beautiful Rotating cake, accompanied by a delicious Chocolate Cake!',
-					name: 'Madrid',
-					collection: 'Abstract',
-					artist: 'Aliris Barona',
-				},
-				color: ['#ADD8E6', '#FFA500', '#800080'],
-				stock: [
-					{ quantity: '0', productTypeName: 'Cake Tray', price: '50' },
-					{ quantity: '0', productTypeName: 'Turntable', price: '70' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/y6ZX2d0/IMG-E6801.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/rZ5fnNL/SEVH0044.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/2nxxDYH/IMG-E6803.jpg',
-						},
-					],
-					description: 'Beautiful unique cake full of Color!',
-					name: 'Singapur',
-					collection: 'Flowers',
-					artist: 'Aliris Barona',
-				},
-				color: ['#ADD8E6', '#FFA500', '#800080'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
-					{ quantity: '8', productTypeName: 'Turntable', price: '70' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/3WjTxpy/IMG-E4816.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/PT8ZHHr/IMG-E4817.jpg',
-						},
-					],
-					description: 'Functional Art for the Table',
-					name: 'Tokio',
-					collection: 'Abstract',
-					artist: 'Aliris Barona',
-				},
-				color: ['#ADD8E6', '#FFA500', '#800080'],
-				stock: [
-					{ quantity: '0', productTypeName: 'Cake Tray', price: '50' },
-					{ quantity: '0', productTypeName: 'Turntable', price: '70' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/0XBs5zT/CXSF5512.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/0XBs5zT/CXSF5512.jpg',
-						},
-					],
-					description: 'This beauty from Tortera went to La Sucursal del Cielo',
-					name: 'París',
-					collection: 'Abstract',
-					artist: 'Aliris Barona',
-				},
-				color: ['#ADD8E6', '#FFA500', '#800080'],
-				stock: [
-					{ quantity: '0', productTypeName: 'Cake Tray', price: '50' },
-					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/7RxjdM0/IMG-0049.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/q739hry/IMG-E0052.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/cT97NfH/IMG-0052.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/NZHmdSW/IMG-0075.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/vD7xxbc/IMG-E6502.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/L913cbG/IMG-E0075.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/JH7wySm/IMG-0047.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/XSJjHVB/IMG-0053.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/c2Qp0db/IMG-0051.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/3cVPX0K/IMG-0055.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/NV5BddT/IMG-0074.jpg',
-						},
-					],
-					description: 'A piece of art full of color!!',
-					name: 'Delhi',
-					collection: 'Abstract',
-					artist: 'Aliris Barona',
-				},
-				color: ['#800080', '#FFC0CB', '#A52A2A'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
-					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/cD6QtJ0/IMG-E6578.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/LtRGscm/IMG-6578.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/djCF45V/IMG-0072.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/CmKNdBj/IMG-0080.jpg',
-						},
-					],
-					description:
-						'In it, an Ancheta where wine, a good cheese and grapes were his company!',
-					name: 'Shanghai',
-					collection: 'Flowers',
-					artist: 'Aliris Barona',
-				},
-				color: ['#FFFF00', '#03bb85', '#ADD8E6'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '40' },
-					{ quantity: '1', productTypeName: 'Turntable', price: '60' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/YtPJs8c/IMG-0045.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/F09PRVF/IMG-0042.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/Jy3qFYC/IMG-0043.jpg',
-						},
-					],
-					description:
-						'This beauty of Rotating Table accompanied by a delicious Carrot and Banana cake',
-					name: 'Dhaka',
-					collection: 'Flowers',
-					artist: 'Aliris Barona',
-				},
-				color: ['#FFD700', '#FFA500', '#800080'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '55' },
-					{ quantity: '8', productTypeName: 'Turntable', price: '75' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/9gGGfRJ/IMG-E6694.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/YX21F4Y/IMG-E6695.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/cX6WhCr/IMG-E6692.jpg',
-						},
-					],
-					description: 'Cakes and Torteras reaching every corner of Colombia',
-					name: 'Mumbai',
-					collection: 'Flowers',
-					artist: 'Aliris Barona',
-				},
-				color: ['#ADD8E6', '#0000FF', '#FFFFFF'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '70' },
-					{ quantity: '1', productTypeName: 'Turntable', price: '90' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/87qc5r3/IMG-E6602.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/5KJg958/IMG-0077.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/vQFH08M/IMG-E6601.jpg',
-						},
-					],
-					description:
-						'NEVER stop fighting for what makes your heart beat faster. You are getting closer to achieving it!',
-					name: 'Beijing',
-					collection: 'Flowers',
-					artist: 'Aliris Barona',
-				},
-				color: ['#800080', '#ADD8E6', '#A52A2A'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
-					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/DG5ZVtV/IMG-E6377.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/Z6JbcW8/LZDR9910.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/CHLG7qg/IMG-E6376.jpg',
-						},
-					],
-					description:
-						'Utilitarian art is an artistic creation made with the fundamental elements of composition and technique, as well as being a practical, useful and functional object.',
-					name: 'Osaka',
-					collection: 'Butterflies',
-					artist: 'Aliris Barona',
-				},
-				color: ['#FFC0CB', '#800080', '#FFD700'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
-					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/fvHTmKD/IMG-0038.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/wNxB0vr/IMG-E0051.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/6HzN8jC/IMG-6503.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/d7gBX6G/IMG-0046.jpg',
-						},
-					],
-					description: "We are what we leave in people's hearts",
-					name: 'Manila',
-					collection: 'Flowers',
-					artist: 'Aliris Barona',
-				},
-				color: ['#03bb85', '#800080', '#FFFFFF'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
-					{ quantity: '8', productTypeName: 'Turntable', price: '70' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/CtzjMPS/OFOZ4031.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/3f8ZtXh/IMG-E6314.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/FhJ9wr6/IMG-6317.jpg',
-						},
-					],
-					description:
-						'For you this spectacular Tortera. So that you can enjoy it and show off all your creations in it!',
-					name: 'Kolkata',
-					collection: 'Abstract',
-					artist: 'Aliris Barona',
-				},
-				color: ['#ADD8E6', '#800080', '#FFC0CB'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
-					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/VJ03rMM/IMG-6311.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/4NjMKZ1/IMG-E6311.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/3RtQpp9/IMG-6312.jpg',
-						},
-					],
-					description:
-						'May your life never lack sweetness and color!!! Banana and Chocolate Chip Cake',
-					name: 'Lima',
-					collection: 'Abstract',
-					artist: 'Aliris Barona',
-				},
-				color: ['#800080', '#FFFFFF', '#03bb85'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '60' },
-					{ quantity: '1', productTypeName: 'Turntable', price: '80' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/NsjBR6r/IMG-E6192.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/J7gWksv/IRCS2191.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/cvqZLDx/IMG-E6194.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/fqJbdyJ/DIHZ6664.jpg',
-						},
-					],
-					description: 'Creativity is intelligence having fun',
-					name: 'London',
-					collection: 'Flowers',
-					artist: 'Aliris Barona',
-				},
-				color: ['#0000FF', '#800080', '#FFC0CB'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
-					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/9gGGfRJ/IMG-E6694.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/whV4M7C/WFHZ2287.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/YX21F4Y/IMG-E6695.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/YX21F4Y/IMG-E6695.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/MCNGNrp/IMG-6683.jpg',
-						},
-					],
-					description:
-						'The meaning of life is to find your talent. The purpose of life is to share it',
-					name: 'Luanda',
-					collection: 'Abstract',
-					artist: 'Aliris Barona',
-				},
-				color: ['#ADD8E6', '#0000FF', '#FFFFFF'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
-					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/DKFH2T5/QTNC7251.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/DYXWhWf/DOBM0118.jpg',
-						},
-					],
-					description:
-						"A very special and different Turntable, which really catches everyone's attention!",
-					name: 'Toronto',
-					collection: 'Abstract',
-					artist: 'Aliris Barona',
-				},
-				color: ['#FFC0CB', '#ADD8E6', '#FFFF00'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
-					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/xs05ByL/IMG-6011.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/7rgHXpq/IMG-E6012.jpg',
-						},
-					],
-					description:
-						'With you this beautiful rotating table that accompanies the beauties that you prepare with so much love!!',
-					name: 'Dalian',
-					collection: 'Flowers',
-					artist: 'Aliris Barona',
-				},
-				color: ['#FFA500', '#800080', '#ADD8E6'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
-					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/ZSk6J2k/IMG-9911.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/YhFgPjC/IMG-9910.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/mc9ghPQ/IMG-09912.jpg',
-						},
-					],
-					description:
-						'As always… accompanied by a Delicious Orange and Poppy Cake! 🍰🍊',
-					name: 'Belo Horizonte',
-					collection: 'Flowers',
-					artist: 'Aliris Barona',
-				},
-				color: ['#800080', '#ADD8E6', '#FFA500'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
-					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/qWXDRCG/IMG-9904.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/JmwkLVk/IMG-E9904.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/X2KZBzt/IMG-9903.jpg',
-						},
-					],
-					description:
-						'When you know where you are going... the Universe opens the way for you',
-					name: 'Alexandria',
-					collection: 'Abstract',
-					artist: 'Aliris Barona',
-				},
-				color: ['#FFC0CB', '#ADD8E6', '#800080'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
-					{ quantity: '8', productTypeName: 'Turntable', price: '70' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/ySvzzTm/IMG-9906.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/9YV5Rk4/IMG-9916.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/dP8ryDg/IMG-9884.jpg',
-						},
-					],
-					description: 'Dedicate yourself to create, grow and believe',
-					name: 'Guadalajara',
-					collection: 'Flowers',
-					artist: 'Aliris Barona',
-				},
-				color: ['#ADD8E6', '#03bb85', '#0000FF'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
-					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/Qv8SSPP/AXEF1454.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/GFxrYK1/IMG-E4815.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/DMdkpK9/CEWAE4328.jpg',
-						},
-					],
-					description:
-						'Beautiful Rotating cake, accompanied by a delicious Chocolate Cake!',
-					name: 'Madrid',
-					collection: 'Abstract',
-					artist: 'Aliris Barona',
-				},
-				color: ['#ADD8E6', '#FFA500', '#800080'],
-				stock: [
-					{ quantity: '0', productTypeName: 'Cake Tray', price: '50' },
-					{ quantity: '0', productTypeName: 'Turntable', price: '70' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/y6ZX2d0/IMG-E6801.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/rZ5fnNL/SEVH0044.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/2nxxDYH/IMG-E6803.jpg',
-						},
-					],
-					description: 'Beautiful unique cake full of Color!',
-					name: 'Singapur',
-					collection: 'Flowers',
-					artist: 'Aliris Barona',
-				},
-				color: ['#ADD8E6', '#FFA500', '#800080'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
-					{ quantity: '8', productTypeName: 'Turntable', price: '70' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/3WjTxpy/IMG-E4816.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/PT8ZHHr/IMG-E4817.jpg',
-						},
-					],
-					description: 'Functional Art for the Table',
-					name: 'Tokio',
-					collection: 'Abstract',
-					artist: 'Aliris Barona',
-				},
-				color: ['#ADD8E6', '#FFA500', '#800080'],
-				stock: [
-					{ quantity: '0', productTypeName: 'Cake Tray', price: '50' },
-					{ quantity: '0', productTypeName: 'Turntable', price: '70' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/0XBs5zT/CXSF5512.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/0XBs5zT/CXSF5512.jpg',
-						},
-					],
-					description: 'This beauty from Tortera went to La Sucursal del Cielo',
-					name: 'París',
-					collection: 'Abstract',
-					artist: 'Aliris Barona',
-				},
-				color: ['#ADD8E6', '#FFA500', '#800080'],
-				stock: [
-					{ quantity: '0', productTypeName: 'Cake Tray', price: '50' },
-					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/7RxjdM0/IMG-0049.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/q739hry/IMG-E0052.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/cT97NfH/IMG-0052.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/NZHmdSW/IMG-0075.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/vD7xxbc/IMG-E6502.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/L913cbG/IMG-E0075.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/JH7wySm/IMG-0047.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/XSJjHVB/IMG-0053.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/c2Qp0db/IMG-0051.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/3cVPX0K/IMG-0055.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/NV5BddT/IMG-0074.jpg',
-						},
-					],
-					description: 'A piece of art full of color!!',
-					name: 'Delhi',
-					collection: 'Abstract',
-					artist: 'Aliris Barona',
-				},
-				color: ['#800080', '#FFC0CB', '#A52A2A'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
-					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/cD6QtJ0/IMG-E6578.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/LtRGscm/IMG-6578.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/djCF45V/IMG-0072.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/CmKNdBj/IMG-0080.jpg',
-						},
-					],
-					description:
-						'In it, an Ancheta where wine, a good cheese and grapes were his company!',
-					name: 'Shanghai',
-					collection: 'Flowers',
-					artist: 'Aliris Barona',
-				},
-				color: ['#FFFF00', '#03bb85', '#ADD8E6'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '40' },
-					{ quantity: '1', productTypeName: 'Turntable', price: '60' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/YtPJs8c/IMG-0045.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/F09PRVF/IMG-0042.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/Jy3qFYC/IMG-0043.jpg',
-						},
-					],
-					description:
-						'This beauty of Rotating Table accompanied by a delicious Carrot and Banana cake',
-					name: 'Dhaka',
-					collection: 'Flowers',
-					artist: 'Aliris Barona',
-				},
-				color: ['#FFD700', '#FFA500', '#800080'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '55' },
-					{ quantity: '8', productTypeName: 'Turntable', price: '75' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/9gGGfRJ/IMG-E6694.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/YX21F4Y/IMG-E6695.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/cX6WhCr/IMG-E6692.jpg',
-						},
-					],
-					description: 'Cakes and Torteras reaching every corner of Colombia',
-					name: 'Mumbai',
-					collection: 'Flowers',
-					artist: 'Aliris Barona',
-				},
-				color: ['#ADD8E6', '#0000FF', '#FFFFFF'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '70' },
-					{ quantity: '1', productTypeName: 'Turntable', price: '90' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/87qc5r3/IMG-E6602.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/5KJg958/IMG-0077.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/vQFH08M/IMG-E6601.jpg',
-						},
-					],
-					description:
-						'NEVER stop fighting for what makes your heart beat faster. You are getting closer to achieving it!',
-					name: 'Beijing',
-					collection: 'Flowers',
-					artist: 'Aliris Barona',
-				},
-				color: ['#800080', '#ADD8E6', '#A52A2A'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
-					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/DG5ZVtV/IMG-E6377.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/Z6JbcW8/LZDR9910.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/CHLG7qg/IMG-E6376.jpg',
-						},
-					],
-					description:
-						'Utilitarian art is an artistic creation made with the fundamental elements of composition and technique, as well as being a practical, useful and functional object.',
-					name: 'Osaka',
-					collection: 'Butterflies',
-					artist: 'Aliris Barona',
-				},
-				color: ['#FFC0CB', '#800080', '#FFD700'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
-					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/fvHTmKD/IMG-0038.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/wNxB0vr/IMG-E0051.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/6HzN8jC/IMG-6503.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/d7gBX6G/IMG-0046.jpg',
-						},
-					],
-					description: "We are what we leave in people's hearts",
-					name: 'Manila',
-					collection: 'Flowers',
-					artist: 'Aliris Barona',
-				},
-				color: ['#03bb85', '#800080', '#FFFFFF'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
-					{ quantity: '8', productTypeName: 'Turntable', price: '70' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/CtzjMPS/OFOZ4031.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/3f8ZtXh/IMG-E6314.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/FhJ9wr6/IMG-6317.jpg',
-						},
-					],
-					description:
-						'For you this spectacular Tortera. So that you can enjoy it and show off all your creations in it!',
-					name: 'Kolkata',
-					collection: 'Abstract',
-					artist: 'Aliris Barona',
-				},
-				color: ['#ADD8E6', '#800080', '#FFC0CB'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
-					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/VJ03rMM/IMG-6311.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/4NjMKZ1/IMG-E6311.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/3RtQpp9/IMG-6312.jpg',
-						},
-					],
-					description:
-						'May your life never lack sweetness and color!!! Banana and Chocolate Chip Cake',
-					name: 'Lima',
-					collection: 'Abstract',
-					artist: 'Aliris Barona',
-				},
-				color: ['#800080', '#FFFFFF', '#03bb85'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '60' },
-					{ quantity: '1', productTypeName: 'Turntable', price: '80' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/NsjBR6r/IMG-E6192.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/J7gWksv/IRCS2191.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/cvqZLDx/IMG-E6194.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/fqJbdyJ/DIHZ6664.jpg',
-						},
-					],
-					description: 'Creativity is intelligence having fun',
-					name: 'London',
-					collection: 'Flowers',
-					artist: 'Aliris Barona',
-				},
-				color: ['#0000FF', '#800080', '#FFC0CB'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
-					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/9gGGfRJ/IMG-E6694.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/whV4M7C/WFHZ2287.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/YX21F4Y/IMG-E6695.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/YX21F4Y/IMG-E6695.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/MCNGNrp/IMG-6683.jpg',
-						},
-					],
-					description:
-						'The meaning of life is to find your talent. The purpose of life is to share it',
-					name: 'Luanda',
-					collection: 'Abstract',
-					artist: 'Aliris Barona',
-				},
-				color: ['#ADD8E6', '#0000FF', '#FFFFFF'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
-					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/DKFH2T5/QTNC7251.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/DYXWhWf/DOBM0118.jpg',
-						},
-					],
-					description:
-						"A very special and different Turntable, which really catches everyone's attention!",
-					name: 'Toronto',
-					collection: 'Abstract',
-					artist: 'Aliris Barona',
-				},
-				color: ['#FFC0CB', '#ADD8E6', '#FFFF00'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
-					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/xs05ByL/IMG-6011.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/7rgHXpq/IMG-E6012.jpg',
-						},
-					],
-					description:
-						'With you this beautiful rotating table that accompanies the beauties that you prepare with so much love!!',
-					name: 'Dalian',
-					collection: 'Flowers',
-					artist: 'Aliris Barona',
-				},
-				color: ['#FFA500', '#800080', '#ADD8E6'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
-					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/ZSk6J2k/IMG-9911.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/YhFgPjC/IMG-9910.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/mc9ghPQ/IMG-09912.jpg',
-						},
-					],
-					description:
-						'As always… accompanied by a Delicious Orange and Poppy Cake! 🍰🍊',
-					name: 'Belo Horizonte',
-					collection: 'Flowers',
-					artist: 'Aliris Barona',
-				},
-				color: ['#800080', '#ADD8E6', '#FFA500'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
-					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/qWXDRCG/IMG-9904.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/JmwkLVk/IMG-E9904.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/X2KZBzt/IMG-9903.jpg',
-						},
-					],
-					description:
-						'When you know where you are going... the Universe opens the way for you',
-					name: 'Alexandria',
-					collection: 'Abstract',
-					artist: 'Aliris Barona',
-				},
-				color: ['#FFC0CB', '#ADD8E6', '#800080'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
-					{ quantity: '8', productTypeName: 'Turntable', price: '70' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/ySvzzTm/IMG-9906.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/9YV5Rk4/IMG-9916.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/dP8ryDg/IMG-9884.jpg',
-						},
-					],
-					description: 'Dedicate yourself to create, grow and believe',
-					name: 'Guadalajara',
-					collection: 'Flowers',
-					artist: 'Aliris Barona',
-				},
-				color: ['#ADD8E6', '#03bb85', '#0000FF'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
-					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/Qv8SSPP/AXEF1454.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/GFxrYK1/IMG-E4815.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/DMdkpK9/CEWAE4328.jpg',
-						},
-					],
-					description:
-						'Beautiful Rotating cake, accompanied by a delicious Chocolate Cake!',
-					name: 'Madrid',
-					collection: 'Abstract',
-					artist: 'Aliris Barona',
-				},
-				color: ['#ADD8E6', '#FFA500', '#800080'],
-				stock: [
-					{ quantity: '0', productTypeName: 'Cake Tray', price: '50' },
-					{ quantity: '0', productTypeName: 'Turntable', price: '70' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/y6ZX2d0/IMG-E6801.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/rZ5fnNL/SEVH0044.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/2nxxDYH/IMG-E6803.jpg',
-						},
-					],
-					description: 'Beautiful unique cake full of Color!',
-					name: 'Singapur',
-					collection: 'Flowers',
-					artist: 'Aliris Barona',
-				},
-				color: ['#ADD8E6', '#FFA500', '#800080'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
-					{ quantity: '8', productTypeName: 'Turntable', price: '70' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/3WjTxpy/IMG-E4816.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/PT8ZHHr/IMG-E4817.jpg',
-						},
-					],
-					description: 'Functional Art for the Table',
-					name: 'Tokio',
-					collection: 'Abstract',
-					artist: 'Aliris Barona',
-				},
-				color: ['#ADD8E6', '#FFA500', '#800080'],
-				stock: [
-					{ quantity: '0', productTypeName: 'Cake Tray', price: '50' },
-					{ quantity: '0', productTypeName: 'Turntable', price: '70' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/0XBs5zT/CXSF5512.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/0XBs5zT/CXSF5512.jpg',
-						},
-					],
-					description: 'This beauty from Tortera went to La Sucursal del Cielo',
-					name: 'París',
-					collection: 'Abstract',
-					artist: 'Aliris Barona',
-				},
-				color: ['#ADD8E6', '#FFA500', '#800080'],
-				stock: [
-					{ quantity: '0', productTypeName: 'Cake Tray', price: '50' },
-					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/7RxjdM0/IMG-0049.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/q739hry/IMG-E0052.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/cT97NfH/IMG-0052.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/NZHmdSW/IMG-0075.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/vD7xxbc/IMG-E6502.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/L913cbG/IMG-E0075.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/JH7wySm/IMG-0047.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/XSJjHVB/IMG-0053.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/c2Qp0db/IMG-0051.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/3cVPX0K/IMG-0055.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/NV5BddT/IMG-0074.jpg',
-						},
-					],
-					description: 'A piece of art full of color!!',
-					name: 'Delhi',
-					collection: 'Abstract',
-					artist: 'Aliris Barona',
-				},
-				color: ['#800080', '#FFC0CB', '#A52A2A'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
-					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/cD6QtJ0/IMG-E6578.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/LtRGscm/IMG-6578.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/djCF45V/IMG-0072.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/CmKNdBj/IMG-0080.jpg',
-						},
-					],
-					description:
-						'In it, an Ancheta where wine, a good cheese and grapes were his company!',
-					name: 'Shanghai',
-					collection: 'Flowers',
-					artist: 'Aliris Barona',
-				},
-				color: ['#FFFF00', '#03bb85', '#ADD8E6'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '40' },
-					{ quantity: '1', productTypeName: 'Turntable', price: '60' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/YtPJs8c/IMG-0045.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/F09PRVF/IMG-0042.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/Jy3qFYC/IMG-0043.jpg',
-						},
-					],
-					description:
-						'This beauty of Rotating Table accompanied by a delicious Carrot and Banana cake',
-					name: 'Dhaka',
-					collection: 'Flowers',
-					artist: 'Aliris Barona',
-				},
-				color: ['#FFD700', '#FFA500', '#800080'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '55' },
-					{ quantity: '8', productTypeName: 'Turntable', price: '75' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/9gGGfRJ/IMG-E6694.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/YX21F4Y/IMG-E6695.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/cX6WhCr/IMG-E6692.jpg',
-						},
-					],
-					description: 'Cakes and Torteras reaching every corner of Colombia',
-					name: 'Mumbai',
-					collection: 'Flowers',
-					artist: 'Aliris Barona',
-				},
-				color: ['#ADD8E6', '#0000FF', '#FFFFFF'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '70' },
-					{ quantity: '1', productTypeName: 'Turntable', price: '90' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/87qc5r3/IMG-E6602.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/5KJg958/IMG-0077.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/vQFH08M/IMG-E6601.jpg',
-						},
-					],
-					description:
-						'NEVER stop fighting for what makes your heart beat faster. You are getting closer to achieving it!',
-					name: 'Beijing',
-					collection: 'Flowers',
-					artist: 'Aliris Barona',
-				},
-				color: ['#800080', '#ADD8E6', '#A52A2A'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
-					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/DG5ZVtV/IMG-E6377.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/Z6JbcW8/LZDR9910.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/CHLG7qg/IMG-E6376.jpg',
-						},
-					],
-					description:
-						'Utilitarian art is an artistic creation made with the fundamental elements of composition and technique, as well as being a practical, useful and functional object.',
-					name: 'Osaka',
-					collection: 'Butterflies',
-					artist: 'Aliris Barona',
-				},
-				color: ['#FFC0CB', '#800080', '#FFD700'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
-					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/fvHTmKD/IMG-0038.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/wNxB0vr/IMG-E0051.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/6HzN8jC/IMG-6503.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/d7gBX6G/IMG-0046.jpg',
-						},
-					],
-					description: "We are what we leave in people's hearts",
-					name: 'Manila',
-					collection: 'Flowers',
-					artist: 'Aliris Barona',
-				},
-				color: ['#03bb85', '#800080', '#FFFFFF'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
-					{ quantity: '8', productTypeName: 'Turntable', price: '70' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/CtzjMPS/OFOZ4031.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/3f8ZtXh/IMG-E6314.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/FhJ9wr6/IMG-6317.jpg',
-						},
-					],
-					description:
-						'For you this spectacular Tortera. So that you can enjoy it and show off all your creations in it!',
-					name: 'Kolkata',
-					collection: 'Abstract',
-					artist: 'Aliris Barona',
-				},
-				color: ['#ADD8E6', '#800080', '#FFC0CB'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
-					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/VJ03rMM/IMG-6311.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/4NjMKZ1/IMG-E6311.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/3RtQpp9/IMG-6312.jpg',
-						},
-					],
-					description:
-						'May your life never lack sweetness and color!!! Banana and Chocolate Chip Cake',
-					name: 'Lima',
-					collection: 'Abstract',
-					artist: 'Aliris Barona',
-				},
-				color: ['#800080', '#FFFFFF', '#03bb85'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '60' },
-					{ quantity: '1', productTypeName: 'Turntable', price: '80' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/NsjBR6r/IMG-E6192.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/J7gWksv/IRCS2191.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/cvqZLDx/IMG-E6194.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/fqJbdyJ/DIHZ6664.jpg',
-						},
-					],
-					description: 'Creativity is intelligence having fun',
-					name: 'London',
-					collection: 'Flowers',
-					artist: 'Aliris Barona',
-				},
-				color: ['#0000FF', '#800080', '#FFC0CB'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
-					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/9gGGfRJ/IMG-E6694.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/whV4M7C/WFHZ2287.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/YX21F4Y/IMG-E6695.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/YX21F4Y/IMG-E6695.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/MCNGNrp/IMG-6683.jpg',
-						},
-					],
-					description:
-						'The meaning of life is to find your talent. The purpose of life is to share it',
-					name: 'Luanda',
-					collection: 'Abstract',
-					artist: 'Aliris Barona',
-				},
-				color: ['#ADD8E6', '#0000FF', '#FFFFFF'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
-					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/DKFH2T5/QTNC7251.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/DYXWhWf/DOBM0118.jpg',
-						},
-					],
-					description:
-						"A very special and different Turntable, which really catches everyone's attention!",
-					name: 'Toronto',
-					collection: 'Abstract',
-					artist: 'Aliris Barona',
-				},
-				color: ['#FFC0CB', '#ADD8E6', '#FFFF00'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
-					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/xs05ByL/IMG-6011.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/7rgHXpq/IMG-E6012.jpg',
-						},
-					],
-					description:
-						'With you this beautiful rotating table that accompanies the beauties that you prepare with so much love!!',
-					name: 'Dalian',
-					collection: 'Flowers',
-					artist: 'Aliris Barona',
-				},
-				color: ['#FFA500', '#800080', '#ADD8E6'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
-					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/ZSk6J2k/IMG-9911.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/YhFgPjC/IMG-9910.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/mc9ghPQ/IMG-09912.jpg',
-						},
-					],
-					description:
-						'As always… accompanied by a Delicious Orange and Poppy Cake! 🍰🍊',
-					name: 'Belo Horizonte',
-					collection: 'Flowers',
-					artist: 'Aliris Barona',
-				},
-				color: ['#800080', '#ADD8E6', '#FFA500'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
-					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/qWXDRCG/IMG-9904.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/JmwkLVk/IMG-E9904.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/X2KZBzt/IMG-9903.jpg',
-						},
-					],
-					description:
-						'When you know where you are going... the Universe opens the way for you',
-					name: 'Alexandria',
-					collection: 'Abstract',
-					artist: 'Aliris Barona',
-				},
-				color: ['#FFC0CB', '#ADD8E6', '#800080'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
-					{ quantity: '8', productTypeName: 'Turntable', price: '70' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/ySvzzTm/IMG-9906.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/9YV5Rk4/IMG-9916.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/dP8ryDg/IMG-9884.jpg',
-						},
-					],
-					description: 'Dedicate yourself to create, grow and believe',
-					name: 'Guadalajara',
-					collection: 'Flowers',
-					artist: 'Aliris Barona',
-				},
-				color: ['#ADD8E6', '#03bb85', '#0000FF'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
-					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/Qv8SSPP/AXEF1454.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/GFxrYK1/IMG-E4815.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/DMdkpK9/CEWAE4328.jpg',
-						},
-					],
-					description:
-						'Beautiful Rotating cake, accompanied by a delicious Chocolate Cake!',
-					name: 'Madrid',
-					collection: 'Abstract',
-					artist: 'Aliris Barona',
-				},
-				color: ['#ADD8E6', '#FFA500', '#800080'],
-				stock: [
-					{ quantity: '0', productTypeName: 'Cake Tray', price: '50' },
-					{ quantity: '0', productTypeName: 'Turntable', price: '70' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/y6ZX2d0/IMG-E6801.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/rZ5fnNL/SEVH0044.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/2nxxDYH/IMG-E6803.jpg',
-						},
-					],
-					description: 'Beautiful unique cake full of Color!',
-					name: 'Singapur',
-					collection: 'Flowers',
-					artist: 'Aliris Barona',
-				},
-				color: ['#ADD8E6', '#FFA500', '#800080'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
-					{ quantity: '8', productTypeName: 'Turntable', price: '70' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/3WjTxpy/IMG-E4816.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/PT8ZHHr/IMG-E4817.jpg',
-						},
-					],
-					description: 'Functional Art for the Table',
-					name: 'Tokio',
-					collection: 'Abstract',
-					artist: 'Aliris Barona',
-				},
-				color: ['#ADD8E6', '#FFA500', '#800080'],
-				stock: [
-					{ quantity: '0', productTypeName: 'Cake Tray', price: '50' },
-					{ quantity: '0', productTypeName: 'Turntable', price: '70' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/0XBs5zT/CXSF5512.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/0XBs5zT/CXSF5512.jpg',
-						},
-					],
-					description: 'This beauty from Tortera went to La Sucursal del Cielo',
-					name: 'París',
-					collection: 'Abstract',
-					artist: 'Aliris Barona',
-				},
-				color: ['#ADD8E6', '#FFA500', '#800080'],
-				stock: [
-					{ quantity: '0', productTypeName: 'Cake Tray', price: '50' },
-					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/7RxjdM0/IMG-0049.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/q739hry/IMG-E0052.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/cT97NfH/IMG-0052.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/NZHmdSW/IMG-0075.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/vD7xxbc/IMG-E6502.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/L913cbG/IMG-E0075.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/JH7wySm/IMG-0047.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/XSJjHVB/IMG-0053.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/c2Qp0db/IMG-0051.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/3cVPX0K/IMG-0055.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/NV5BddT/IMG-0074.jpg',
-						},
-					],
-					description: 'A piece of art full of color!!',
-					name: 'Delhi',
-					collection: 'Abstract',
-					artist: 'Aliris Barona',
-				},
-				color: ['#800080', '#FFC0CB', '#A52A2A'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
-					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/cD6QtJ0/IMG-E6578.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/LtRGscm/IMG-6578.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/djCF45V/IMG-0072.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/CmKNdBj/IMG-0080.jpg',
-						},
-					],
-					description:
-						'In it, an Ancheta where wine, a good cheese and grapes were his company!',
-					name: 'Shanghai',
-					collection: 'Flowers',
-					artist: 'Aliris Barona',
-				},
-				color: ['#FFFF00', '#03bb85', '#ADD8E6'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '40' },
-					{ quantity: '1', productTypeName: 'Turntable', price: '60' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/YtPJs8c/IMG-0045.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/F09PRVF/IMG-0042.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/Jy3qFYC/IMG-0043.jpg',
-						},
-					],
-					description:
-						'This beauty of Rotating Table accompanied by a delicious Carrot and Banana cake',
-					name: 'Dhaka',
-					collection: 'Flowers',
-					artist: 'Aliris Barona',
-				},
-				color: ['#FFD700', '#FFA500', '#800080'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '55' },
-					{ quantity: '8', productTypeName: 'Turntable', price: '75' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/9gGGfRJ/IMG-E6694.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/YX21F4Y/IMG-E6695.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/cX6WhCr/IMG-E6692.jpg',
-						},
-					],
-					description: 'Cakes and Torteras reaching every corner of Colombia',
-					name: 'Mumbai',
-					collection: 'Flowers',
-					artist: 'Aliris Barona',
-				},
-				color: ['#ADD8E6', '#0000FF', '#FFFFFF'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '70' },
-					{ quantity: '1', productTypeName: 'Turntable', price: '90' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/87qc5r3/IMG-E6602.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/5KJg958/IMG-0077.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/vQFH08M/IMG-E6601.jpg',
-						},
-					],
-					description:
-						'NEVER stop fighting for what makes your heart beat faster. You are getting closer to achieving it!',
-					name: 'Beijing',
-					collection: 'Flowers',
-					artist: 'Aliris Barona',
-				},
-				color: ['#800080', '#ADD8E6', '#A52A2A'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
-					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/DG5ZVtV/IMG-E6377.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/Z6JbcW8/LZDR9910.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/CHLG7qg/IMG-E6376.jpg',
-						},
-					],
-					description:
-						'Utilitarian art is an artistic creation made with the fundamental elements of composition and technique, as well as being a practical, useful and functional object.',
-					name: 'Osaka',
-					collection: 'Butterflies',
-					artist: 'Aliris Barona',
-				},
-				color: ['#FFC0CB', '#800080', '#FFD700'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
-					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/fvHTmKD/IMG-0038.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/wNxB0vr/IMG-E0051.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/6HzN8jC/IMG-6503.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/d7gBX6G/IMG-0046.jpg',
-						},
-					],
-					description: "We are what we leave in people's hearts",
-					name: 'Manila',
-					collection: 'Flowers',
-					artist: 'Aliris Barona',
-				},
-				color: ['#03bb85', '#800080', '#FFFFFF'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
-					{ quantity: '8', productTypeName: 'Turntable', price: '70' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/CtzjMPS/OFOZ4031.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/3f8ZtXh/IMG-E6314.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/FhJ9wr6/IMG-6317.jpg',
-						},
-					],
-					description:
-						'For you this spectacular Tortera. So that you can enjoy it and show off all your creations in it!',
-					name: 'Kolkata',
-					collection: 'Abstract',
-					artist: 'Aliris Barona',
-				},
-				color: ['#ADD8E6', '#800080', '#FFC0CB'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
-					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/VJ03rMM/IMG-6311.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/4NjMKZ1/IMG-E6311.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/3RtQpp9/IMG-6312.jpg',
-						},
-					],
-					description:
-						'May your life never lack sweetness and color!!! Banana and Chocolate Chip Cake',
-					name: 'Lima',
-					collection: 'Abstract',
-					artist: 'Aliris Barona',
-				},
-				color: ['#800080', '#FFFFFF', '#03bb85'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '60' },
-					{ quantity: '1', productTypeName: 'Turntable', price: '80' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/NsjBR6r/IMG-E6192.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/J7gWksv/IRCS2191.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/cvqZLDx/IMG-E6194.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/fqJbdyJ/DIHZ6664.jpg',
-						},
-					],
-					description: 'Creativity is intelligence having fun',
-					name: 'London',
-					collection: 'Flowers',
-					artist: 'Aliris Barona',
-				},
-				color: ['#0000FF', '#800080', '#FFC0CB'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
-					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/9gGGfRJ/IMG-E6694.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/whV4M7C/WFHZ2287.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/YX21F4Y/IMG-E6695.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/YX21F4Y/IMG-E6695.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/MCNGNrp/IMG-6683.jpg',
-						},
-					],
-					description:
-						'The meaning of life is to find your talent. The purpose of life is to share it',
-					name: 'Luanda',
-					collection: 'Abstract',
-					artist: 'Aliris Barona',
-				},
-				color: ['#ADD8E6', '#0000FF', '#FFFFFF'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
-					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/DKFH2T5/QTNC7251.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/DYXWhWf/DOBM0118.jpg',
-						},
-					],
-					description:
-						"A very special and different Turntable, which really catches everyone's attention!",
-					name: 'Toronto',
-					collection: 'Abstract',
-					artist: 'Aliris Barona',
-				},
-				color: ['#FFC0CB', '#ADD8E6', '#FFFF00'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
-					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/xs05ByL/IMG-6011.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/7rgHXpq/IMG-E6012.jpg',
-						},
-					],
-					description:
-						'With you this beautiful rotating table that accompanies the beauties that you prepare with so much love!!',
-					name: 'Dalian',
-					collection: 'Flowers',
-					artist: 'Aliris Barona',
-				},
-				color: ['#FFA500', '#800080', '#ADD8E6'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
-					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/ZSk6J2k/IMG-9911.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/YhFgPjC/IMG-9910.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/mc9ghPQ/IMG-09912.jpg',
-						},
-					],
-					description:
-						'As always… accompanied by a Delicious Orange and Poppy Cake! 🍰🍊',
-					name: 'Belo Horizonte',
-					collection: 'Flowers',
-					artist: 'Aliris Barona',
-				},
-				color: ['#800080', '#ADD8E6', '#FFA500'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
-					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/qWXDRCG/IMG-9904.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/JmwkLVk/IMG-E9904.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/X2KZBzt/IMG-9903.jpg',
-						},
-					],
-					description:
-						'When you know where you are going... the Universe opens the way for you',
-					name: 'Alexandria',
-					collection: 'Abstract',
-					artist: 'Aliris Barona',
-				},
-				color: ['#FFC0CB', '#ADD8E6', '#800080'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
-					{ quantity: '8', productTypeName: 'Turntable', price: '70' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/ySvzzTm/IMG-9906.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/9YV5Rk4/IMG-9916.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/dP8ryDg/IMG-9884.jpg',
-						},
-					],
-					description: 'Dedicate yourself to create, grow and believe',
-					name: 'Guadalajara',
-					collection: 'Flowers',
-					artist: 'Aliris Barona',
-				},
-				color: ['#ADD8E6', '#03bb85', '#0000FF'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
-					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/Qv8SSPP/AXEF1454.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/GFxrYK1/IMG-E4815.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/DMdkpK9/CEWAE4328.jpg',
-						},
-					],
-					description:
-						'Beautiful Rotating cake, accompanied by a delicious Chocolate Cake!',
-					name: 'Madrid',
-					collection: 'Abstract',
-					artist: 'Aliris Barona',
-				},
-				color: ['#ADD8E6', '#FFA500', '#800080'],
-				stock: [
-					{ quantity: '0', productTypeName: 'Cake Tray', price: '50' },
-					{ quantity: '0', productTypeName: 'Turntable', price: '70' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/y6ZX2d0/IMG-E6801.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/rZ5fnNL/SEVH0044.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/2nxxDYH/IMG-E6803.jpg',
-						},
-					],
-					description: 'Beautiful unique cake full of Color!',
-					name: 'Singapur',
-					collection: 'Flowers',
-					artist: 'Aliris Barona',
-				},
-				color: ['#ADD8E6', '#FFA500', '#800080'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
-					{ quantity: '8', productTypeName: 'Turntable', price: '70' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/3WjTxpy/IMG-E4816.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/PT8ZHHr/IMG-E4817.jpg',
-						},
-					],
-					description: 'Functional Art for the Table',
-					name: 'Tokio',
-					collection: 'Abstract',
-					artist: 'Aliris Barona',
-				},
-				color: ['#ADD8E6', '#FFA500', '#800080'],
-				stock: [
-					{ quantity: '0', productTypeName: 'Cake Tray', price: '50' },
-					{ quantity: '0', productTypeName: 'Turntable', price: '70' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/0XBs5zT/CXSF5512.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/0XBs5zT/CXSF5512.jpg',
-						},
-					],
-					description: 'This beauty from Tortera went to La Sucursal del Cielo',
-					name: 'París',
-					collection: 'Abstract',
-					artist: 'Aliris Barona',
-				},
-				color: ['#ADD8E6', '#FFA500', '#800080'],
-				stock: [
-					{ quantity: '0', productTypeName: 'Cake Tray', price: '50' },
-					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/7RxjdM0/IMG-0049.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/q739hry/IMG-E0052.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/cT97NfH/IMG-0052.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/NZHmdSW/IMG-0075.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/vD7xxbc/IMG-E6502.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/L913cbG/IMG-E0075.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/JH7wySm/IMG-0047.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/XSJjHVB/IMG-0053.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/c2Qp0db/IMG-0051.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/3cVPX0K/IMG-0055.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/NV5BddT/IMG-0074.jpg',
-						},
-					],
-					description: 'A piece of art full of color!!',
-					name: 'Delhi',
-					collection: 'Abstract',
-					artist: 'Aliris Barona',
-				},
-				color: ['#800080', '#FFC0CB', '#A52A2A'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
-					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/cD6QtJ0/IMG-E6578.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/LtRGscm/IMG-6578.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/djCF45V/IMG-0072.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/CmKNdBj/IMG-0080.jpg',
-						},
-					],
-					description:
-						'In it, an Ancheta where wine, a good cheese and grapes were his company!',
-					name: 'Shanghai',
-					collection: 'Flowers',
-					artist: 'Aliris Barona',
-				},
-				color: ['#FFFF00', '#03bb85', '#ADD8E6'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '40' },
-					{ quantity: '1', productTypeName: 'Turntable', price: '60' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/YtPJs8c/IMG-0045.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/F09PRVF/IMG-0042.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/Jy3qFYC/IMG-0043.jpg',
-						},
-					],
-					description:
-						'This beauty of Rotating Table accompanied by a delicious Carrot and Banana cake',
-					name: 'Dhaka',
-					collection: 'Flowers',
-					artist: 'Aliris Barona',
-				},
-				color: ['#FFD700', '#FFA500', '#800080'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '55' },
-					{ quantity: '8', productTypeName: 'Turntable', price: '75' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/9gGGfRJ/IMG-E6694.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/YX21F4Y/IMG-E6695.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/cX6WhCr/IMG-E6692.jpg',
-						},
-					],
-					description: 'Cakes and Torteras reaching every corner of Colombia',
-					name: 'Mumbai',
-					collection: 'Flowers',
-					artist: 'Aliris Barona',
-				},
-				color: ['#ADD8E6', '#0000FF', '#FFFFFF'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '70' },
-					{ quantity: '1', productTypeName: 'Turntable', price: '90' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/87qc5r3/IMG-E6602.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/5KJg958/IMG-0077.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/vQFH08M/IMG-E6601.jpg',
-						},
-					],
-					description:
-						'NEVER stop fighting for what makes your heart beat faster. You are getting closer to achieving it!',
-					name: 'Beijing',
-					collection: 'Flowers',
-					artist: 'Aliris Barona',
-				},
-				color: ['#800080', '#ADD8E6', '#A52A2A'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
-					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/DG5ZVtV/IMG-E6377.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/Z6JbcW8/LZDR9910.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/CHLG7qg/IMG-E6376.jpg',
-						},
-					],
-					description:
-						'Utilitarian art is an artistic creation made with the fundamental elements of composition and technique, as well as being a practical, useful and functional object.',
-					name: 'Osaka',
-					collection: 'Butterflies',
-					artist: 'Aliris Barona',
-				},
-				color: ['#FFC0CB', '#800080', '#FFD700'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
-					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/fvHTmKD/IMG-0038.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/wNxB0vr/IMG-E0051.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/6HzN8jC/IMG-6503.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/d7gBX6G/IMG-0046.jpg',
-						},
-					],
-					description: "We are what we leave in people's hearts",
-					name: 'Manila',
-					collection: 'Flowers',
-					artist: 'Aliris Barona',
-				},
-				color: ['#03bb85', '#800080', '#FFFFFF'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
-					{ quantity: '8', productTypeName: 'Turntable', price: '70' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/CtzjMPS/OFOZ4031.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/3f8ZtXh/IMG-E6314.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/FhJ9wr6/IMG-6317.jpg',
-						},
-					],
-					description:
-						'For you this spectacular Tortera. So that you can enjoy it and show off all your creations in it!',
-					name: 'Kolkata',
-					collection: 'Abstract',
-					artist: 'Aliris Barona',
-				},
-				color: ['#ADD8E6', '#800080', '#FFC0CB'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
-					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/VJ03rMM/IMG-6311.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/4NjMKZ1/IMG-E6311.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/3RtQpp9/IMG-6312.jpg',
-						},
-					],
-					description:
-						'May your life never lack sweetness and color!!! Banana and Chocolate Chip Cake',
-					name: 'Lima',
-					collection: 'Abstract',
-					artist: 'Aliris Barona',
-				},
-				color: ['#800080', '#FFFFFF', '#03bb85'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '60' },
-					{ quantity: '1', productTypeName: 'Turntable', price: '80' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/NsjBR6r/IMG-E6192.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/J7gWksv/IRCS2191.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/cvqZLDx/IMG-E6194.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/fqJbdyJ/DIHZ6664.jpg',
-						},
-					],
-					description: 'Creativity is intelligence having fun',
-					name: 'London',
-					collection: 'Flowers',
-					artist: 'Aliris Barona',
-				},
-				color: ['#0000FF', '#800080', '#FFC0CB'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
-					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/9gGGfRJ/IMG-E6694.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/whV4M7C/WFHZ2287.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/YX21F4Y/IMG-E6695.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/YX21F4Y/IMG-E6695.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/MCNGNrp/IMG-6683.jpg',
-						},
-					],
-					description:
-						'The meaning of life is to find your talent. The purpose of life is to share it',
-					name: 'Luanda',
-					collection: 'Abstract',
-					artist: 'Aliris Barona',
-				},
-				color: ['#ADD8E6', '#0000FF', '#FFFFFF'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
-					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/DKFH2T5/QTNC7251.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/DYXWhWf/DOBM0118.jpg',
-						},
-					],
-					description:
-						"A very special and different Turntable, which really catches everyone's attention!",
-					name: 'Toronto',
-					collection: 'Abstract',
-					artist: 'Aliris Barona',
-				},
-				color: ['#FFC0CB', '#ADD8E6', '#FFFF00'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
-					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/xs05ByL/IMG-6011.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/7rgHXpq/IMG-E6012.jpg',
-						},
-					],
-					description:
-						'With you this beautiful rotating table that accompanies the beauties that you prepare with so much love!!',
-					name: 'Dalian',
-					collection: 'Flowers',
-					artist: 'Aliris Barona',
-				},
-				color: ['#FFA500', '#800080', '#ADD8E6'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
-					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/ZSk6J2k/IMG-9911.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/YhFgPjC/IMG-9910.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/mc9ghPQ/IMG-09912.jpg',
-						},
-					],
-					description:
-						'As always… accompanied by a Delicious Orange and Poppy Cake! 🍰🍊',
-					name: 'Belo Horizonte',
-					collection: 'Flowers',
-					artist: 'Aliris Barona',
-				},
-				color: ['#800080', '#ADD8E6', '#FFA500'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
-					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/qWXDRCG/IMG-9904.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/JmwkLVk/IMG-E9904.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/X2KZBzt/IMG-9903.jpg',
-						},
-					],
-					description:
-						'When you know where you are going... the Universe opens the way for you',
-					name: 'Alexandria',
-					collection: 'Abstract',
-					artist: 'Aliris Barona',
-				},
-				color: ['#FFC0CB', '#ADD8E6', '#800080'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
-					{ quantity: '8', productTypeName: 'Turntable', price: '70' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/ySvzzTm/IMG-9906.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/9YV5Rk4/IMG-9916.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/dP8ryDg/IMG-9884.jpg',
-						},
-					],
-					description: 'Dedicate yourself to create, grow and believe',
-					name: 'Guadalajara',
-					collection: 'Flowers',
-					artist: 'Aliris Barona',
-				},
-				color: ['#ADD8E6', '#03bb85', '#0000FF'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
-					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/Qv8SSPP/AXEF1454.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/GFxrYK1/IMG-E4815.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/DMdkpK9/CEWAE4328.jpg',
-						},
-					],
-					description:
-						'Beautiful Rotating cake, accompanied by a delicious Chocolate Cake!',
-					name: 'Madrid',
-					collection: 'Abstract',
-					artist: 'Aliris Barona',
-				},
-				color: ['#ADD8E6', '#FFA500', '#800080'],
-				stock: [
-					{ quantity: '0', productTypeName: 'Cake Tray', price: '50' },
-					{ quantity: '0', productTypeName: 'Turntable', price: '70' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/y6ZX2d0/IMG-E6801.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/rZ5fnNL/SEVH0044.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/2nxxDYH/IMG-E6803.jpg',
-						},
-					],
-					description: 'Beautiful unique cake full of Color!',
-					name: 'Singapur',
-					collection: 'Flowers',
-					artist: 'Aliris Barona',
-				},
-				color: ['#ADD8E6', '#FFA500', '#800080'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
-					{ quantity: '8', productTypeName: 'Turntable', price: '70' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/3WjTxpy/IMG-E4816.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/PT8ZHHr/IMG-E4817.jpg',
-						},
-					],
-					description: 'Functional Art for the Table',
-					name: 'Tokio',
-					collection: 'Abstract',
-					artist: 'Aliris Barona',
-				},
-				color: ['#ADD8E6', '#FFA500', '#800080'],
-				stock: [
-					{ quantity: '0', productTypeName: 'Cake Tray', price: '50' },
-					{ quantity: '0', productTypeName: 'Turntable', price: '70' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/0XBs5zT/CXSF5512.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/0XBs5zT/CXSF5512.jpg',
-						},
-					],
-					description: 'This beauty from Tortera went to La Sucursal del Cielo',
-					name: 'París',
-					collection: 'Abstract',
-					artist: 'Aliris Barona',
-				},
-				color: ['#ADD8E6', '#FFA500', '#800080'],
-				stock: [
-					{ quantity: '0', productTypeName: 'Cake Tray', price: '50' },
-					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/7RxjdM0/IMG-0049.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/q739hry/IMG-E0052.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/cT97NfH/IMG-0052.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/NZHmdSW/IMG-0075.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/vD7xxbc/IMG-E6502.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/L913cbG/IMG-E0075.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/JH7wySm/IMG-0047.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/XSJjHVB/IMG-0053.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/c2Qp0db/IMG-0051.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/3cVPX0K/IMG-0055.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/NV5BddT/IMG-0074.jpg',
-						},
-					],
-					description: 'A piece of art full of color!!',
-					name: 'Delhi',
-					collection: 'Abstract',
-					artist: 'Aliris Barona',
-				},
-				color: ['#800080', '#FFC0CB', '#A52A2A'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
-					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/cD6QtJ0/IMG-E6578.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/LtRGscm/IMG-6578.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/djCF45V/IMG-0072.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/CmKNdBj/IMG-0080.jpg',
-						},
-					],
-					description:
-						'In it, an Ancheta where wine, a good cheese and grapes were his company!',
-					name: 'Shanghai',
-					collection: 'Flowers',
-					artist: 'Aliris Barona',
-				},
-				color: ['#FFFF00', '#03bb85', '#ADD8E6'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '40' },
-					{ quantity: '1', productTypeName: 'Turntable', price: '60' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/YtPJs8c/IMG-0045.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/F09PRVF/IMG-0042.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/Jy3qFYC/IMG-0043.jpg',
-						},
-					],
-					description:
-						'This beauty of Rotating Table accompanied by a delicious Carrot and Banana cake',
-					name: 'Dhaka',
-					collection: 'Flowers',
-					artist: 'Aliris Barona',
-				},
-				color: ['#FFD700', '#FFA500', '#800080'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '55' },
-					{ quantity: '8', productTypeName: 'Turntable', price: '75' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/9gGGfRJ/IMG-E6694.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/YX21F4Y/IMG-E6695.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/cX6WhCr/IMG-E6692.jpg',
-						},
-					],
-					description: 'Cakes and Torteras reaching every corner of Colombia',
-					name: 'Mumbai',
-					collection: 'Flowers',
-					artist: 'Aliris Barona',
-				},
-				color: ['#ADD8E6', '#0000FF', '#FFFFFF'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '70' },
-					{ quantity: '1', productTypeName: 'Turntable', price: '90' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/87qc5r3/IMG-E6602.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/5KJg958/IMG-0077.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/vQFH08M/IMG-E6601.jpg',
-						},
-					],
-					description:
-						'NEVER stop fighting for what makes your heart beat faster. You are getting closer to achieving it!',
-					name: 'Beijing',
-					collection: 'Flowers',
-					artist: 'Aliris Barona',
-				},
-				color: ['#800080', '#ADD8E6', '#A52A2A'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
-					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/DG5ZVtV/IMG-E6377.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/Z6JbcW8/LZDR9910.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/CHLG7qg/IMG-E6376.jpg',
-						},
-					],
-					description:
-						'Utilitarian art is an artistic creation made with the fundamental elements of composition and technique, as well as being a practical, useful and functional object.',
-					name: 'Osaka',
-					collection: 'Butterflies',
-					artist: 'Aliris Barona',
-				},
-				color: ['#FFC0CB', '#800080', '#FFD700'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
-					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/fvHTmKD/IMG-0038.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/wNxB0vr/IMG-E0051.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/6HzN8jC/IMG-6503.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/d7gBX6G/IMG-0046.jpg',
-						},
-					],
-					description: "We are what we leave in people's hearts",
-					name: 'Manila',
-					collection: 'Flowers',
-					artist: 'Aliris Barona',
-				},
-				color: ['#03bb85', '#800080', '#FFFFFF'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
-					{ quantity: '8', productTypeName: 'Turntable', price: '70' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/CtzjMPS/OFOZ4031.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/3f8ZtXh/IMG-E6314.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/FhJ9wr6/IMG-6317.jpg',
-						},
-					],
-					description:
-						'For you this spectacular Tortera. So that you can enjoy it and show off all your creations in it!',
-					name: 'Kolkata',
-					collection: 'Abstract',
-					artist: 'Aliris Barona',
-				},
-				color: ['#ADD8E6', '#800080', '#FFC0CB'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
-					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/VJ03rMM/IMG-6311.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/4NjMKZ1/IMG-E6311.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/3RtQpp9/IMG-6312.jpg',
-						},
-					],
-					description:
-						'May your life never lack sweetness and color!!! Banana and Chocolate Chip Cake',
-					name: 'Lima',
-					collection: 'Abstract',
-					artist: 'Aliris Barona',
-				},
-				color: ['#800080', '#FFFFFF', '#03bb85'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '60' },
-					{ quantity: '1', productTypeName: 'Turntable', price: '80' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/NsjBR6r/IMG-E6192.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/J7gWksv/IRCS2191.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/cvqZLDx/IMG-E6194.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/fqJbdyJ/DIHZ6664.jpg',
-						},
-					],
-					description: 'Creativity is intelligence having fun',
-					name: 'London',
-					collection: 'Flowers',
-					artist: 'Aliris Barona',
-				},
-				color: ['#0000FF', '#800080', '#FFC0CB'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
-					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/9gGGfRJ/IMG-E6694.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/whV4M7C/WFHZ2287.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/YX21F4Y/IMG-E6695.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/YX21F4Y/IMG-E6695.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/MCNGNrp/IMG-6683.jpg',
-						},
-					],
-					description:
-						'The meaning of life is to find your talent. The purpose of life is to share it',
-					name: 'Luanda',
-					collection: 'Abstract',
-					artist: 'Aliris Barona',
-				},
-				color: ['#ADD8E6', '#0000FF', '#FFFFFF'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
-					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/DKFH2T5/QTNC7251.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/DYXWhWf/DOBM0118.jpg',
-						},
-					],
-					description:
-						"A very special and different Turntable, which really catches everyone's attention!",
-					name: 'Toronto',
-					collection: 'Abstract',
-					artist: 'Aliris Barona',
-				},
-				color: ['#FFC0CB', '#ADD8E6', '#FFFF00'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
-					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/xs05ByL/IMG-6011.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/7rgHXpq/IMG-E6012.jpg',
-						},
-					],
-					description:
-						'With you this beautiful rotating table that accompanies the beauties that you prepare with so much love!!',
-					name: 'Dalian',
-					collection: 'Flowers',
-					artist: 'Aliris Barona',
-				},
-				color: ['#FFA500', '#800080', '#ADD8E6'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
-					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/ZSk6J2k/IMG-9911.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/YhFgPjC/IMG-9910.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/mc9ghPQ/IMG-09912.jpg',
-						},
-					],
-					description:
-						'As always… accompanied by a Delicious Orange and Poppy Cake! 🍰🍊',
-					name: 'Belo Horizonte',
-					collection: 'Flowers',
-					artist: 'Aliris Barona',
-				},
-				color: ['#800080', '#ADD8E6', '#FFA500'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
-					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/qWXDRCG/IMG-9904.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/JmwkLVk/IMG-E9904.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/X2KZBzt/IMG-9903.jpg',
-						},
-					],
-					description:
-						'When you know where you are going... the Universe opens the way for you',
-					name: 'Alexandria',
-					collection: 'Abstract',
-					artist: 'Aliris Barona',
-				},
-				color: ['#FFC0CB', '#ADD8E6', '#800080'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
-					{ quantity: '8', productTypeName: 'Turntable', price: '70' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/ySvzzTm/IMG-9906.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/9YV5Rk4/IMG-9916.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/dP8ryDg/IMG-9884.jpg',
-						},
-					],
-					description: 'Dedicate yourself to create, grow and believe',
-					name: 'Guadalajara',
-					collection: 'Flowers',
-					artist: 'Aliris Barona',
-				},
-				color: ['#ADD8E6', '#03bb85', '#0000FF'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
-					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/Qv8SSPP/AXEF1454.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/GFxrYK1/IMG-E4815.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/DMdkpK9/CEWAE4328.jpg',
-						},
-					],
-					description:
-						'Beautiful Rotating cake, accompanied by a delicious Chocolate Cake!',
-					name: 'Madrid',
-					collection: 'Abstract',
-					artist: 'Aliris Barona',
-				},
-				color: ['#ADD8E6', '#FFA500', '#800080'],
-				stock: [
-					{ quantity: '0', productTypeName: 'Cake Tray', price: '50' },
-					{ quantity: '0', productTypeName: 'Turntable', price: '70' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/y6ZX2d0/IMG-E6801.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/rZ5fnNL/SEVH0044.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/2nxxDYH/IMG-E6803.jpg',
-						},
-					],
-					description: 'Beautiful unique cake full of Color!',
-					name: 'Singapur',
-					collection: 'Flowers',
-					artist: 'Aliris Barona',
-				},
-				color: ['#ADD8E6', '#FFA500', '#800080'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
-					{ quantity: '8', productTypeName: 'Turntable', price: '70' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/3WjTxpy/IMG-E4816.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/PT8ZHHr/IMG-E4817.jpg',
-						},
-					],
-					description: 'Functional Art for the Table',
-					name: 'Tokio',
-					collection: 'Abstract',
-					artist: 'Aliris Barona',
-				},
-				color: ['#ADD8E6', '#FFA500', '#800080'],
-				stock: [
-					{ quantity: '0', productTypeName: 'Cake Tray', price: '50' },
-					{ quantity: '0', productTypeName: 'Turntable', price: '70' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/0XBs5zT/CXSF5512.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/0XBs5zT/CXSF5512.jpg',
-						},
-					],
-					description: 'This beauty from Tortera went to La Sucursal del Cielo',
-					name: 'París',
-					collection: 'Abstract',
-					artist: 'Aliris Barona',
-				},
-				color: ['#ADD8E6', '#FFA500', '#800080'],
-				stock: [
-					{ quantity: '0', productTypeName: 'Cake Tray', price: '50' },
-					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/7RxjdM0/IMG-0049.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/q739hry/IMG-E0052.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/cT97NfH/IMG-0052.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/NZHmdSW/IMG-0075.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/vD7xxbc/IMG-E6502.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/L913cbG/IMG-E0075.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/JH7wySm/IMG-0047.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/XSJjHVB/IMG-0053.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/c2Qp0db/IMG-0051.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/3cVPX0K/IMG-0055.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/NV5BddT/IMG-0074.jpg',
-						},
-					],
-					description: 'A piece of art full of color!!',
-					name: 'Delhi',
-					collection: 'Abstract',
-					artist: 'Aliris Barona',
-				},
-				color: ['#800080', '#FFC0CB', '#A52A2A'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
-					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/cD6QtJ0/IMG-E6578.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/LtRGscm/IMG-6578.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/djCF45V/IMG-0072.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/CmKNdBj/IMG-0080.jpg',
-						},
-					],
-					description:
-						'In it, an Ancheta where wine, a good cheese and grapes were his company!',
-					name: 'Shanghai',
-					collection: 'Flowers',
-					artist: 'Aliris Barona',
-				},
-				color: ['#FFFF00', '#03bb85', '#ADD8E6'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '40' },
-					{ quantity: '1', productTypeName: 'Turntable', price: '60' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/YtPJs8c/IMG-0045.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/F09PRVF/IMG-0042.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/Jy3qFYC/IMG-0043.jpg',
-						},
-					],
-					description:
-						'This beauty of Rotating Table accompanied by a delicious Carrot and Banana cake',
-					name: 'Dhaka',
-					collection: 'Flowers',
-					artist: 'Aliris Barona',
-				},
-				color: ['#FFD700', '#FFA500', '#800080'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '55' },
-					{ quantity: '8', productTypeName: 'Turntable', price: '75' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/9gGGfRJ/IMG-E6694.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/YX21F4Y/IMG-E6695.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/cX6WhCr/IMG-E6692.jpg',
-						},
-					],
-					description: 'Cakes and Torteras reaching every corner of Colombia',
-					name: 'Mumbai',
-					collection: 'Flowers',
-					artist: 'Aliris Barona',
-				},
-				color: ['#ADD8E6', '#0000FF', '#FFFFFF'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '70' },
-					{ quantity: '1', productTypeName: 'Turntable', price: '90' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/87qc5r3/IMG-E6602.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/5KJg958/IMG-0077.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/vQFH08M/IMG-E6601.jpg',
-						},
-					],
-					description:
-						'NEVER stop fighting for what makes your heart beat faster. You are getting closer to achieving it!',
-					name: 'Beijing',
-					collection: 'Flowers',
-					artist: 'Aliris Barona',
-				},
-				color: ['#800080', '#ADD8E6', '#A52A2A'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
-					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/DG5ZVtV/IMG-E6377.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/Z6JbcW8/LZDR9910.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/CHLG7qg/IMG-E6376.jpg',
-						},
-					],
-					description:
-						'Utilitarian art is an artistic creation made with the fundamental elements of composition and technique, as well as being a practical, useful and functional object.',
-					name: 'Osaka',
-					collection: 'Butterflies',
-					artist: 'Aliris Barona',
-				},
-				color: ['#FFC0CB', '#800080', '#FFD700'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
-					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/fvHTmKD/IMG-0038.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/wNxB0vr/IMG-E0051.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/6HzN8jC/IMG-6503.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/d7gBX6G/IMG-0046.jpg',
-						},
-					],
-					description: "We are what we leave in people's hearts",
-					name: 'Manila',
-					collection: 'Flowers',
-					artist: 'Aliris Barona',
-				},
-				color: ['#03bb85', '#800080', '#FFFFFF'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
-					{ quantity: '8', productTypeName: 'Turntable', price: '70' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/CtzjMPS/OFOZ4031.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/3f8ZtXh/IMG-E6314.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/FhJ9wr6/IMG-6317.jpg',
-						},
-					],
-					description:
-						'For you this spectacular Tortera. So that you can enjoy it and show off all your creations in it!',
-					name: 'Kolkata',
-					collection: 'Abstract',
-					artist: 'Aliris Barona',
-				},
-				color: ['#ADD8E6', '#800080', '#FFC0CB'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
-					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/VJ03rMM/IMG-6311.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/4NjMKZ1/IMG-E6311.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/3RtQpp9/IMG-6312.jpg',
-						},
-					],
-					description:
-						'May your life never lack sweetness and color!!! Banana and Chocolate Chip Cake',
-					name: 'Lima',
-					collection: 'Abstract',
-					artist: 'Aliris Barona',
-				},
-				color: ['#800080', '#FFFFFF', '#03bb85'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '60' },
-					{ quantity: '1', productTypeName: 'Turntable', price: '80' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/NsjBR6r/IMG-E6192.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/J7gWksv/IRCS2191.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/cvqZLDx/IMG-E6194.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/fqJbdyJ/DIHZ6664.jpg',
-						},
-					],
-					description: 'Creativity is intelligence having fun',
-					name: 'London',
-					collection: 'Flowers',
-					artist: 'Aliris Barona',
-				},
-				color: ['#0000FF', '#800080', '#FFC0CB'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
-					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/9gGGfRJ/IMG-E6694.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/whV4M7C/WFHZ2287.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/YX21F4Y/IMG-E6695.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/YX21F4Y/IMG-E6695.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/MCNGNrp/IMG-6683.jpg',
-						},
-					],
-					description:
-						'The meaning of life is to find your talent. The purpose of life is to share it',
-					name: 'Luanda',
-					collection: 'Abstract',
-					artist: 'Aliris Barona',
-				},
-				color: ['#ADD8E6', '#0000FF', '#FFFFFF'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
-					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/DKFH2T5/QTNC7251.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/DYXWhWf/DOBM0118.jpg',
-						},
-					],
-					description:
-						"A very special and different Turntable, which really catches everyone's attention!",
-					name: 'Toronto',
-					collection: 'Abstract',
-					artist: 'Aliris Barona',
-				},
-				color: ['#FFC0CB', '#ADD8E6', '#FFFF00'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
-					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/xs05ByL/IMG-6011.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/7rgHXpq/IMG-E6012.jpg',
-						},
-					],
-					description:
-						'With you this beautiful rotating table that accompanies the beauties that you prepare with so much love!!',
-					name: 'Dalian',
-					collection: 'Flowers',
-					artist: 'Aliris Barona',
-				},
-				color: ['#FFA500', '#800080', '#ADD8E6'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
-					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/ZSk6J2k/IMG-9911.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/YhFgPjC/IMG-9910.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/mc9ghPQ/IMG-09912.jpg',
-						},
-					],
-					description:
-						'As always… accompanied by a Delicious Orange and Poppy Cake! 🍰🍊',
-					name: 'Belo Horizonte',
-					collection: 'Flowers',
-					artist: 'Aliris Barona',
-				},
-				color: ['#800080', '#ADD8E6', '#FFA500'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
-					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/qWXDRCG/IMG-9904.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/JmwkLVk/IMG-E9904.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/X2KZBzt/IMG-9903.jpg',
-						},
-					],
-					description:
-						'When you know where you are going... the Universe opens the way for you',
-					name: 'Alexandria',
-					collection: 'Abstract',
-					artist: 'Aliris Barona',
-				},
-				color: ['#FFC0CB', '#ADD8E6', '#800080'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
-					{ quantity: '8', productTypeName: 'Turntable', price: '70' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/ySvzzTm/IMG-9906.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/9YV5Rk4/IMG-9916.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/dP8ryDg/IMG-9884.jpg',
-						},
-					],
-					description: 'Dedicate yourself to create, grow and believe',
-					name: 'Guadalajara',
-					collection: 'Flowers',
-					artist: 'Aliris Barona',
-				},
-				color: ['#ADD8E6', '#03bb85', '#0000FF'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
-					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/Qv8SSPP/AXEF1454.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/GFxrYK1/IMG-E4815.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/DMdkpK9/CEWAE4328.jpg',
-						},
-					],
-					description:
-						'Beautiful Rotating cake, accompanied by a delicious Chocolate Cake!',
-					name: 'Madrid',
-					collection: 'Abstract',
-					artist: 'Aliris Barona',
-				},
-				color: ['#ADD8E6', '#FFA500', '#800080'],
-				stock: [
-					{ quantity: '0', productTypeName: 'Cake Tray', price: '50' },
-					{ quantity: '0', productTypeName: 'Turntable', price: '70' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/y6ZX2d0/IMG-E6801.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/rZ5fnNL/SEVH0044.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/2nxxDYH/IMG-E6803.jpg',
-						},
-					],
-					description: 'Beautiful unique cake full of Color!',
-					name: 'Singapur',
-					collection: 'Flowers',
-					artist: 'Aliris Barona',
-				},
-				color: ['#ADD8E6', '#FFA500', '#800080'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
-					{ quantity: '8', productTypeName: 'Turntable', price: '70' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/3WjTxpy/IMG-E4816.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/PT8ZHHr/IMG-E4817.jpg',
-						},
-					],
-					description: 'Functional Art for the Table',
-					name: 'Tokio',
-					collection: 'Abstract',
-					artist: 'Aliris Barona',
-				},
-				color: ['#ADD8E6', '#FFA500', '#800080'],
-				stock: [
-					{ quantity: '0', productTypeName: 'Cake Tray', price: '50' },
-					{ quantity: '0', productTypeName: 'Turntable', price: '70' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/0XBs5zT/CXSF5512.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/0XBs5zT/CXSF5512.jpg',
-						},
-					],
-					description: 'This beauty from Tortera went to La Sucursal del Cielo',
-					name: 'París',
-					collection: 'Abstract',
-					artist: 'Aliris Barona',
-				},
-				color: ['#ADD8E6', '#FFA500', '#800080'],
-				stock: [
-					{ quantity: '0', productTypeName: 'Cake Tray', price: '50' },
-					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/7RxjdM0/IMG-0049.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/q739hry/IMG-E0052.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/cT97NfH/IMG-0052.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/NZHmdSW/IMG-0075.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/vD7xxbc/IMG-E6502.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/L913cbG/IMG-E0075.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/JH7wySm/IMG-0047.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/XSJjHVB/IMG-0053.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/c2Qp0db/IMG-0051.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/3cVPX0K/IMG-0055.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/NV5BddT/IMG-0074.jpg',
-						},
-					],
-					description: 'A piece of art full of color!!',
-					name: 'Delhi',
-					collection: 'Abstract',
-					artist: 'Aliris Barona',
-				},
-				color: ['#800080', '#FFC0CB', '#A52A2A'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '50' },
-					{ quantity: '1', productTypeName: 'Turntable', price: '70' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/cD6QtJ0/IMG-E6578.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/LtRGscm/IMG-6578.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/djCF45V/IMG-0072.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/CmKNdBj/IMG-0080.jpg',
-						},
-					],
-					description:
-						'In it, an Ancheta where wine, a good cheese and grapes were his company!',
-					name: 'Shanghai',
-					collection: 'Flowers',
-					artist: 'Aliris Barona',
-				},
-				color: ['#FFFF00', '#03bb85', '#ADD8E6'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '40' },
-					{ quantity: '1', productTypeName: 'Turntable', price: '60' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/YtPJs8c/IMG-0045.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/F09PRVF/IMG-0042.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/Jy3qFYC/IMG-0043.jpg',
-						},
-					],
-					description:
-						'This beauty of Rotating Table accompanied by a delicious Carrot and Banana cake',
-					name: 'Dhaka',
-					collection: 'Flowers',
-					artist: 'Aliris Barona',
-				},
-				color: ['#FFD700', '#FFA500', '#800080'],
-				stock: [
-					{ quantity: '3', productTypeName: 'Cake Tray', price: '55' },
-					{ quantity: '8', productTypeName: 'Turntable', price: '75' },
-				],
-			},
-			{
-				product: {
-					img_home: {
-						public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-						secure_url: 'https://i.ibb.co/9gGGfRJ/IMG-E6694.jpg',
-					},
-					img_detail: [
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/YX21F4Y/IMG-E6695.jpg',
-						},
-						{
-							public_id: 'tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX',
-							secure_url: 'https://i.ibb.co/cX6WhCr/IMG-E6692.jpg',
-						},
-					],
-					description: 'Cakes and Torteras reaching every corner of Colombia',
-					name: 'Mumbai',
+					name: 'Loreto',
 					collection: 'Flowers',
 					artist: 'Aliris Barona',
 				},
