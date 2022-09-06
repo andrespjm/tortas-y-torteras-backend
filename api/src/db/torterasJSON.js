@@ -6547,49 +6547,56 @@ export default JSON.parse(
 		],
 		Reviews: [
 			{
-				comments: 'excellent product',
+				comments:
+					'a work of art and excellent quality of the material. I recommend it!',
 				score: 4,
 				ProductId: 16,
 				UserId: 'f61ecd2d-91af-46dd-852b-71ca561108f6',
 			},
 			{
-				comments: 'excellent product2',
-				score: 2,
+				comments:
+					"I made a special order, the seller's attention was very good. Fast shipping and in excellent condition.",
+				score: 5,
 				ProductId: 134,
 				UserId: 'f3fb880b-cbd8-4e90-bf7d-bfec23e8246b',
 			},
 			{
-				comments: 'excellent product3',
-				score: 4,
+				comments:
+					'the best turntable in the world. It is the first purchase I make in the store. Very satisfied with my purchase.',
+				score: 5,
 				ProductId: 45,
 				UserId: 'f3fb880b-cbd8-4e90-bf7d-bfec23e8246b',
 			},
 			{
-				comments: 'excellent product',
-				score: 1,
+				comments:
+					"The purchase took longer than expected and also arrived with a blow. I didn't have a good experience.",
+				score: 3,
 				ProductId: 51,
 				UserId: 'b94011bb-fdb7-4b06-ba02-552c2199c1f1',
 			},
 			{
-				comments: 'excellent product2',
-				score: 2,
+				comments:
+					'Excellent artwork. I bought 5 tables from different collections and they are all beautiful!',
+				score: 5,
 				ProductId: 49,
 				UserId: 'b94011bb-fdb7-4b06-ba02-552c2199c1f1',
 			},
 			{
-				comments: 'excellent product3',
+				comments:
+					'Excellent investment, in addition to an excellent base to display my cakes I have a work of art. My compliments to the artist!',
 				score: 4,
 				ProductId: 70,
 				UserId: 'OZJqLj3i9SaDNLVmdxDw8zvInpI3',
 			},
 			{
-				comments: 'excellent product',
+				comments: 'Too good! excellent attention, price and quality!',
 				score: 4,
 				ProductId: 44,
 				UserId: 'b94011bb-fdb7-4b06-ba02-552c2199c1f1',
 			},
 			{
-				comments: 'excellent product2',
+				comments:
+					'Now I have a quality table for my desserts, thanks Cakes&Bases',
 				score: 5,
 				ProductId: 50,
 				UserId: 'b94011bb-fdb7-4b06-ba02-552c2199c1f1',
