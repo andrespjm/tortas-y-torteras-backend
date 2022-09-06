@@ -8,6 +8,8 @@ import {
 	updateUserEnabled,
 	deleteAccountUser,
 } from '../controllers/users.controller.js';
+import fileUpload from 'express-fileupload';
+import uploadImageHelper from '../helpers/uploud-image.helper.js';
 
 const router = Router();
 
@@ -49,19 +51,29 @@ router.post('/signup', async (req, res) => {
 	}
 });
 
-router.put('/user/:id', async (req, res) => {
-	const { id } = req.params;
-	const data = req.body;
-	delete data.id;
-	delete data.enabled;
-	delete data.processCompleted;
-	try {
-		const user = await updateUser(id, data);
-		res.status(200).send(user);
-	} catch (err) {
-		res.status(500).json({ error: err.message });
+router.put(
+	'/user/:id',
+	fileUpload({
+		useTempFiles: true,
+		tempFileDir: './uploads',
+	}),
+	async (req, res) => {
+		const image = req.files;
+		const { id } = req.params;
+		const data = req.body;
+		delete data.id;
+		delete data.enabled;
+		delete data.processCompleted;
+		try {
+			const images = await uploadImageHelper(image);
+			data.profilePicture = images.imgHome;
+			const user = await updateUser(id, data);
+			res.status(200).send(user);
+		} catch (err) {
+			res.status(500).json({ error: err.message });
+		}
 	}
-});
+);
 
 router.put('/deleteUser/:id', async (req, res) => {
 	const { id } = req.params;
