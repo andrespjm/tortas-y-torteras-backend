@@ -21,9 +21,8 @@ export const Reviews = sequelize.define(
 		comments: {
 			type: DataTypes.STRING,
 		},
-		qualified: {
-			type: DataTypes.BOOLEAN,
-			defaultValue: false,
+		idOrderItems: {
+			type: DataTypes.INTEGER,
 		},
 	},
 	{
