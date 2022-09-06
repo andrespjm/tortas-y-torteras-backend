@@ -6176,7 +6176,7 @@ export default JSON.parse(
 						quantity: 5,
 						price: 70,
 						confirmed: true,
-						StockId: 84,
+						StockId: 267,
 					},
 					{
 						quantity: 3,
@@ -6260,7 +6260,7 @@ export default JSON.parse(
 						quantity: 2,
 						price: 80,
 						confirmed: true,
-						StockId: 103,
+						StockId: 88,
 					},
 					{
 						quantity: 3,
@@ -6392,7 +6392,7 @@ export default JSON.parse(
 						quantity: 1,
 						price: 70,
 						confirmed: true,
-						StockId: 2,
+						StockId: 30,
 					},
 					{
 						quantity: 2,
@@ -6549,19 +6549,19 @@ export default JSON.parse(
 			{
 				comments: 'excellent product',
 				score: 4,
-				ProductId: 3,
+				ProductId: 16,
 				UserId: 'f61ecd2d-91af-46dd-852b-71ca561108f6',
 			},
 			{
 				comments: 'excellent product2',
 				score: 2,
-				ProductId: 45,
+				ProductId: 134,
 				UserId: 'f3fb880b-cbd8-4e90-bf7d-bfec23e8246b',
 			},
 			{
 				comments: 'excellent product3',
 				score: 4,
-				ProductId: 42,
+				ProductId: 45,
 				UserId: 'f3fb880b-cbd8-4e90-bf7d-bfec23e8246b',
 			},
 			{
@@ -6573,7 +6573,7 @@ export default JSON.parse(
 			{
 				comments: 'excellent product2',
 				score: 2,
-				ProductId: 70,
+				ProductId: 49,
 				UserId: 'b94011bb-fdb7-4b06-ba02-552c2199c1f1',
 			},
 			{
@@ -6585,7 +6585,7 @@ export default JSON.parse(
 			{
 				comments: 'excellent product',
 				score: 4,
-				ProductId: 49,
+				ProductId: 44,
 				UserId: 'b94011bb-fdb7-4b06-ba02-552c2199c1f1',
 			},
 			{
