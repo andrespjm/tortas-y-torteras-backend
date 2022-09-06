@@ -9,7 +9,7 @@ const productReview = async productId => {
 		include: [
 			{
 				model: Users,
-				attributes: ['firstName', 'lastName', 'displayName'],
+				attributes: ['firstName', 'lastName', 'displayName', 'profilePicture'],
 			},
 
 			{
