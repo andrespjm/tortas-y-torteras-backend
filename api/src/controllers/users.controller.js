@@ -4,9 +4,7 @@ import { Purchases } from '../models/Purchases.js';
 import { OrderItems } from '../models/OrderItems.js';
 import { Stocks } from '../models/Stocks.js';
 import { Products } from '../models/Products.js';
-// import { Reviews } from '../models/Reviews.js';
 import { Op } from 'sequelize';
-// import { userReviewByProduct } from './reviews.controller.js';
 import { Reviews } from '../models/Reviews.js';
 
 // /**
@@ -67,28 +65,6 @@ const getUserPurchases = async id => {
 		],
 	});
 
-	// const productid = user.Purchases?.map(e =>
-	// 	e.OrderItems?.map(p => p.Stock.Product.id)
-	// ).flat();
-	// console.log(productid);
-	// console.log(id);
-	// const resp = await userReviewByProduct(productid, id);
-	// console.log('tabla de true', resp);
-
-	// // for (let i = 0; i < resp.length; i++) {
-	// // 	user.Purchases[i].OrderItems[i].Stock.Product.review = resp[i];
-	// // }
-	// user.Purchases?.forEach(e => {
-	// 	e.OrderItems?.forEach(p => {
-	// 		p.Stock.Product.review = 'mati';
-	// 	});
-	// });
-	// // console.log('tratando de agregado review', resp2);
-
-	// console.log(
-	// 	'aca estamos',
-	// 	user.Purchases?.map(e => e.OrderItems?.map(p => p.Stock.Product))
-	// );
 	return user;
 };
 

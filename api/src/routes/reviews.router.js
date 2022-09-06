@@ -4,7 +4,6 @@ import {
 	productReview,
 	averageProductScore,
 	allReview,
-	// userReviewByProduct,
 } from '../controllers/reviews.controller.js';
 
 const router = Router();
@@ -21,16 +20,6 @@ router.get('/', async (req, res) => {
 	}
 });
 
-// router.get('/prueba', async (req, res) => {
-// 	// const { productId, userId } = req.body;
-// 	console.log();
-// 	try {
-// 		res.json(await userReviewByProduct());
-// 	} catch (err) {
-// 		res.status(500).json({ error: err.message });
-// 	}
-// });
-
 router.get('/score/:productId', async (req, res) => {
 	const { productId } = req.params;
 	try {
@@ -41,9 +30,15 @@ router.get('/score/:productId', async (req, res) => {
 });
 
 router.post('/', async (req, res) => {
-	const { comments, score, productId, userId } = req.body;
+	const { comments, score, productId, userId, idOrderItems } = req.body;
 	try {
-		const review = await createReview(comments, score, productId, userId);
+		const review = await createReview(
+			comments,
+			score,
+			productId,
+			userId,
+			idOrderItems
+		);
 		review[1] === false
 			? res.json({ msj: 'the user already made his score' })
 			: res.json(review[0]);

@@ -30,11 +30,18 @@ const allReview = async () => {
 	});
 };
 
-const createReview = async (comments, score, productId, userId) => {
+const createReview = async (
+	comments,
+	score,
+	productId,
+	userId,
+	idOrderItems
+) => {
 	const review = await Reviews.findOrCreate({
 		where: {
 			ProductId: productId,
 			UserId: userId,
+			idOrderItems,
 		},
 		defaults: {
 			comments,
@@ -71,26 +78,6 @@ const setJsonReviews = async () => {
 			})
 	);
 };
-
-// const userReviewByProduct = async (productId, userId) => {
-// 	// const productId = [1, 2, 3, 5, 100];
-// 	// const userId = 'b94011bb-fdb7-4b06-ba02-552c2199c1f1';
-
-// 	const promise = [];
-
-// 	for (let i = 0; i < productId.length; i++) {
-// 		const resp = await Reviews.findAll({
-// 			where: {
-// 				[Op.and]: [{ ProductId: productId[i] }, { UserId: userId }],
-// 			},
-// 		});
-// 		promise.push(resp);
-// 	}
-// 	return promise.map(e => {
-// 		if (e.length) return true;
-// 		return false;
-// 	});
-// };
 
 export {
 	createReview,
