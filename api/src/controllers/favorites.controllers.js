@@ -20,7 +20,7 @@ const favoriteStatus = async (userid, productid) => {
 		},
 	});
 	if (!likes) {
-		return 'add to my favorites';
+		return 'Add to my favorites';
 	} else {
 		return 'Remove from my favorites';
 	}
