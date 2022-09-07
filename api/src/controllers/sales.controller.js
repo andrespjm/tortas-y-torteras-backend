@@ -56,54 +56,24 @@ const getSales = async data => {
 		return totalSales;
 	}
 	if (total === 'byUser') {
-		const sales = await Users.findAll({
-			attributes: ['id'],
-			include: {
-				model: Purchases,
-				where: {
-					[Op.not]: [{ status: 'Cart' }],
-				},
-				attributes: [
-					[fn('sum', col('shipmentFee')), 'shipmentFee'],
-					[fn('sum', col('tax')), 'tax'],
-				],
-				include: [
-					{
-						model: OrderItems,
-						attributes: [[literal('SUM(price * quantity)'), 'price']],
-					},
-					// {
-					// 	model: Users,
-					// 	attributes: ['displayName'],
-					// },'Users.displayName'
-				],
+		const sales = await Purchases.findAll({
+			where: {
+				[Op.not]: [{ status: 'Cart' }],
 			},
-			group: ['Users.id'],
+			attributes: [
+				'UserId',
+				[fn('sum', col('shipmentFee')), 'shipmentFee'],
+				[fn('sum', col('tax')), 'tax'],
+			],
+			include: [
+				{
+					model: OrderItems,
+					attributes: [[literal('SUM(price * quantity)'), 'price']],
+				},
+			],
+			group: ['Purchases.UserId'],
 			raw: true,
 		});
-
-		// const sales = await Purchases.findAll({
-		// 	where: {
-		// 		[Op.not]: [{ status: 'Cart' }],
-		// 	},
-		// 	attributes: [
-		// 		'UserId',
-		// 		[fn('sum', col('shipmentFee')), 'shipmentFee'],
-		// 		[fn('sum', col('tax')), 'tax'],
-		// 	],
-		// 	include: [
-		// 		{
-		// 			model: OrderItems,
-		// 			attributes: [[literal('SUM(price * quantity)'), 'price']],
-		// 		},
-		// 		// {
-		// 		// 	model: Users,
-		// 		// 	attributes: ['displayName'],
-		// 		// },'Users.displayName'
-		// 	],
-		// 	group: ['Purchases.UserId'],
-		// 	raw: true,
-		// });
 
 		const totalSalesPromise = sales.map(el => ({
 			userId: el.UserId,
