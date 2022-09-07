@@ -100,22 +100,25 @@ router.put(
 			console.log(image);
 			if (image) {
 				const images = await uploadImageHelper(image);
-				console.log(images);
-				if (images.imgHome && images.imgDetail.length > 0) {
-					data.img_home = images.imgHome;
-					data.img_detail = images.imgDetail || [];
-				} else if (images.imgHome) {
-					data.img_home = images.imgHome;
-				} else if (images.imgDetail.length > 0) {
-					data.img_detail = images.imgDetail || [];
-				} else {
-					console.log('no img');
-				}
+				data.img_home = images.imgHome;
+				// console.log(images);
+				console.log('Imagenes subidas', images.imgDetail);
+				data.img_detail = images.imgDetail || [];
+				// 	if (images.imgHome && images.imgDetail.length > 0) {
+				// 	data.img_home = images.imgHome;
+				// 	data.img_detail = images.imgDetail || [];
+				// } else if (images.imgHome) {
+				// 	data.img_home = images.imgHome;
+				// } else if (images.imgDetail.length > 0) {
+				// 	data.img_detail = images.imgDetail || [];
+				// } else {
+				// 	console.log('no img');
+				// }
 			}
 
-			const products = await updateProduct(data, id);
+			await updateProduct(data, id);
 
-			res.status(200).send(products);
+			res.json({ success: 'ok' });
 		} catch (e) {
 			res.send(e.message);
 		}
