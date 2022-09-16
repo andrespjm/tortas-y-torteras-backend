@@ -15,7 +15,7 @@ const PORT_SERVER = PORT || 3001;
 
 (async () => {
 	try {
-		await sequelize.sync({ force: true });
+		await sequelize.sync();
 		console.log('Connection has been established successfully');
 		await setJsonColors();
 		await setJsonUsers();
