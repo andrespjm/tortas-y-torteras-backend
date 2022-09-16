@@ -32,7 +32,7 @@ export const Purchases = sequelize.define('Purchases', {
 		type: DataTypes.STRING,
 	},
 	shippingAddressNumber: {
-		type: DataTypes.INTEGER,
+		type: DataTypes.TEXT,
 	},
 	shipmentCompany: {
 		type: DataTypes.STRING,
